@@ -1,6 +1,7 @@
 // Derives per-hero and per-build performance stats from the run journal,
 // then converts them into a tier (S/A/B/C/D) using a simple weighted score.
 // Manual overrides (stored separately) always win over the computed tier.
+import { DIFFICULTIES, difficultyIndex } from '../data/difficulty.js'
 
 function emptyStat() {
   return { total: 0, wins: 0, waveSum: 0, maxDifficulty: 0, maxDifficultyWin: 0, endlessScores: [] }
@@ -10,9 +11,10 @@ function accumulate(stat, run) {
   stat.total += 1
   if (run.result === 'victory') stat.wins += 1
   stat.waveSum += Number(run.waveReached) || 0
-  stat.maxDifficulty = Math.max(stat.maxDifficulty, Number(run.difficulty) || 0)
+  const diffIdx = difficultyIndex(run.difficulty)
+  stat.maxDifficulty = Math.max(stat.maxDifficulty, diffIdx)
   if (run.result === 'victory') {
-    stat.maxDifficultyWin = Math.max(stat.maxDifficultyWin, Number(run.difficulty) || 0)
+    stat.maxDifficultyWin = Math.max(stat.maxDifficultyWin, diffIdx)
   }
   if (run.endlessScore) stat.endlessScores.push(Number(run.endlessScore) || 0)
 }
@@ -26,20 +28,20 @@ function finalize(stat) {
     wins: stat.wins,
     winrate,
     avgWave,
-    maxDifficulty: stat.maxDifficulty,
-    maxDifficultyWin: stat.maxDifficultyWin,
+    maxDifficulty: DIFFICULTIES[stat.maxDifficulty]?.label ?? DIFFICULTIES[0].label,
+    maxDifficultyWin: DIFFICULTIES[stat.maxDifficultyWin]?.label ?? DIFFICULTIES[0].label,
     bestEndless,
-    score: scoreFor({ winrate, avgWave, maxDifficultyWin: stat.maxDifficultyWin }),
+    score: scoreFor({ winrate, avgWave, maxDifficultyWinIdx: stat.maxDifficultyWin }),
   }
 }
 
 // Weighted composite: winrate matters most, then how deep runs typically go,
 // then the hardest difficulty actually cleared. Normalizations are heuristic
-// (wave 20 / difficulty 8 treated as "maxed out") since there's no ground
-// truth yet for what a "full" run looks like.
-function scoreFor({ winrate, avgWave, maxDifficultyWin }) {
+// (wave 20 / the top of the difficulty ladder treated as "maxed out") since
+// there's no ground truth yet for what a "full" run looks like.
+function scoreFor({ winrate, avgWave, maxDifficultyWinIdx }) {
   const waveNorm = Math.min(avgWave / 20, 1)
-  const difficultyNorm = Math.min(maxDifficultyWin / 8, 1)
+  const difficultyNorm = Math.min(maxDifficultyWinIdx / (DIFFICULTIES.length - 1), 1)
   return winrate * 0.5 + waveNorm * 0.3 + difficultyNorm * 0.2
 }
 

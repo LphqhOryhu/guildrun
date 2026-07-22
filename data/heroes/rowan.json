@@ -58,15 +58,42 @@
       "addsClass": null,
       "abilityName": "Fault Line",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Gain 33% Max Health Shields, then deal 50 (+25% Max Health, +200% Defense, +100% Magic) damage and Stun enemies in front of Rowan for 4 seconds.",
+      "scalings": [
+        {
+          "raw": "33% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 33
+        },
+        {
+          "raw": "25% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 25
+        },
+        {
+          "raw": "200% Defense",
+          "base": 0,
+          "stat": "Defense",
+          "percent": 200
+        },
+        {
+          "raw": "100% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 100
+        }
+      ]
     },
     {
-      "name": "Gain 33% Max Health Shields, then deal 50 (+25% Max Health, +200% Defense, +100% Magic) damage and Stun enemies in front of Rowan for 4 seconds.",
+      "name": "The Protector",
       "addsClass": null,
       "abilityName": "The Protector",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
       "rawText": "On auto attack, gain 3% Max Health Shields, then deal bonus damage equal to 75 (+25 per rank)% of current Shields (Max Damage: 1000% Max Health.",
       "scalings": [
@@ -89,6 +116,7 @@
       "addsClass": null,
       "abilityName": "The Friend",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Stall",
         "Backup"

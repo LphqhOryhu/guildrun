@@ -64,15 +64,38 @@
       "addsClass": null,
       "abilityName": "Come At Me!",
       "type": "Active",
-      "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "addedAbility": true,
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "Taunt all enemies and gain 10 (+10% Defense, +10% Magic) Shields per Stall triggered this game. After 5 seconds, deal damage to all enemies targeting Skorn equal to 50% of his remaining Shield.",
+      "scalings": [
+        {
+          "raw": "10% Defense",
+          "base": 0,
+          "stat": "Defense",
+          "percent": 10
+        },
+        {
+          "raw": "10% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 10
+        },
+        {
+          "raw": "50% of",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 50
+        }
+      ]
     },
     {
-      "name": "Taunt all enemies and gain 10 (+10% Defense, +10% Magic) Shields per Stall triggered this game. After 5 seconds, deal damage to all enemies targeting Skorn equal to 50% of his remaining Shield.",
+      "name": "The Winter's Bite",
       "addsClass": null,
       "abilityName": "The Winter's Bite",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
       "rawText": "Whenever Skorn inflicts Poison, he inflicts an equal amount of Frost. Whenever Skorn inflicts Frost, he gains 0 (+10 per rank) Shields.",
       "scalings": []
@@ -82,6 +105,7 @@
       "addsClass": null,
       "abilityName": "The Bristleguard",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Backup"
       ],

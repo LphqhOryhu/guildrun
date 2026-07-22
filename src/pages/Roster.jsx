@@ -1,24 +1,25 @@
 import { useMemo, useState } from 'react'
-import { heroes, allClasses, allElements, allKeywords } from '../data/heroes.js'
+import { heroes, allClasses, allMechanics, allKeywords } from '../data/heroes.js'
 import HeroCard from '../components/HeroCard.jsx'
 import HeroDetailModal from '../components/HeroDetailModal.jsx'
 
 export default function Roster() {
   const [search, setSearch] = useState('')
   const [classFilter, setClassFilter] = useState(null)
-  const [elementFilter, setElementFilter] = useState(null)
+  const [mechanicFilter, setMechanicFilter] = useState(null)
   const [keywordFilter, setKeywordFilter] = useState(null)
   const [selectedHero, setSelectedHero] = useState(null)
 
   const filtered = useMemo(() => {
     return heroes.filter((hero) => {
-      if (search && !hero.name.toLowerCase().includes(search.toLowerCase())) return false
+      const q = search.toLowerCase()
+      if (q && !hero.name.toLowerCase().includes(q) && !hero.title.toLowerCase().includes(q)) return false
       if (classFilter && !hero.classes.includes(classFilter)) return false
-      if (elementFilter && !hero.elements.includes(elementFilter)) return false
+      if (mechanicFilter && !hero.mechanics.includes(mechanicFilter)) return false
       if (keywordFilter && !hero.keywords.includes(keywordFilter)) return false
       return true
     })
-  }, [search, classFilter, elementFilter, keywordFilter])
+  }, [search, classFilter, mechanicFilter, keywordFilter])
 
   function toggle(setter, current, value) {
     setter(current === value ? null : value)
@@ -44,13 +45,13 @@ export default function Roster() {
             {c}
           </button>
         ))}
-        {allElements.map((e) => (
+        {allMechanics.map((m) => (
           <button
-            key={e}
-            className={`chip ${elementFilter === e ? 'active' : ''}`}
-            onClick={() => toggle(setElementFilter, elementFilter, e)}
+            key={m}
+            className={`chip ${mechanicFilter === m ? 'active' : ''}`}
+            onClick={() => toggle(setMechanicFilter, mechanicFilter, m)}
           >
-            {e}
+            {m}
           </button>
         ))}
         {allKeywords.map((k) => (

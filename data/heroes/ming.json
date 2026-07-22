@@ -57,15 +57,32 @@
       "addsClass": null,
       "abilityName": "Searing Mantra",
       "type": "Active",
-      "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "addedAbility": true,
+      "keywords": [
+        "Rush"
+      ],
+      "rawText": "Channel flames to deal 100 (+25% Max Health, +100% Magic) damage, inflict 5 Burn per Rush triggered this game, and Stun all surrounding enemies for 3 seconds.",
+      "scalings": [
+        {
+          "raw": "25% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 25
+        },
+        {
+          "raw": "100% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 100
+        }
+      ]
     },
     {
-      "name": "Channel flames to deal 100 (+25% Max Health, +100% Magic) damage, inflict 5 Burn per Rush triggered this game, and Stun all surrounding enemies for 3 seconds.",
+      "name": "The Tempered",
       "addsClass": null,
       "abilityName": "The Tempered",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush",
         "Backup"
@@ -78,6 +95,7 @@
       "addsClass": null,
       "abilityName": "The Enlightened",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush"
       ],

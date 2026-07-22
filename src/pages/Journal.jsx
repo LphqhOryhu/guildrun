@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { STORAGE_KEYS, loadJSON, saveJSON, uid } from '../utils/storage.js'
-
-const DIFFICULTIES = Array.from({ length: 8 }, (_, i) => i + 1)
+import { DIFFICULTIES } from '../data/difficulty.js'
 
 export default function Journal() {
   const [builds] = useState(() => loadJSON(STORAGE_KEYS.BUILDS, []))
@@ -9,7 +8,7 @@ export default function Journal() {
   const fileInputRef = useRef(null)
 
   const [buildId, setBuildId] = useState('')
-  const [difficulty, setDifficulty] = useState(1)
+  const [difficulty, setDifficulty] = useState(DIFFICULTIES[0].label)
   const [waveReached, setWaveReached] = useState('')
   const [result, setResult] = useState('victory')
   const [endlessScore, setEndlessScore] = useState('')
@@ -26,7 +25,7 @@ export default function Journal() {
       id: uid(),
       timestamp: new Date().toISOString(),
       buildId,
-      difficulty: Number(difficulty),
+      difficulty,
       waveReached: Number(waveReached) || 0,
       result,
       endlessScore: endlessScore ? Number(endlessScore) : null,
@@ -96,7 +95,7 @@ export default function Journal() {
               <label>Difficulté</label>
               <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
                 {DIFFICULTIES.map((d) => (
-                  <option key={d} value={d}>{d}</option>
+                  <option key={d.label} value={d.label}>{d.label}</option>
                 ))}
               </select>
             </div>

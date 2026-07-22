@@ -4,7 +4,14 @@
 const modules = import.meta.glob('../../data/heroes/*.json', { eager: true })
 
 export const heroes = Object.entries(modules)
-  .map(([path, mod]) => ({ ...(mod.default ?? mod), _file: path.split('/').pop() }))
+  .map(([path, mod]) => {
+    const hero = { ...(mod.default ?? mod), _file: path.split('/').pop() }
+    // Rush/Stall/Backup live on each rank B specialization, not the hero
+    // itself - a hero "has" a keyword if any of its 3 specs carry it, since
+    // the player might pick that one.
+    hero.keywords = [...new Set(hero.rankBSpecializations.flatMap((s) => s.keywords))]
+    return hero
+  })
   .sort((a, b) => a.name.localeCompare(b.name))
 
 export function getHeroByName(name) {
@@ -12,5 +19,5 @@ export function getHeroByName(name) {
 }
 
 export const allClasses = [...new Set(heroes.flatMap((h) => h.classes))].sort()
-export const allElements = [...new Set(heroes.flatMap((h) => h.elements))].sort()
+export const allMechanics = [...new Set(heroes.flatMap((h) => h.mechanics))].sort()
 export const allKeywords = ['Rush', 'Stall', 'Backup']

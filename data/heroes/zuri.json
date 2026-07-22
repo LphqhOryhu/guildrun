@@ -58,15 +58,24 @@
       "addsClass": null,
       "abilityName": "Petrification",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Petrify all enemies targeting Zuri, dealing 150 (+250% Magic) damage, inflicting 1 Poison per Stone Skin trigger this game, and Stunning for 4 seconds.",
+      "scalings": [
+        {
+          "raw": "150 (+250% Magic)",
+          "base": 150,
+          "stat": "Magic",
+          "percent": 250
+        }
+      ]
     },
     {
-      "name": "Petrify all enemies targeting Zuri, dealing 150 (+250% Magic) damage, inflicting 1 Poison per Stone Skin trigger this game, and Stunning for 4 seconds.",
+      "name": "The Serpent's Kiss",
       "addsClass": null,
       "abilityName": "The Serpent's Kiss",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
       "rawText": "When auto attacked, inflict 1 (+1 per 60 Defense, +1 per 50 Magic) Poison on the attacker and gain 0 (+1 per rank) HP/S.",
       "scalings": []
@@ -76,6 +85,7 @@
       "addsClass": null,
       "abilityName": "The Bladedancer",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush",
         "Stall"

@@ -180,6 +180,54 @@ a {
   font-size: 0.9rem;
 }
 
+.hero-title {
+  color: var(--ink-dim);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: -0.2rem;
+}
+
+.hero-quote {
+  color: var(--ink-faint);
+  font-style: italic;
+  border-left: 2px solid var(--gold-dim);
+  padding-left: 0.7rem;
+  margin: 0.7rem 0;
+}
+
+.section-subtitle {
+  color: var(--gold);
+  margin: 1.2rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.5rem;
+}
+
+.stat-cell {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-panel);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.5rem;
+}
+
+.stat-cell-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+
+.stat-cell-value {
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -203,9 +251,19 @@ a {
   color: #a9c3dd;
 }
 
-.badge-element {
+.badge-mechanic {
   border-color: #b0656f;
   color: #dda6ad;
+}
+
+.badge-guild {
+  border-color: #8a7fb0;
+  color: #c3b6dd;
+}
+
+.badge-adds-class {
+  border-color: var(--success);
+  color: #a7d1af;
 }
 
 .badge-keyword {

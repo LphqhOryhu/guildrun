@@ -75,6 +75,7 @@
       "addsClass": null,
       "abilityName": "The Glutton",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush",
         "Backup"
@@ -87,18 +88,40 @@
       "addsClass": null,
       "abilityName": "Rampage",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Enter a rage, gaining 10% Max Health + 250% Magic Max HP, 5 (+5 per rank) Attack Speed, and 2 (+2 per rank) Omnivamp. This ability stacks.",
+      "scalings": [
+        {
+          "raw": "10% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 10
+        },
+        {
+          "raw": "250% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 250
+        }
+      ]
     },
     {
-      "name": "Enter a rage, gaining 10% Max Health + 250% Magic Max HP, 5 (+5 per rank) Attack Speed, and 2 (+2 per rank) Omnivamp. This ability stacks.",
-      "addsClass": null,
+      "name": "The Brute",
+      "addsClass": "Assassin",
       "abilityName": "The Brute",
-      "type": "+ Assassin",
+      "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
-      "rawText": "Passive",
-      "scalings": []
+      "rawText": "On Crit, steal 50% Crit Health from the target.",
+      "scalings": [
+        {
+          "raw": "50% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 50
+        }
+      ]
     }
   ],
   "rankASClassPools": [

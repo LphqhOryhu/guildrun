@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
 import { heroes, getHeroByName } from '../data/heroes.js'
+import { getModifiersForClass } from '../data/rankModifiers.js'
 import { STORAGE_KEYS, loadJSON, saveJSON, uid } from '../utils/storage.js'
 
 const MIN_HEROES = 3
@@ -7,7 +8,7 @@ const MAX_HEROES = 6
 const CLASS_THRESHOLD = 3
 
 export default function Builder() {
-  const [selection, setSelection] = useState([]) // [{ heroId, passiveIndex }]
+  const [selection, setSelection] = useState([]) // [{ heroId, specIndex }]
   const [builds, setBuilds] = useState(() => loadJSON(STORAGE_KEYS.BUILDS, []))
   const [buildName, setBuildName] = useState('')
 
@@ -19,15 +20,15 @@ export default function Builder() {
 
   function addHero(heroName) {
     if (selection.length >= MAX_HEROES) return
-    setSelection([...selection, { heroId: heroName, passiveIndex: 0 }])
+    setSelection([...selection, { heroId: heroName, specIndex: 0 }])
   }
 
   function removeHero(heroName) {
     setSelection(selection.filter((s) => s.heroId !== heroName))
   }
 
-  function setPassive(heroName, passiveIndex) {
-    setSelection(selection.map((s) => (s.heroId === heroName ? { ...s, passiveIndex } : s)))
+  function setSpec(heroName, specIndex) {
+    setSelection(selection.map((s) => (s.heroId === heroName ? { ...s, specIndex } : s)))
   }
 
   const analysis = useMemo(() => analyzeSelection(selection), [selection])
@@ -64,7 +65,7 @@ export default function Builder() {
                   <h3>{hero.name}</h3>
                   <div className="badge-row">
                     {hero.classes.map((c) => <span key={c} className="badge badge-class">{c}</span>)}
-                    {hero.elements.map((e) => <span key={e} className="badge badge-element">{e}</span>)}
+                    {hero.mechanics.map((m) => <span key={m} className="badge badge-mechanic">{m}</span>)}
                   </div>
                 </div>
               ))}
@@ -86,19 +87,22 @@ export default function Builder() {
                     <button className="btn-ghost" onClick={() => removeHero(hero.name)}>Retirer</button>
                   </h4>
                   <div className="form-grid">
-                    {hero.passives.map((passive, i) => (
+                    {hero.rankBSpecializations.map((spec, i) => (
                       <label key={i} className="field" style={{ cursor: 'pointer' }}>
                         <input
                           type="radio"
-                          name={`passive-${hero.name}`}
-                          checked={entry.passiveIndex === i}
-                          onChange={() => setPassive(hero.name, i)}
+                          name={`spec-${hero.name}`}
+                          checked={entry.specIndex === i}
+                          onChange={() => setSpec(hero.name, i)}
                           style={{ width: 'auto', marginRight: '0.4rem' }}
                         />
-                        {passive.name}
-                        {passive.keywords.length > 0 && (
+                        {spec.name}
+                        {spec.addsClass && (
+                          <span className="badge badge-adds-class" style={{ marginLeft: '0.4rem' }}>+ {spec.addsClass}</span>
+                        )}
+                        {spec.keywords.length > 0 && (
                           <span style={{ marginLeft: '0.4rem' }}>
-                            {passive.keywords.map((k) => (
+                            {spec.keywords.map((k) => (
                               <span key={k} className="badge badge-keyword" style={{ marginLeft: '0.2rem' }}>{k}</span>
                             ))}
                           </span>
@@ -149,35 +153,46 @@ export default function Builder() {
             </div>
 
             <div className="stat-row">
-              <span>Éléments couverts</span>
+              <span>Mécaniques couvertes</span>
               <span>
-                {analysis.elements.length === 0
+                {analysis.mechanics.length === 0
                   ? '—'
-                  : analysis.elements.map((e) => (
-                      <span key={e} className="badge badge-element" style={{ marginLeft: '0.3rem' }}>{e}</span>
+                  : analysis.mechanics.map((m) => (
+                      <span key={m} className="badge badge-mechanic" style={{ marginLeft: '0.3rem' }}>{m}</span>
                     ))}
               </span>
             </div>
 
             <div className="stat-row">
-              <span>Rush vs Stall (passives choisies)</span>
+              <span>Rush vs Stall (spés choisies)</span>
               <span>Rush: {analysis.rushCount} — Stall: {analysis.stallCount}</span>
             </div>
 
             {analysis.rushCount > 0 && analysis.stallCount > 0 && (
               <div className="warning-box">
-                Le build mixe des passives Rush et Stall sans timing dominant clair — vérifie que ta stratégie
+                Le build mixe des spécialisations Rush et Stall sans timing dominant clair — vérifie que ta stratégie
                 (agressive vs attentiste) reste cohérente.
               </div>
             )}
 
             <div className="stat-row">
               <span>Couverture Backup (réserve)</span>
-              <span>{analysis.backupCount} héros avec passive Backup choisie</span>
+              <span>{analysis.backupCount} héros avec spécialisation Backup choisie</span>
             </div>
             {analysis.backupCount === 0 && (
-              <div className="warning-box">Aucune passive Backup active : la réserve ne profite d'aucun bonus.</div>
+              <div className="warning-box">Aucune spécialisation Backup active : la réserve ne profite d'aucun bonus.</div>
             )}
+
+            <div className="stat-row">
+              <span>Pools de modificateurs rang A/S en jeu</span>
+              <span>
+                {analysis.classesInPlay.map((cls) => (
+                  <span key={cls} className="badge badge-class" style={{ marginLeft: '0.3rem' }}>
+                    {cls}: {getModifiersForClass(cls).length}
+                  </span>
+                ))}
+              </span>
+            </div>
           </>
         )}
       </div>
@@ -203,7 +218,8 @@ export default function Builder() {
 
 function analyzeSelection(selection) {
   const classCounts = {}
-  const elementsSet = new Set()
+  const mechanicsSet = new Set()
+  const classesInPlay = new Set()
   let rushCount = 0
   let stallCount = 0
   let backupCount = 0
@@ -213,21 +229,29 @@ function analyzeSelection(selection) {
     if (!hero) continue
     for (const cls of hero.classes) {
       classCounts[cls] = (classCounts[cls] || 0) + 1
+      classesInPlay.add(cls)
     }
-    for (const el of hero.elements) {
-      elementsSet.add(el)
+    for (const m of hero.mechanics) {
+      mechanicsSet.add(m)
     }
-    const chosenPassive = hero.passives[entry.passiveIndex]
-    if (chosenPassive) {
-      if (chosenPassive.keywords.includes('Rush')) rushCount += 1
-      if (chosenPassive.keywords.includes('Stall')) stallCount += 1
-      if (chosenPassive.keywords.includes('Backup')) backupCount += 1
+    const chosenSpec = hero.rankBSpecializations[entry.specIndex]
+    if (chosenSpec) {
+      // Picking a class-adding specialization makes this hero count as that
+      // class too, which opens its rank A/S modifier pool.
+      if (chosenSpec.addsClass) {
+        classCounts[chosenSpec.addsClass] = (classCounts[chosenSpec.addsClass] || 0) + 1
+        classesInPlay.add(chosenSpec.addsClass)
+      }
+      if (chosenSpec.keywords.includes('Rush')) rushCount += 1
+      if (chosenSpec.keywords.includes('Stall')) stallCount += 1
+      if (chosenSpec.keywords.includes('Backup')) backupCount += 1
     }
   }
 
   return {
     classCounts,
-    elements: [...elementsSet],
+    mechanics: [...mechanicsSet],
+    classesInPlay: [...classesInPlay],
     rushCount,
     stallCount,
     backupCount,

@@ -71,15 +71,42 @@
       "addsClass": null,
       "abilityName": "Wheel and Deal",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Swing a mace to deal 175 (+25% Max Health, +200% Attack, +150% Magic) damage and Stun for 3 seconds. This ability has a 25% chance to create a random item.",
+      "scalings": [
+        {
+          "raw": "25% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 25
+        },
+        {
+          "raw": "200% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 200
+        },
+        {
+          "raw": "150% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 150
+        },
+        {
+          "raw": "25% chance",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 25
+        }
+      ]
     },
     {
-      "name": "Swing a mace to deal 175 (+25% Max Health, +200% Attack, +150% Magic) damage and Stun for 3 seconds. This ability has a 25% chance to create a random item.",
+      "name": "The Executive",
       "addsClass": null,
       "abilityName": "The Executive",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush"
       ],
@@ -98,6 +125,7 @@
       "addsClass": "Tank",
       "abilityName": "The Hoarder",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Backup"
       ],

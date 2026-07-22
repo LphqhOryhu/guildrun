@@ -19,10 +19,11 @@ Les 15 modificateurs de rang A/S de chacune des 7 classes vivent une seule
 fois dans `data/rank-modifiers.json` (pas dupliqués par héros — un héros ne
 fait que référencer les classes dont il tire ses offres via `rankASClassPools`).
 
-> **Important** : le site consomme encore l'ancien schéma placeholder dans
-> `src/data/heroes.js` et les composants Roster/Builder/HeroDetail. Le rebranchement
-> sur le schéma réel ci-dessous (Roster, fiche héros, Builder avec choix de
-> spé rang B + pools A/S) reste à faire.
+Le site (Roster, fiche héros, Builder) consomme ce schéma directement : le
+Builder fait choisir une spécialisation de rang B parmi les 3 (certaines
+ajoutent une classe), et affiche les pools de modificateurs A/S accessibles
+pour l'équipe. Items et reliques (`data/items.json`, `data/relics.json`) sont
+chargés mais pas encore affichés dans une page dédiée.
 
 Schéma par héros (dérivé des vraies fiches, cf. `data/heroes/reyna.json`) :
 

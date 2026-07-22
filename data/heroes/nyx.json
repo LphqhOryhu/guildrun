@@ -69,6 +69,7 @@
       "addsClass": "Assassin",
       "abilityName": "The Keen-Eyed",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Backup"
       ],
@@ -80,15 +81,36 @@
       "addsClass": null,
       "abilityName": "Wild Flurry",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Perform a 5-hit combo. Each hit counts as an auto attack that deals 100 (+33% Attack Speed, +25% Magic, +25% Attack)% damage. If the enemy dies during the combo, Nyx jumps to the nearest enemy and re-casts this ability.",
+      "scalings": [
+        {
+          "raw": "33% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 33
+        },
+        {
+          "raw": "25% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 25
+        },
+        {
+          "raw": "25% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 25
+        }
+      ]
     },
     {
-      "name": "Perform a 5-hit combo. Each hit counts as an auto attack that deals 100 (+33% Attack Speed, +25% Magic, +25% Attack)% damage. If the enemy dies during the combo, Nyx jumps to the nearest enemy and re-casts this ability.",
+      "name": "The Spark",
       "addsClass": null,
       "abilityName": "The Spark",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Stall"
       ],

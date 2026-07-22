@@ -70,6 +70,7 @@
       "addsClass": null,
       "abilityName": "The Stylish",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
       "rawText": "Gain an item slot. On auto attack, deal bonus damage per Shard generated this game.",
       "scalings": []
@@ -79,6 +80,7 @@
       "addsClass": null,
       "abilityName": "The Sharp",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Rush",
         "Stall",
@@ -92,9 +94,29 @@
       "addsClass": null,
       "abilityName": "Pirouette",
       "type": "Active",
+      "addedAbility": true,
       "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "rawText": "Gain 4 (+4 per rank) Crit and 4 (+4 per rank) Omnivamp, then deal 75 (+150% Attack, +150% Attack Speed, +150% Magic) damage to all enemies in Tilly's range.",
+      "scalings": [
+        {
+          "raw": "150% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 150
+        },
+        {
+          "raw": "150% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 150
+        },
+        {
+          "raw": "150% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 150
+        }
+      ]
     }
   ],
   "rankASClassPools": [

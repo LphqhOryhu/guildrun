@@ -229,6 +229,14 @@ function parseRankBSpecs(tokens) {
       type = tokens[i]
     }
     i++ // consume type token
+    // "added" is a literal marker meaning this spec grants an ability type
+    // the hero didn't start with at rank C (e.g. a passive-only hero gaining
+    // an active) - it's a flag, not the description.
+    let addedAbility = false
+    if (tokens[i] === 'added') {
+      addedAbility = true
+      i++
+    }
     const rawText = tokens[i] ?? ''
     i++
     specs.push({
@@ -236,6 +244,7 @@ function parseRankBSpecs(tokens) {
       addsClass,
       abilityName,
       type: type || '',
+      addedAbility,
       keywords: extractKeywords(rawText),
       rawText,
       scalings: extractScalings(rawText),

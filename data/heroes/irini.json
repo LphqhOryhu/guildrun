@@ -63,15 +63,39 @@
       "addsClass": null,
       "abilityName": "Gathering Storm",
       "type": "Active",
-      "keywords": [],
-      "rawText": "added",
-      "scalings": []
+      "addedAbility": true,
+      "keywords": [
+        "Rush",
+        "Stall"
+      ],
+      "rawText": "Call down lightning, dealing 10 (+20% Attack Speed, +10% Attack, +10% Magic) damage per Stall and Rush triggered this game.",
+      "scalings": [
+        {
+          "raw": "20% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 20
+        },
+        {
+          "raw": "10% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 10
+        },
+        {
+          "raw": "10% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 10
+        }
+      ]
     },
     {
-      "name": "Call down lightning, dealing 10 (+20% Attack Speed, +10% Attack, +10% Magic) damage per Stall and Rush triggered this game.",
+      "name": "The Mighty",
       "addsClass": null,
       "abilityName": "The Mighty",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [
         "Backup"
       ],
@@ -83,6 +107,7 @@
       "addsClass": null,
       "abilityName": "The Olympic",
       "type": "Passive",
+      "addedAbility": false,
       "keywords": [],
       "rawText": "Gain the unique quest item Zeus's Thunder.",
       "scalings": []

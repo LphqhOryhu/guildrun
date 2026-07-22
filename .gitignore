@@ -6,3 +6,8 @@ screenshots/
 data/intake/heroes/*.txt
 data/intake/*-raw.txt
 data/scraped/
+
+# World/Systems wiki dumps not parsed yet, and third-party (OctoJinx) guide
+# PDFs - not committed until explicitly reviewed for that.
+data/intake/*.txt
+data/intake/*.pdf
