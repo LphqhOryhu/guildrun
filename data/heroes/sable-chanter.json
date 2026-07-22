@@ -1,0 +1,38 @@
+{
+  "name": "Sable Chanter",
+  "stars": 3,
+  "classes": ["Rogue"],
+  "elements": ["Burn"],
+  "keywords": ["Rush", "Backup"],
+  "active": {
+    "name": "Poisoned Blade",
+    "manaCost": 35,
+    "rawText": "Deals 12 (+60% Attack) damage and applies Burn for 2 turns, stacking up to 3 times.",
+    "scalings": [
+      { "raw": "12 (+60% Attack)", "base": 12, "stat": "Attack", "percent": 60 }
+    ]
+  },
+  "passives": [
+    {
+      "name": "Opening Strike",
+      "rawText": "This hero's first attack each combat deals 100% bonus damage.",
+      "keywords": ["Rush"],
+      "masteryAvailable": true,
+      "scalings": []
+    },
+    {
+      "name": "Bleed Out",
+      "rawText": "Burn damage dealt by this hero is increased by 20%.",
+      "keywords": [],
+      "masteryAvailable": false,
+      "scalings": []
+    },
+    {
+      "name": "Shadow Reserve",
+      "rawText": "While benched, grant this hero's Burn bonus to the frontline ally.",
+      "keywords": ["Backup"],
+      "masteryAvailable": false,
+      "scalings": []
+    }
+  ]
+}
