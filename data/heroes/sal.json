@@ -55,7 +55,9 @@
         "stat": "Magic",
         "percent": 50
       }
-    ]
+    ],
+    "nameFr": "Permafrost",
+    "rawTextFr": "Sal renforce ses attaques, les faisant aussi toucher l'ennemi le plus proche de sa cible, infligeant 10 (+50% Magie) dégâts bonus et 1 (+1 par rang) Givre. Cette abilité se cumule."
   },
   "rankBSpecializations": [
     {
@@ -67,7 +69,10 @@
         "Backup"
       ],
       "rawText": "Whenever a Mage or Duelist inflicts a Debuff, they gain 0 (+1 per rank) Attack Speed and 1 (+1 per rank) Magic. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Légère",
+      "rawTextFr": "Chaque fois qu'un Mage ou Duelliste inflige une Altération, il gagne 0 (+1 par rang) Vitesse d'attaque et 1 (+1 par rang) Magie. Réserve.",
+      "abilityNameFr": "La Légère"
     },
     {
       "name": "The Lover",
@@ -76,7 +81,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "At start of combat, Heroes directly in front of Sal permanently gain 20 Defense. Pimenta gains 20 more.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Amoureuse",
+      "rawTextFr": "Au début du combat, les Héros directement devant Sal gagnent 20 Défense de façon permanente. Pimenta en gagne 20 de plus.",
+      "abilityNameFr": "L'Amoureuse"
     },
     {
       "name": "The Brisk",
@@ -98,7 +106,10 @@
           "stat": "Magic",
           "percent": 33
         }
-      ]
+      ],
+      "nameFr": "La Vive",
+      "rawTextFr": "Les dégâts bonus de Permafrost peuvent infliger un coup Critique. Sur coup Critique, inflige 1 (+1 par rang) Givre. Au lancement, Sal gagne 33% Attaque + 33% Magie en Critique.",
+      "abilityNameFr": "La Vive"
     }
   ],
   "rankASClassPools": [
@@ -123,5 +134,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Gardienne",
+  "quoteFr": "Tu vois ? On est toujours là."
 }

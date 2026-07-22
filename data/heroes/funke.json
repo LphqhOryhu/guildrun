@@ -61,7 +61,9 @@
         "stat": "Magic",
         "percent": 66
       }
-    ]
+    ],
+    "nameFr": "Feu Sauvage",
+    "rawTextFr": "Projette une boule de feu sur tous les ennemis à portée de Funke, infligeant 175 (+200% Magie) dégâts et 15 (+66% Magie) Brûlure."
   },
   "rankBSpecializations": [
     {
@@ -73,7 +75,10 @@
         "Backup"
       ],
       "rawText": "Mages gain 1 (+1 per rank) Magic whenever an enemy in their range takes Burn damage. Backup. Funke gains 1 Mana whenever an enemy in his range takes Burn damage.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Attisé",
+      "rawTextFr": "Les Mages gagnent 1 (+1 par rang) Magie chaque fois qu'un ennemi à leur portée subit des dégâts de Brûlure. Réserve. Funke gagne 1 Mana chaque fois qu'un ennemi à sa portée subit des dégâts de Brûlure.",
+      "abilityNameFr": "L'Attisé"
     },
     {
       "name": "The Inferno",
@@ -84,7 +89,10 @@
         "Stall"
       ],
       "rawText": "Gain 2 Attack Range. At start of combat and after Stall (20), inflict 25 (+1 per 4 Magic) Burn on all enemies in range.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Enfer",
+      "rawTextFr": "Gagne 2 Portée d’attaque. Au début du combat et après Attente (20), inflige 25 (+1 par 4 Magie) Brûlure à tous les ennemis à portée.",
+      "abilityNameFr": "L'Enfer"
     },
     {
       "name": "The Detonator",
@@ -93,7 +101,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "On cast, all enemies in range take 10 (+10 per rank) ticks of Burn damage.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Détonateur",
+      "rawTextFr": "Au lancement, tous les ennemis à portée subissent 10 (+10 par rang) ticks de dégâts de Brûlure.",
+      "abilityNameFr": "Le Détonateur"
     }
   ],
   "rankASClassPools": [
@@ -108,5 +119,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "L'Enchaîné",
+  "quoteFr": "Laisse-moi faire les choses à ma façon."
 }

@@ -61,7 +61,9 @@
         "stat": "Magic",
         "percent": 150
       }
-    ]
+    ],
+    "nameFr": "Frappe de l'Ombre au Shuriken",
+    "rawTextFr": "Bondit dans les airs et lance 1 (+1 par 50 Critique) shuriken(s) sur l'ennemi avec le moins de PV, infligeant chacun 150 (+150% Attaque, +150% Magie) dégâts. Shurikens Max : 8"
   },
   "rankBSpecializations": [
     {
@@ -78,7 +80,10 @@
           "stat": "unknown",
           "percent": 75
         }
-      ]
+      ],
+      "nameFr": "L'Ombre",
+      "rawTextFr": "Quand Yuuna passe sous 75% PV Max, elle gagne Invisibilité pendant 4 secondes. Se déclenche une fois par combat. Chaque fois que Yuuna gagne Invisibilité, elle gagne 30 Mana et gagne 5 (+5 par rang) Critique de façon permanente.",
+      "abilityNameFr": "L'Ombre"
     },
     {
       "name": "The Collector",
@@ -87,7 +92,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Shuriken Shadow Strike fires an additional shuriken. On kill, gain 5 Shards then permanently increase the Shards generated from this ability by 1. Triggers once per combat.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Collectionneuse",
+      "rawTextFr": "Frappe de l'Ombre au Shuriken tire un shuriken supplémentaire. Sur élimination, gagne 5 Éclats puis augmente de façon permanente de 1 les Éclats générés par cette abilité. Se déclenche une fois par combat.",
+      "abilityNameFr": "La Collectionneuse"
     },
     {
       "name": "The Nightshade",
@@ -105,7 +113,10 @@
           "stat": "Crit",
           "percent": 150
         }
-      ]
+      ],
+      "nameFr": "La Belladone",
+      "rawTextFr": "Frappe de l'Ombre au Shuriken gagne +150% Critique contre les ennemis empoisonnés. Chaque fois qu'un Assassin inflige un coup Critique, il inflige 4 (+4 par rang) Poison. Réserve.",
+      "abilityNameFr": "La Belladone"
     }
   ],
   "rankASClassPools": [
@@ -120,5 +131,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Professionnelle",
+  "quoteFr": "Je ne laisserai pas tomber notre guilde."
 }

@@ -62,7 +62,9 @@
         "stat": "Attack",
         "percent": 25
       }
-    ]
+    ],
+    "nameFr": "Luxueuse",
+    "rawTextFr": "Gagne 25% Attaque en Vitesse d'attaque et 25% Vitesse d'attaque en Attaque. Toutes les 25 attaques automatiques, gagne 2 (+2 par rang) Éclats."
   },
   "rankBSpecializations": [
     {
@@ -73,7 +75,10 @@
       "addedAbility": false,
       "keywords": [],
       "rawText": "Gain an item slot. On auto attack, deal bonus damage per Shard generated this game.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Stylée",
+      "rawTextFr": "Gagne un emplacement d’item. À chaque attaque automatique, inflige des dégâts bonus par Éclat généré cette partie.",
+      "abilityNameFr": "La Stylée"
     },
     {
       "name": "The Sharp",
@@ -87,7 +92,10 @@
         "Backup"
       ],
       "rawText": "For Rush (10), Warriors gain 8 (+8 per rank)% Attack and 4 (+4 per rank)% Crit. Backup. After Stall (20), Duelists gain 8 (+8 per rank)% Attack Speed and 4 (+4 per rank)% Crit. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Affûtée",
+      "rawTextFr": "Pour Charge (10), les Guerriers gagnent 8 (+8 par rang)% Attaque et 4 (+4 par rang)% Critique. Réserve. Après Attente (20), les Duellistes gagnent 8 (+8 par rang)% Vitesse d'attaque et 4 (+4 par rang)% Critique. Réserve.",
+      "abilityNameFr": "L'Affûtée"
     },
     {
       "name": "The Elegant",
@@ -116,7 +124,10 @@
           "stat": "Magic",
           "percent": 150
         }
-      ]
+      ],
+      "nameFr": "L'Élégante (Pirouette)",
+      "rawTextFr": "Gagne 4 (+4 par rang) Critique et 4 (+4 par rang) Vol de vie, puis inflige 75 (+150% Attaque, +150% Vitesse d'attaque, +150% Magie) dégâts à tous les ennemis à portée de Tilly.",
+      "abilityNameFr": "L'Élégante (Pirouette)"
     }
   ],
   "rankASClassPools": [
@@ -136,5 +147,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "L'Héritière",
+  "quoteFr": "Oh... je pourrais bien être douée pour ça."
 }

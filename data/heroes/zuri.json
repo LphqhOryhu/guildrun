@@ -50,7 +50,9 @@
     "name": "Stone Skin",
     "type": "Passive",
     "rawText": "On Crit, permanently gain 1 Defense and 1 Magic. Triggers 2 (+1 per 20 Crit, +1 per 60 Defense) times per combat.",
-    "scalings": []
+    "scalings": [],
+    "nameFr": "Peau de Pierre",
+    "rawTextFr": "Sur coup Critique, gagne 1 Défense et 1 Magie de façon permanente. Se déclenche 2 (+1 par 20 Critique, +1 par 60 Défense) fois par combat."
   },
   "rankBSpecializations": [
     {
@@ -68,7 +70,10 @@
           "stat": "Magic",
           "percent": 250
         }
-      ]
+      ],
+      "nameFr": "La Cruelle (Pétrification)",
+      "rawTextFr": "Pétrifie tous les ennemis ciblant Zuri, infligeant 150 (+250% Magie) dégâts, 1 Poison par déclenchement de Peau de Pierre cette partie, et Étourdit pendant 4 secondes.",
+      "abilityNameFr": "La Cruelle (Pétrification)"
     },
     {
       "name": "The Serpent's Kiss",
@@ -78,7 +83,10 @@
       "addedAbility": false,
       "keywords": [],
       "rawText": "When auto attacked, inflict 1 (+1 per 60 Defense, +1 per 50 Magic) Poison on the attacker and gain 0 (+1 per rank) HP/S.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Baiser du Serpent",
+      "rawTextFr": "Quand elle subit une attaque automatique, inflige 1 (+1 par 60 Défense, +1 par 50 Magie) Poison à l'attaquant et gagne 0 (+1 par rang) PV/s.",
+      "abilityNameFr": "Le Baiser du Serpent"
     },
     {
       "name": "The Bladedancer",
@@ -140,7 +148,10 @@
           "stat": "Defense",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "La Danseuse des Lames",
+      "rawTextFr": "Pour Charge (10), les attaques automatiques infligent 5 (+100% Critique, +50% Magie) dégâts bonus et soignent de 5 (+100% Critique, +50% Magie). Après Attente (20), les attaques automatiques infligent 5 (+100% Critique, +50% Défense) dégâts bonus et soignent de 5 (+100% Critique, +50% Défense).",
+      "abilityNameFr": "La Danseuse des Lames"
     }
   ],
   "rankASClassPools": [
@@ -160,5 +171,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Gorgone",
+  "quoteFr": "C’est bon. Tu peux jeter un œil."
 }

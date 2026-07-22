@@ -78,7 +78,7 @@ export default function Journal() {
       <h2 className="section-title">Journal de runs</h2>
 
       {builds.length === 0 ? (
-        <p className="empty-state">Crée d'abord un build dans l'onglet Builder pour pouvoir logger une run.</p>
+        <p className="empty-state">Crée d'abord un build dans l'onglet Équipe pour pouvoir enregistrer une run.</p>
       ) : (
         <form className="panel" onSubmit={addRun}>
           <div className="form-grid">
@@ -111,7 +111,7 @@ export default function Journal() {
               </select>
             </div>
             <div className="field">
-              <label>Score endless (optionnel)</label>
+              <label>Score Sans-fin (optionnel)</label>
               <input type="number" min="0" value={endlessScore} onChange={(e) => setEndlessScore(e.target.value)} />
             </div>
           </div>

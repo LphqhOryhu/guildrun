@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { items } from '../data/items.js'
 import { rarityClass } from '../utils/rarityColor.js'
+import { trRarity, trStat } from '../data/frLabels.js'
 
 const allRarities = [...new Set(items.map((i) => i.rarity))].sort(
   (a, b) => items.filter((i) => i.rarity === b).length - items.filter((i) => i.rarity === a).length
@@ -21,12 +22,12 @@ export default function Items() {
 
   return (
     <div>
-      <h2 className="section-title">Items ({items.length})</h2>
+      <h2 className="section-title">Objets ({items.length})</h2>
 
       <div className="filters">
         <input
           type="text"
-          placeholder="Rechercher un item..."
+          placeholder="Rechercher un objet..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
@@ -36,34 +37,36 @@ export default function Items() {
             className={`chip ${rarityFilter === r ? 'active' : ''}`}
             onClick={() => setRarityFilter(rarityFilter === r ? null : r)}
           >
-            {r}
+            {trRarity(r)}
           </button>
         ))}
       </div>
 
       {filtered.length === 0 ? (
-        <p className="empty-state">Aucun item ne correspond à ces filtres.</p>
+        <p className="empty-state">Aucun objet ne correspond à ces filtres.</p>
       ) : (
         <div className="item-grid">
           {filtered.map((item) => (
             <div className="item-card" key={item.name}>
               <div className="item-card-head">
                 <h3>{item.name}</h3>
-                <span className={`badge badge-rarity ${rarityClass(item.rarity)}`}>{item.rarity}</span>
+                <span className={`badge badge-rarity ${rarityClass(item.rarity)}`}>{trRarity(item.rarity)}</span>
               </div>
               {item.stats.length > 0 && (
                 <div className="badge-row">
                   {item.stats.map((s, i) => (
-                    <span key={i} className="badge badge-keyword">{s.raw}</span>
+                    <span key={i} className="badge badge-keyword">
+                      {s.amount != null ? `+${s.amount} ${trStat(s.stat)}` : s.raw}
+                    </span>
                   ))}
                 </div>
               )}
               {item.rawEffect && <p className="ability-text">{item.rawEffect}</p>}
               <div className="item-card-foot">
                 {item.shopPrice ? (
-                  <span className="badge badge-mastery">{item.shopPrice.amount} {item.shopPrice.currency}</span>
+                  <span className="badge badge-mastery">{item.shopPrice.amount} éclats</span>
                 ) : (
-                  <span className="badge">Not sold</span>
+                  <span className="badge">Non vendu</span>
                 )}
               </div>
             </div>

@@ -7,12 +7,12 @@ import Journal from './pages/Journal.jsx'
 import TierList from './pages/TierList.jsx'
 
 const TABS = [
-  { id: 'roster', label: 'Roster', Component: Roster },
-  { id: 'items', label: 'Items', Component: Items },
-  { id: 'relics', label: 'Relics', Component: Relics },
-  { id: 'builder', label: 'Builder', Component: Builder },
+  { id: 'roster', label: 'Héros', Component: Roster },
+  { id: 'items', label: 'Objets', Component: Items },
+  { id: 'relics', label: 'Reliques', Component: Relics },
+  { id: 'builder', label: 'Équipe', Component: Builder },
   { id: 'journal', label: 'Journal', Component: Journal },
-  { id: 'tierlist', label: 'Tier List', Component: TierList },
+  { id: 'tierlist', label: 'Classement', Component: TierList },
 ]
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
       <header className="app-header">
         <h1 className="app-title">
           Guildrun
-          <span>Codex & Builder</span>
+          <span>Codex & Constructeur</span>
         </h1>
         <nav className="app-nav">
           {TABS.map((tab) => (

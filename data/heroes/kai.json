@@ -65,7 +65,9 @@
         "stat": "Magic",
         "percent": 250
       }
-    ]
+    ],
+    "nameFr": "Frappe Résolue",
+    "rawTextFr": "Charge une puissante attaque, gagnant 300 (+400% Attaque, +250% Magie) Boucliers. Après 2 secondes, inflige 100 (+100% Attaque) dégâts plus des dégâts bonus égaux aux Boucliers restants de Kai aux ennemis alentour."
   },
   "rankBSpecializations": [
     {
@@ -82,7 +84,10 @@
           "stat": "Attack",
           "percent": 25
         }
-      ]
+      ],
+      "nameFr": "L'Inarrêtable",
+      "rawTextFr": "Gagne 60 (+25% Attaque)% de Boucliers en plus, toutes sources confondues. Chaque fois que Kai gagne des Boucliers, il gagne aussi 9 (+6 par rang) Attaque.",
+      "abilityNameFr": "L'Inarrêtable"
     },
     {
       "name": "The Bold",
@@ -98,7 +103,10 @@
           "stat": "Defense",
           "percent": 500
         }
-      ]
+      ],
+      "nameFr": "L'Audacieux",
+      "rawTextFr": "Frappe Résolue frappe 1 seconde plus tôt et affecte une zone plus large. Au lancement, gagne 250 (+500% Défense) Boucliers durables.",
+      "abilityNameFr": "L'Audacieux"
     },
     {
       "name": "The Intrepid",
@@ -117,7 +125,10 @@
           "stat": "Crit",
           "percent": 100
         }
-      ]
+      ],
+      "nameFr": "L'Intrépide",
+      "rawTextFr": "Pour Charge (8), gagne 100% Critique. Chaque fois qu'un Guerrier inflige un coup Critique, réduit la Défense de sa cible de 2 (+1 par rang). Réserve.",
+      "abilityNameFr": "L'Intrépide"
     }
   ],
   "rankASClassPools": [
@@ -137,5 +148,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Meneur",
+  "quoteFr": "Ne t'amuse pas trop sans moi."
 }

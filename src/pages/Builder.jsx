@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect } from 'react'
 import { heroes, getHeroByName } from '../data/heroes.js'
 import { getModifiersForClass } from '../data/rankModifiers.js'
+import { trClass, trMechanic, trKeyword } from '../data/frLabels.js'
 import { STORAGE_KEYS, loadJSON, saveJSON, uid } from '../utils/storage.js'
 
 const MIN_HEROES = 3
@@ -51,7 +52,7 @@ export default function Builder() {
 
   return (
     <div>
-      <h2 className="section-title">Builder d'équipe</h2>
+      <h2 className="section-title">Constructeur d'équipe</h2>
 
       <div className="grid-2">
         <div className="panel">
@@ -64,8 +65,8 @@ export default function Builder() {
                 <div key={hero.name} className="hero-card" onClick={() => addHero(hero.name)}>
                   <h3>{hero.name}</h3>
                   <div className="badge-row">
-                    {hero.classes.map((c) => <span key={c} className="badge badge-class">{c}</span>)}
-                    {hero.mechanics.map((m) => <span key={m} className="badge badge-mechanic">{m}</span>)}
+                    {hero.classes.map((c) => <span key={c} className="badge badge-class">{trClass(c)}</span>)}
+                    {hero.mechanics.map((m) => <span key={m} className="badge badge-mechanic">{trMechanic(m)}</span>)}
                   </div>
                 </div>
               ))}
@@ -96,14 +97,14 @@ export default function Builder() {
                           onChange={() => setSpec(hero.name, i)}
                           style={{ width: 'auto', marginRight: '0.4rem' }}
                         />
-                        {spec.name}
+                        {spec.nameFr ?? spec.name}
                         {spec.addsClass && (
-                          <span className="badge badge-adds-class" style={{ marginLeft: '0.4rem' }}>+ {spec.addsClass}</span>
+                          <span className="badge badge-adds-class" style={{ marginLeft: '0.4rem' }}>+ {trClass(spec.addsClass)}</span>
                         )}
                         {spec.keywords.length > 0 && (
                           <span style={{ marginLeft: '0.4rem' }}>
                             {spec.keywords.map((k) => (
-                              <span key={k} className="badge badge-keyword" style={{ marginLeft: '0.2rem' }}>{k}</span>
+                              <span key={k} className="badge badge-keyword" style={{ marginLeft: '0.2rem' }}>{trKeyword(k)}</span>
                             ))}
                           </span>
                         )}
@@ -121,7 +122,7 @@ export default function Builder() {
               type="text"
               value={buildName}
               onChange={(e) => setBuildName(e.target.value)}
-              placeholder="ex: Rush Mage x3"
+              placeholder="ex: Mages Charge x3"
             />
           </div>
           <button
@@ -146,7 +147,7 @@ export default function Builder() {
               <span>
                 {Object.entries(analysis.classCounts).map(([cls, count]) => (
                   <span key={cls} className={`badge badge-class`} style={{ marginLeft: '0.3rem' }}>
-                    {cls}: {count}{count >= CLASS_THRESHOLD ? ' ✦ seuil atteint' : ''}
+                    {trClass(cls)} : {count}{count >= CLASS_THRESHOLD ? ' ✦ seuil atteint' : ''}
                   </span>
                 ))}
               </span>
@@ -158,29 +159,29 @@ export default function Builder() {
                 {analysis.mechanics.length === 0
                   ? '—'
                   : analysis.mechanics.map((m) => (
-                      <span key={m} className="badge badge-mechanic" style={{ marginLeft: '0.3rem' }}>{m}</span>
+                      <span key={m} className="badge badge-mechanic" style={{ marginLeft: '0.3rem' }}>{trMechanic(m)}</span>
                     ))}
               </span>
             </div>
 
             <div className="stat-row">
-              <span>Rush vs Stall (spés choisies)</span>
-              <span>Rush: {analysis.rushCount} — Stall: {analysis.stallCount}</span>
+              <span>Charge vs Attente (spés choisies)</span>
+              <span>Charge : {analysis.rushCount} — Attente : {analysis.stallCount}</span>
             </div>
 
             {analysis.rushCount > 0 && analysis.stallCount > 0 && (
               <div className="warning-box">
-                Le build mixe des spécialisations Rush et Stall sans timing dominant clair — vérifie que ta stratégie
+                Le build mixe des spécialisations Charge et Attente sans timing dominant clair — vérifie que ta stratégie
                 (agressive vs attentiste) reste cohérente.
               </div>
             )}
 
             <div className="stat-row">
-              <span>Couverture Backup (réserve)</span>
-              <span>{analysis.backupCount} héros avec spécialisation Backup choisie</span>
+              <span>Couverture Réserve</span>
+              <span>{analysis.backupCount} héros avec spécialisation Réserve choisie</span>
             </div>
             {analysis.backupCount === 0 && (
-              <div className="warning-box">Aucune spécialisation Backup active : la réserve ne profite d'aucun bonus.</div>
+              <div className="warning-box">Aucune spécialisation Réserve active : les héros au banc ne profitent d'aucun bonus.</div>
             )}
 
             <div className="stat-row">
@@ -188,7 +189,7 @@ export default function Builder() {
               <span>
                 {analysis.classesInPlay.map((cls) => (
                   <span key={cls} className="badge badge-class" style={{ marginLeft: '0.3rem' }}>
-                    {cls}: {getModifiersForClass(cls).length}
+                    {trClass(cls)} : {getModifiersForClass(cls).length}
                   </span>
                 ))}
               </span>

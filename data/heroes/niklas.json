@@ -63,7 +63,9 @@
         "stat": "unknown",
         "percent": 80
       }
-    ]
+    ],
+    "nameFr": "Offres Explosives",
+    "rawTextFr": "Quand Niklas survit à un combat, consomme l'item dans son emplacement le plus à gauche. Gagne 100% de ses statistiques de façon permanente et gagne des Éclats égaux à 80% de sa valeur. Pour Charge (14), les attaques automatiques infligent 1 (+1 par 500 PV Max) Brûlure par item équipé."
   },
   "rankBSpecializations": [
     {
@@ -99,7 +101,10 @@
           "stat": "unknown",
           "percent": 25
         }
-      ]
+      ],
+      "nameFr": "Le Négociant (Marchandage)",
+      "rawTextFr": "Assène un coup de masse infligeant 175 (+25% PV Max, +200% Attaque, +150% Magie) dégâts et Étourdit pendant 3 secondes. Cette abilité a 25% de chances de créer un item aléatoire.",
+      "abilityNameFr": "Le Négociant (Marchandage)"
     },
     {
       "name": "The Executive",
@@ -118,7 +123,10 @@
           "stat": "unknown",
           "percent": 33
         }
-      ]
+      ],
+      "nameFr": "Le Cadre",
+      "rawTextFr": "Gagne deux emplacements d’item. Pour Charge (15), gagne 33% PV Max en Boucliers par item équipé.",
+      "abilityNameFr": "Le Cadre"
     },
     {
       "name": "The Hoarder",
@@ -130,7 +138,10 @@
         "Backup"
       ],
       "rawText": "Whenever a Vanguard or Tank is auto attacked, they deal 1 damage to the attacker per Shard generated this game. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Accapareur",
+      "rawTextFr": "Chaque fois qu'une Avant-garde ou un Tank subit une attaque automatique, il inflige 1 dégât à l'attaquant par Éclat généré cette partie. Réserve.",
+      "abilityNameFr": "L'Accapareur"
     }
   ],
   "rankASClassPools": [
@@ -150,5 +161,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Négociant",
+  "quoteFr": "On dirait que tu sais reconnaître une bonne affaire."
 }

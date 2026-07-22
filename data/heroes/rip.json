@@ -67,7 +67,9 @@
         "stat": "unknown",
         "percent": 2
       }
-    ]
+    ],
+    "nameFr": "Assoiffé de Sang",
+    "rawTextFr": "Pour Charge (10), gagne 5% PV Max en Attaque. Chaque fois que Rip ou un ennemi adjacent à lui passe pour la première fois sous 50% PV Max, réinitialise toutes ses abilités de Charge et gagne 2% PV Max en Vitesse d'attaque."
   },
   "rankBSpecializations": [
     {
@@ -81,7 +83,10 @@
         "Backup"
       ],
       "rawText": "On Rush trigger, permanently gain 33 Max HP. Backup. Backup Only: At start of combat, Vanguards gain all Max HP gained from this ability.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Glouton",
+      "rawTextFr": "Au déclenchement de Charge, gagne 33 PV Max de façon permanente. Réserve. Réserve uniquement : au début du combat, les Avant-gardes gagnent tous les PV Max obtenus par cette abilité.",
+      "abilityNameFr": "Le Glouton"
     },
     {
       "name": "The Enraged",
@@ -104,7 +109,10 @@
           "stat": "Magic",
           "percent": 250
         }
-      ]
+      ],
+      "nameFr": "L’Enragé (Furie)",
+      "rawTextFr": "Entre en rage, gagnant 10% PV Max + 250% Magie en PV Max, 5 (+5 par rang) Vitesse d’attaque et 2 (+2 par rang) Vol de vie. Cette abilité se cumule.",
+      "abilityNameFr": "L’Enragé (Furie)"
     },
     {
       "name": "The Brute",
@@ -121,7 +129,10 @@
           "stat": "Crit",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "La Brute",
+      "rawTextFr": "Sur coup Critique, vole 50% Critique en PV à la cible.",
+      "abilityNameFr": "La Brute"
     }
   ],
   "rankASClassPools": [
@@ -140,6 +151,11 @@
   "lore": {
     "guild": "A Temple - “No gods. No masters.” Anarchy in the Rifts! Rushing and debuffing everything in their path.",
     "currentWork": "He's a frontliner with a reputation for tearing the heart out of whatever he kills, a habit left over from his old job on a cleanup crew hauling monster carcasses He Awakened mid-shift; A Temple was the only guild that showed up to recruit him. Behind the mask he's entirely sane. Most teammates need time to work that out.",
-    "motivation": "Point him towards fresh meat and he'll join your slaughterhouse gladly. Your recruiter gets about thirty seconds to do so."
-  }
+    "motivation": "Point him towards fresh meat and he'll join your slaughterhouse gladly. Your recruiter gets about thirty seconds to do so.",
+    "guildFr": "Un Temple - « Ni dieux. Ni maîtres. » L’anarchie dans les Failles ! Charge et altérations sur tout ce qui se trouve sur leur chemin.",
+    "currentWorkFr": "C'est un combattant de première ligne réputé pour arracher le cœur de tout ce qu'il tue, une habitude héritée de son ancien travail dans une équipe de nettoyage chargée de transporter des carcasses de monstres. Il s'est Éveillé en plein service ; Un Temple fut la seule guilde à venir le recruter. Sous le masque, il est parfaitement sain d'esprit. La plupart de ses coéquipiers ont besoin de temps pour s'en rendre compte.",
+    "motivationFr": "Montrez-lui de la viande fraîche et il rejoindra votre abattoir avec plaisir. Votre recruteur a environ trente secondes pour le faire."
+  },
+  "titleFr": "Le Boucher",
+  "quoteFr": "Ouaf ouaf, pas besoin d’avoir peur. Je ne mords pas."
 }

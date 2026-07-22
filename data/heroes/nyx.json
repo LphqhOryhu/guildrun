@@ -61,7 +61,9 @@
         "stat": "Attack",
         "percent": 25
       }
-    ]
+    ],
+    "nameFr": "Sauvagerie",
+    "rawTextFr": "Pour Charge (5), gagne 5 (+25% Vitesse d'attaque) Vitesse d'attaque et 5 (+25% Attaque) Attaque pour chaque déclenchement de cette abilité ce combat. Toutes les 12 attaques automatiques, réinitialise toutes les abilités de Charge de Nyx."
   },
   "rankBSpecializations": [
     {
@@ -74,7 +76,10 @@
         "Backup"
       ],
       "rawText": "Assassins and Duelists instantly kill any enemies they damage below 20 (+5 per rank)% Max HP. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Œil Vif",
+      "rawTextFr": "Les Assassins et Duellistes tuent instantanément tout ennemi dont ils réduisent les PV sous 20 (+5 par rang)% PV Max. Réserve.",
+      "abilityNameFr": "L'Œil Vif"
     },
     {
       "name": "The Wild",
@@ -103,7 +108,10 @@
           "stat": "Attack",
           "percent": 25
         }
-      ]
+      ],
+      "nameFr": "La Sauvage (Rafale Sauvage)",
+      "rawTextFr": "Exécute un combo de 5 coups. Chaque coup compte comme une attaque automatique infligeant 100 (+33% Vitesse d'attaque, +25% Magie, +25% Attaque)% dégâts. Si l'ennemi meurt pendant le combo, Nyx bondit vers l'ennemi le plus proche et relance cette abilité.",
+      "abilityNameFr": "La Sauvage (Rafale Sauvage)"
     },
     {
       "name": "The Spark",
@@ -115,7 +123,10 @@
         "Stall"
       ],
       "rawText": "After Stall (10), each auto attack inflicts 2 (+1 per 30 Attack Speed) Burn. After Stall (20), each auto attack inflicts 1 (+1 per 40 Attack Speed) Frost. After Stall (30), each auto attack inflicts 1 per 50 Attack Speed Poison.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Étincelle",
+      "rawTextFr": "Après Attente (10), chaque attaque automatique inflige 2 (+1 par 30 Vitesse d'attaque) Brûlure. Après Attente (20), chaque attaque automatique inflige 1 (+1 par 40 Vitesse d'attaque) Givre. Après Attente (30), chaque attaque automatique inflige 1 Poison par 50 Vitesse d'attaque.",
+      "abilityNameFr": "L'Étincelle"
     }
   ],
   "rankASClassPools": [
@@ -134,6 +145,11 @@
   "lore": {
     "guild": "The Hunt - “When the call comes, we hunt.” Bringing the hood to the Rifts. Rushing and stalling, whatever you need.",
     "currentWork": "Nyx slipped past three rift lockdowns before The Hunt gave up chasing the kid and signed them instead. Now the youngest breaker on any roster: too quick to catch, too vicious to ignore. Nyx has no family on file, no address, no home. They don't trust The Hunt enough to sleep at their guild house. But every time there's a fight, the kid is always already there.",
-    "motivation": "Nyx doesn't follow guilds but people worth trusting - and hasn't found one yet. Be the first, and the kid stops being a stray."
-  }
+    "motivation": "Nyx doesn't follow guilds but people worth trusting - and hasn't found one yet. Be the first, and the kid stops being a stray.",
+    "guildFr": "La Chasse - « Quand l'appel retentit, nous chassons. » On amène la rue dans les Failles. Charge ou Attente, comme il vous faut.",
+    "currentWorkFr": "Nyx s'est faufilée à travers trois confinements de faille avant que La Chasse abandonne l'idée de la traquer et la recrute à la place. Aujourd'hui la plus jeune briseuse de n'importe quel effectif : trop rapide pour être attrapée, trop féroce pour être ignorée. Nyx n'a aucune famille répertoriée, aucune adresse, aucun foyer. Elle ne fait pas assez confiance à La Chasse pour dormir dans leur maison de guilde. Mais à chaque combat, la gamine est toujours déjà là.",
+    "motivationFr": "Nyx ne suit pas les guildes, mais les gens dignes de confiance - et elle n'en a pas encore trouvé. Sois le premier, et la gamine cessera d'être une égarée."
+  },
+  "titleFr": "L'Égarée",
+  "quoteFr": "Ouais. Je sais que je suis petite. Fais avec."
 }

@@ -62,7 +62,9 @@
         "stat": "Magic",
         "percent": 750
       }
-    ]
+    ],
+    "nameFr": "Salut",
+    "rawTextFr": "Bénit le Héros avec le moins de % PV, lui appliquant 125+125|250|500|750% Magie en Boucliers pendant 5 (+25% Régén. Mana) secondes et le soigne pour la moitié de ce montant. Après Attente (20), cette abilité peut cibler et ressusciter les Héros morts."
   },
   "rankBSpecializations": [
     {
@@ -75,7 +77,10 @@
         "Backup"
       ],
       "rawText": "After Stall (10), Salvation targets all Heroes. Backup Only: After Stall (20 and Stall 40), apply 333 (+333 per rank) Shields to all Heroes and heal them for half that amount.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Altruiste",
+      "rawTextFr": "Après Attente (10), Salut cible tous les Héros. Réserve uniquement : après Attente (20 et Attente 40), applique 333 (+333 par rang) Boucliers à tous les Héros et les soigne pour la moitié de ce montant.",
+      "abilityNameFr": "L'Altruiste"
     },
     {
       "name": "The Benevolent",
@@ -86,7 +91,10 @@
         "Stall"
       ],
       "rawText": "On cast after Stall (20), permanently give the target primary stats for each of their classes. This ability only triggers 1 (+1 per rank) times per combat.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Bienveillante",
+      "rawTextFr": "Au lancement après Attente (20), donne de façon permanente à la cible les statistiques primaires de chacune de ses classes. Cette abilité ne se déclenche qu'1 (+1 par rang) fois par combat.",
+      "abilityNameFr": "La Bienveillante"
     },
     {
       "name": "The Radiant",
@@ -97,7 +105,10 @@
         "Backup"
       ],
       "rawText": "Whenever a Mystic Shields a Hero, give that Hero 6 (+4 per rank) Attack and Magic. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Radieuse",
+      "rawTextFr": "Chaque fois qu'un Mystique accorde un Bouclier à un Héros, ce Héros gagne 6 (+4 par rang) Attaque et Magie. Réserve.",
+      "abilityNameFr": "La Radieuse"
     }
   ],
   "rankASClassPools": [
@@ -111,6 +122,11 @@
   "lore": {
     "guild": "Frontline - “Stronger every break.” Get your pump on! This will give you permanent scaling!",
     "currentWork": "The bookish one in a family of athletes, Grace never expected to end up in a rift. Then her awakened powers turned up a rare healing affinity, and the Department of Guild Affairs fielded her before she'd decided if she wanted it. Frightened before every fight, frightened after every one, and back again for the next anyway. It's exactly the story Frontline's self-improvement campaigns are built to tell.",
-    "motivation": "Give her the confidence she's missing. Believe in her, and she becomes the backbone of your team."
-  }
+    "motivation": "Give her the confidence she's missing. Believe in her, and she becomes the backbone of your team.",
+    "guildFr": "Première Ligne - « Plus fort à chaque pause. » Faites chauffer les muscles ! Ça vous donnera une progression permanente !",
+    "currentWorkFr": "L'intello d'une famille d'athlètes, Grace ne s'attendait pas à finir dans une faille. Puis ses pouvoirs éveillés ont révélé une rare affinité de soin, et le Département des Affaires de Guilde l'a envoyée sur le terrain avant même qu'elle ait décidé si elle le voulait. Effrayée avant chaque combat, effrayée après chacun d'eux, et pourtant toujours prête pour le suivant. C'est exactement l'histoire que les campagnes de développement personnel de Première Ligne sont conçues pour raconter.",
+    "motivationFr": "Donnez-lui la confiance qui lui manque. Croyez en elle, et elle deviendra l'épine dorsale de votre équipe."
+  },
+  "titleFr": "La Sainte",
+  "quoteFr": "Moi ? Vraiment ? Je... je ferai de mon mieux."
 }

@@ -56,7 +56,9 @@
         "stat": "Magic",
         "percent": 100
       }
-    ]
+    ],
+    "nameFr": "Rétribution",
+    "rawTextFr": "Quand il subit une attaque automatique après Attente (10), inflige 2 (+100% Magie) dégâts et 1 Poison par 50 Défense à l'attaquant."
   },
   "rankBSpecializations": [
     {
@@ -88,7 +90,10 @@
           "stat": "unknown",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "Le Hautain (Viens Donc !)",
+      "rawTextFr": "Provoque tous les ennemis et gagne 10 (+10% Défense, +10% Magie) Boucliers par Attente déclenchée cette partie. Après 5 secondes, inflige aux ennemis ciblant Skorn des dégâts égaux à 50% de son Bouclier restant.",
+      "abilityNameFr": "Le Hautain (Viens Donc !)"
     },
     {
       "name": "The Winter's Bite",
@@ -98,7 +103,10 @@
       "addedAbility": false,
       "keywords": [],
       "rawText": "Whenever Skorn inflicts Poison, he inflicts an equal amount of Frost. Whenever Skorn inflicts Frost, he gains 0 (+10 per rank) Shields.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Morsure de l'Hiver",
+      "rawTextFr": "Chaque fois que Skorn inflige du Poison, il inflige une quantité égale de Givre. Chaque fois que Skorn inflige du Givre, il gagne 0 (+10 par rang) Boucliers.",
+      "abilityNameFr": "La Morsure de l'Hiver"
     },
     {
       "name": "The Bristleguard",
@@ -110,7 +118,10 @@
         "Backup"
       ],
       "rawText": "At start of combat, for each Tank in combat inflict 5 (+10 per rank) Poison on all enemies and give 5 (+10 per rank) Defense to all Heroes. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Garde Hérissé",
+      "rawTextFr": "Au début du combat, pour chaque Tank en combat, inflige 5 (+10 par rang) Poison à tous les ennemis et accorde 5 (+10 par rang) Défense à tous les Héros. Réserve.",
+      "abilityNameFr": "Le Garde Hérissé"
     }
   ],
   "rankASClassPools": [
@@ -125,5 +136,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Rempart",
+  "quoteFr": "Qu’ils essaient. Je prendrai ça avec plaisir."
 }

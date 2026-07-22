@@ -55,7 +55,9 @@
         "stat": "Attack",
         "percent": 100
       }
-    ]
+    ],
+    "nameFr": "Sans Limites",
+    "rawTextFr": "À chaque attaque automatique, gagne 1 Vitesse d'attaque. Après Attente (15), les attaques automatiques infligent 100% Vitesse d'attaque en dégâts bonus."
   },
   "rankBSpecializations": [
     {
@@ -88,7 +90,10 @@
           "stat": "Magic",
           "percent": 10
         }
-      ]
+      ],
+      "nameFr": "L'Électrique (Tempête Grandissante)",
+      "rawTextFr": "Invoque la foudre, infligeant 10 (+20% Vitesse d'attaque, +10% Attaque, +10% Magie) dégâts par déclenchement d'Attente et de Charge cette partie.",
+      "abilityNameFr": "L'Électrique (Tempête Grandissante)"
     },
     {
       "name": "The Mighty",
@@ -100,7 +105,10 @@
         "Backup"
       ],
       "rawText": "Whenever a Duelist auto attacks it gains 0 (+1 per rank) Attack Speed and 0 (+1 per rank) Attack. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Puissante",
+      "rawTextFr": "Chaque fois qu'un Duelliste attaque automatiquement, il gagne 0 (+1 par rang) Vitesse d'attaque et 0 (+1 par rang) Attaque. Réserve.",
+      "abilityNameFr": "La Puissante"
     },
     {
       "name": "The Olympic",
@@ -110,7 +118,10 @@
       "addedAbility": false,
       "keywords": [],
       "rawText": "Gain the unique quest item Zeus's Thunder.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Olympique",
+      "rawTextFr": "Obtient l’item de quête unique Foudre de Zeus.",
+      "abilityNameFr": "L'Olympique"
     }
   ],
   "rankASClassPools": [
@@ -125,5 +136,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Second Souffle",
+  "quoteFr": "Ils disaient que je ne referais plus jamais ça."
 }

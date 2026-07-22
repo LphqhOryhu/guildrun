@@ -51,7 +51,9 @@
         "stat": "Magic",
         "percent": 200
       }
-    ]
+    ],
+    "nameFr": "Exécution",
+    "rawTextFr": "Assène un coup de hache écrasant infligeant 150+100|200|400|600% Attaque +200% Magie en dégâts. Logan gagne en puissance en infligeant des dégâts avec cette abilité."
   },
   "rankBSpecializations": [
     {
@@ -64,7 +66,10 @@
         "Backup"
       ],
       "rawText": "For Rush (8), Warriors gain 0 (+2 per rank) Attack and 0 (+2 per rank) Defense per Rush trigger this game. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Fer",
+      "rawTextFr": "Pour Charge (8), les Guerriers gagnent 0 (+2 par rang) Attaque et 0 (+2 par rang) Défense par déclenchement de Charge cette partie. Réserve.",
+      "abilityNameFr": "Le Fer"
     },
     {
       "name": "The Juggernaut",
@@ -80,7 +85,10 @@
           "stat": "unknown",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "Le Colosse",
+      "rawTextFr": "Chaque fois que Logan inflige des dégâts avec Exécution, il gagne des Boucliers durables égaux à 75% (+50% par rang) des dégâts infligés.",
+      "abilityNameFr": "Le Colosse"
     },
     {
       "name": "The Momentous",
@@ -89,7 +97,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "On kill, gain 40 Mana and permanently gain 15 Attack and 5 Crit.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Décisif",
+      "rawTextFr": "Sur élimination, gagne 40 Mana et gagne 15 Attaque et 5 Critique de façon permanente.",
+      "abilityNameFr": "Le Décisif"
     }
   ],
   "rankASClassPools": [
@@ -104,5 +115,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Bourreau",
+  "quoteFr": "Je ne me bats pas pour le sport. Je me bats pour en finir."
 }

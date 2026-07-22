@@ -62,7 +62,9 @@
         "stat": "Defense",
         "percent": 50
       }
-    ]
+    ],
+    "nameFr": "Gaz Poivré",
+    "rawTextFr": "Crée un nuage de poison autour de Pimenta pendant 4 secondes. Chaque seconde, inflige 5 (+50% Magie, +50% Défense) dégâts et 2 (+1 par 25 Défense) Poison aux ennemis dans le nuage. Chaque seconde après Attente (15), gagne 3 (+2 par rang) PV/s par ennemi dans le nuage."
   },
   "rankBSpecializations": [
     {
@@ -79,7 +81,10 @@
           "stat": "Attack Speed",
           "percent": 75
         }
-      ]
+      ],
+      "nameFr": "L'Épicée",
+      "rawTextFr": "À chaque attaque automatique, pour chaque type d'Altération sur la cible, inflige 2 (+1 par rang) de plus de cette Altération et inflige 10 (+75% Vitesse d'attaque) dégâts bonus.",
+      "abilityNameFr": "L'Épicée"
     },
     {
       "name": "The Seasoned",
@@ -91,7 +96,10 @@
         "Backup"
       ],
       "rawText": "Pepper Spray expands in size and lasts 1 second longer. After Stall (15), Tanks and Mages gain 20 (+20 per rank) Defense. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Expérimentée",
+      "rawTextFr": "Gaz Poivré s’agrandit et dure 1 seconde de plus. Après Attente (15), les Tanks et Mages gagnent 20 (+20 par rang) Défense. Réserve.",
+      "abilityNameFr": "L'Expérimentée"
     },
     {
       "name": "The Lover",
@@ -100,7 +108,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "At start of combat, Heroes directly behind Pimenta permanently gain 15 Attack Speed. Sal gains 15 more.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Amoureuse",
+      "rawTextFr": "Au début du combat, les Héros directement derrière Pimenta gagnent 15 Vitesse d'attaque de façon permanente. Sal en gagne 15 de plus.",
+      "abilityNameFr": "L'Amoureuse"
     }
   ],
   "rankASClassPools": [
@@ -125,5 +136,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Chevalière des Roses",
+  "quoteFr": "S’ils te veulent, ils devront me passer dessus."
 }

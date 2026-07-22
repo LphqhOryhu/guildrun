@@ -45,10 +45,10 @@ export default function TierList() {
 
   return (
     <div>
-      <h2 className="section-title">Tier list perso</h2>
+      <h2 className="section-title">Classement perso</h2>
       <p className="ability-text">
-        Calculée à partir du journal de runs (winrate, progression moyenne, difficulté max atteinte en victoire).
-        Tu peux forcer un tier manuellement — il sera marqué "manuel" et prime sur le calcul.
+        Calculé à partir du journal de runs (taux de victoire, progression moyenne, difficulté max atteinte en victoire).
+        Tu peux forcer un rang manuellement — il sera marqué « manuel » et primera sur le calcul.
       </p>
 
       <div className="panel">

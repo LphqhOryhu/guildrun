@@ -67,7 +67,9 @@
         "stat": "Magic",
         "percent": 250
       }
-    ]
+    ],
+    "nameFr": "Tir Fatal",
+    "rawTextFr": "Tire une flèche sur l'ennemi le plus éloigné. Elle inflige 250 (+250% Attaque, +250% Magie) dégâts et gagne 25 (+100% Critique) Critique supplémentaire."
   },
   "rankBSpecializations": [
     {
@@ -79,7 +81,10 @@
         "Backup"
       ],
       "rawText": "On kill, permanently gain 2 Mana Regen and Stealth for 4 seconds. At start of combat, other Assassins and Mystics gain all Mana Regen gained from this ability. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Conduit",
+      "rawTextFr": "Sur élimination, gagne 2 Régén. Mana de façon permanente et Invisibilité pendant 4 secondes. Au début du combat, les autres Assassins et Mystiques gagnent toute la Régén. Mana obtenue par cette abilité. Réserve.",
+      "abilityNameFr": "Le Conduit"
     },
     {
       "name": "The Hunter",
@@ -88,7 +93,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Killshot gains 50 (+50 per rank) Crit the first 1 (+1 per rank) times it is cast each combat. On kill, gain 1 Shard for each hex from the enemy.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Chasseur",
+      "rawTextFr": "Tir Fatal gagne 50 (+50 par rang) Critique lors du/des 1 (+1 par rang) premier(s) lancer(s) de chaque combat. Sur élimination, gagne 1 Éclat par hexagone de distance avec l'ennemi.",
+      "abilityNameFr": "Le Chasseur"
     },
     {
       "name": "The Sniper",
@@ -97,7 +105,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Always choose to target the furthest enemy. Auto attacks gain 10 (+10 per rank) Attack and 3 (+3 per rank) Crit for each hex from the enemy.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Tireur d'Élite",
+      "rawTextFr": "Cible toujours l'ennemi le plus éloigné. Les attaques automatiques gagnent 10 (+10 par rang) Attaque et 3 (+3 par rang) Critique par hexagone de distance avec l'ennemi.",
+      "abilityNameFr": "Le Tireur d'Élite"
     }
   ],
   "rankASClassPools": [
@@ -122,5 +133,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Nouveau",
+  "quoteFr": "Tout s'aligne parfaitement."
 }

@@ -62,7 +62,9 @@
         "stat": "Magic",
         "percent": 100
       }
-    ]
+    ],
+    "nameFr": "Blizzard",
+    "rawTextFr": "Crée un Blizzard pendant 5 secondes. Chaque seconde, inflige 1 (+1 par 8 Régén. Mana) Givre et 10 (+50% Magie) dégâts aux ennemis à l’intérieur du Blizzard. Accorde des Boucliers de 10 (+100% Magie) aux Héros à l’intérieur."
   },
   "rankBSpecializations": [
     {
@@ -74,7 +76,10 @@
         "Backup"
       ],
       "rawText": "At start of combat, spend 4 Shards to give Gustav an Investment. Give all Heroes 2 Mana Regen per Investment. Backup. Every 5 Investments, gain 30 Shards.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Investisseur",
+      "rawTextFr": "Au début du combat, dépense 4 Éclats pour donner à Gustav un Investissement. Tous les Héros gagnent 2 Régén. Mana par Investissement. Réserve. Tous les 5 Investissements, gagne 30 Éclats.",
+      "abilityNameFr": "L'Investisseur"
     },
     {
       "name": "The Glacier",
@@ -92,7 +97,10 @@
           "stat": "Defense",
           "percent": 100
         }
-      ]
+      ],
+      "nameFr": "Le Glacier",
+      "rawTextFr": "Blizzard applique 100% Défense de Boucliers en plus et cible toujours Gustav. Après Attente (25 et Attente 50), gagne 2 (+2 par rang) Défense de façon permanente.",
+      "abilityNameFr": "Le Glacier"
     },
     {
       "name": "The Avalanche",
@@ -101,7 +109,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "On cast, gain 1 Shard. On Shards generated, gain 1 Mana Regen and 5 Magic.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Avalanche",
+      "rawTextFr": "Au lancement, gagne 1 Éclat. Lors de la génération d’Éclats, gagne 1 Régén. Mana et 5 Magie.",
+      "abilityNameFr": "L'Avalanche"
     }
   ],
   "rankASClassPools": [
@@ -121,5 +132,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "L'Analyste",
+  "quoteFr": "J'avais envie de tester un scénario comme celui-ci."
 }

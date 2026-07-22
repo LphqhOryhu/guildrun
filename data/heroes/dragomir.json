@@ -69,7 +69,9 @@
         "stat": "Omnivamp",
         "percent": 1000
       }
-    ]
+    ],
+    "nameFr": "Dévorer",
+    "rawTextFr": "Gagne 1 (+10% Critique) Vol de vie, puis inflige 250 (+200% Magie, +1000% Vol de vie) dégâts. Sur élimination, gagne 2 (+2 par rang) Éclats."
   },
   "rankBSpecializations": [
     {
@@ -79,7 +81,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Devour generates 2 (+1 per rank) more Shards on kill. On cast, consume 2 Shards to permanently gain 1 (+1 per rank) Omnivamp and 1 (+1 per rank) Crit.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Avide",
+      "rawTextFr": "Dévorer génère 2 (+1 par rang) Éclats de plus sur élimination. Au lancement, consomme 2 Éclats pour gagner 1 (+1 par rang) Vol de vie et 1 (+1 par rang) Critique de façon permanente.",
+      "abilityNameFr": "L'Avide"
     },
     {
       "name": "The Sanguine",
@@ -88,7 +93,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "On cast, gain 4 (+4 per rank) Omnivamp and teleport behind the lowest health enemy. On Devour kill, gain 70 Mana and Stealth for 4 seconds.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Sanguin",
+      "rawTextFr": "Au lancement, gagne 4 (+4 par rang) Vol de vie et se téléporte derrière l'ennemi avec le moins de PV. Sur élimination via Dévorer, gagne 70 Mana et Invisibilité pendant 4 secondes.",
+      "abilityNameFr": "Le Sanguin"
     },
     {
       "name": "The Kingpin",
@@ -100,7 +108,10 @@
         "Backup"
       ],
       "rawText": "For Rush (8), Assassins and Vanguards gain 1 Omnivamp and 1 Crit per Shard generated this game. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Parrain",
+      "rawTextFr": "Pour Charge (8), les Assassins et Avant-gardes gagnent 1 Vol de vie et 1 Critique par Éclat généré cette partie. Réserve.",
+      "abilityNameFr": "Le Parrain"
     }
   ],
   "rankASClassPools": [
@@ -124,6 +135,11 @@
   "lore": {
     "guild": "Aegis Global - “Certainty in an uncertain world.” Profit is power. Money makes money and everything on the way will be debuffed.",
     "currentWork": "Dragomir's Awakening nearly killed him. Look closely and you could argue it partly did. Yet every year since, he's looked a little more vibrant, a little more alive; his doctors stopped trying to offer explanations long ago. He's well-spoken, with an old-world courtesy that puts people at ease and keeps anyone from investigating his condition too closely.",
-    "motivation": "Aegis is starting to ask questions. A new guild means new faces and answers he won't have to give for years."
-  }
+    "motivation": "Aegis is starting to ask questions. A new guild means new faces and answers he won't have to give for years.",
+    "guildFr": "Aegis Global - « La certitude dans un monde incertain. » Le profit, c'est le pouvoir. L'argent appelle l'argent, et tout ce qui se met en travers subira des altérations.",
+    "currentWorkFr": "L'Éveil de Dragomir a failli le tuer. À y regarder de plus près, on pourrait dire qu'il y est en partie resté. Pourtant, chaque année depuis, il semble un peu plus éclatant, un peu plus vivant ; ses médecins ont depuis longtemps renoncé à trouver une explication. Il est éloquent, avec une courtoisie d'un autre temps qui met les gens à l'aise et dissuade quiconque d'enquêter de trop près sur son état.",
+    "motivationFr": "Aegis commence à se poser des questions. Une nouvelle guilde signifie de nouveaux visages, et des réponses qu'il n'aura pas à donner avant des années."
+  },
+  "titleFr": "Le Cadre",
+  "quoteFr": "Tu voudras m'avoir ici. Fais-moi confiance."
 }

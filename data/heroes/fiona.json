@@ -55,7 +55,9 @@
         "stat": "Magic",
         "percent": 250
       }
-    ]
+    ],
+    "nameFr": "Étincelle du Coffre",
+    "rawTextFr": "Active un coffre protecteur. Applique 250 (+250% Magie) Boucliers aux 1 (+1 par 12 Régén. Mana) Héros ayant le moins de % PV actuels."
   },
   "rankBSpecializations": [
     {
@@ -65,7 +67,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Every 5 casts, create a random item and gain 2 (+1 per rank) Shards.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Bras Droit",
+      "rawTextFr": "Tous les 5 lancers, crée un item aléatoire et gagne 2 (+1 par rang) Éclats.",
+      "abilityNameFr": "Le Bras Droit"
     },
     {
       "name": "The Lustrous",
@@ -83,7 +88,10 @@
           "stat": "unknown",
           "percent": 33
         }
-      ]
+      ],
+      "nameFr": "L'Éclatante",
+      "rawTextFr": "Au lancement, gagne des Boucliers égaux à 33% PV Max. Chaque fois qu'un ennemi endommage un Héros protégé par un Bouclier, inflige 0 (+1 par rang) Brûlure à cet ennemi par 20 points de Bouclier retirés. Réserve.",
+      "abilityNameFr": "L'Éclatante"
     },
     {
       "name": "The Tycoon",
@@ -94,7 +102,10 @@
         "Backup"
       ],
       "rawText": "Every 5 casts, gain a Tycoon stack. At start of combat, Heroes gain 75 (+4 per 1 Mana Regen) Max HP per Tycoon stack. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "Le Magnat",
+      "rawTextFr": "Tous les 5 lancers, gagne une charge de Magnat. Au début du combat, les Héros gagnent 75 (+4 par point de Régén. Mana) PV Max par charge de Magnat. Réserve.",
+      "abilityNameFr": "Le Magnat"
     }
   ],
   "rankASClassPools": [
@@ -114,5 +125,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Créatrice",
+  "quoteFr": "J'ai tout ce qu'il nous faut avec moi."
 }

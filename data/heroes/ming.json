@@ -49,7 +49,9 @@
     "name": "Inner Flame",
     "type": "Passive",
     "rawText": "Each second, inflict 1 per 650 Max Health Burn on adjacent enemies. For Rush (5), double the Burn.",
-    "scalings": []
+    "scalings": [],
+    "nameFr": "Flamme Intérieure",
+    "rawTextFr": "Chaque seconde, inflige 1 Brûlure par 650 PV Max aux ennemis adjacents. Pour Charge (5), double la Brûlure."
   },
   "rankBSpecializations": [
     {
@@ -75,7 +77,10 @@
           "stat": "Magic",
           "percent": 100
         }
-      ]
+      ],
+      "nameFr": "La Brûlante (Mantra Brûlant)",
+      "rawTextFr": "Canalise des flammes pour infliger 100 (+25% PV Max, +100% Magie) dégâts, inflige 5 Brûlure par Charge déclenchée cette partie, et Étourdit tous les ennemis alentour pendant 3 secondes.",
+      "abilityNameFr": "La Brûlante (Mantra Brûlant)"
     },
     {
       "name": "The Tempered",
@@ -88,7 +93,10 @@
         "Backup"
       ],
       "rawText": "For Rush (15), Vanguards gain 25 (+25 per rank)% Max HP. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Trempée",
+      "rawTextFr": "Pour Charge (15), les Avant-gardes gagnent 25 (+25 par rang)% PV Max. Réserve.",
+      "abilityNameFr": "La Trempée"
     },
     {
       "name": "The Enlightened",
@@ -100,7 +108,10 @@
         "Rush"
       ],
       "rawText": "Increase the duration of Rush abilities by 1 (+1 per rank) seconds. For Rush (0), Ming is immune to damage.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Éclairée",
+      "rawTextFr": "Augmente la durée des abilités de Charge de 1 (+1 par rang) seconde(s). Pour Charge (0), Ming est immunisée aux dégâts.",
+      "abilityNameFr": "L'Éclairée"
     }
   ],
   "rankASClassPools": [
@@ -115,5 +126,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Vagabonde",
+  "quoteFr": "Alors c'est là que le monde m'envoie maintenant."
 }

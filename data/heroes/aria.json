@@ -56,7 +56,9 @@
         "stat": "Magic",
         "percent": 100
       }
-    ]
+    ],
+    "nameFr": "Rafale du Requiem",
+    "rawTextFr": "Canalise un rayon d'énergie pendant 2,5 secondes. Toutes les demi-secondes, inflige 15 (+100% Magie) dégâts, inflige 1 Givre par 15 Magie et 1 Brûlure par 10 Magie à tous les ennemis à l'intérieur du rayon."
   },
   "rankBSpecializations": [
     {
@@ -75,7 +77,10 @@
           "stat": "Magic",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "Le Crescendo",
+      "rawTextFr": "Au déclenchement d'Attente, gagne 3 Magie de façon permanente. Après Attente (20, Attente 40 et Attente 60), gagne +50% Magie et augmente la durée de Rafale du Requiem d'1 seconde.",
+      "abilityNameFr": "Le Crescendo"
     },
     {
       "name": "The Resplendent",
@@ -99,7 +104,10 @@
           "stat": "unknown",
           "percent": 50
         }
-      ]
+      ],
+      "nameFr": "Le Resplendissant",
+      "rawTextFr": "Les Mages infligent 20% (+10% par rang) d'Altérations en plus. Réserve. Aria inflige 50% d'Altérations supplémentaires en plus.",
+      "abilityNameFr": "Le Resplendissant"
     },
     {
       "name": "The Harmony",
@@ -121,7 +129,10 @@
           "stat": "Mana",
           "percent": 500
         }
-      ]
+      ],
+      "nameFr": "L'Harmonie",
+      "rawTextFr": "Rafale du Requiem accorde des Boucliers aux Héros égaux à 50% Magie + 500% Régén. Mana.",
+      "abilityNameFr": "L'Harmonie"
     }
   ],
   "rankASClassPools": [
@@ -141,5 +152,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "Le Requiem",
+  "quoteFr": "Je les ai amenés avec moi."
 }

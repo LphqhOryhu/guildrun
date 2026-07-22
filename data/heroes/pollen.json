@@ -63,7 +63,9 @@
         "stat": "Magic",
         "percent": 50
       }
-    ]
+    ],
+    "nameFr": "Sanctuaire de l'Éclosion",
+    "rawTextFr": "Crée un champ de fleurs pendant 5 secondes. Chaque seconde, inflige 1 (+1 par 8 Régén. Mana) Poison aux ennemis et applique 10 (+100% Magie) Boucliers aux Héros à l'intérieur du champ de fleurs. Chaque seconde après Attente (15), soigne les Héros à l'intérieur du champ de fleurs de 10 (+50% Magie)."
   },
   "rankBSpecializations": [
     {
@@ -75,7 +77,10 @@
         "Stall"
       ],
       "rawText": "After Stall (15), Double Sanctuary of Bloom's healing and Shielding. It lasts 1 second longer.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Florissante",
+      "rawTextFr": "Après Attente (15), double les soins et Boucliers de Sanctuaire de l'Éclosion. Il dure 1 seconde de plus.",
+      "abilityNameFr": "La Florissante"
     },
     {
       "name": "The Fae's Kiss",
@@ -94,7 +99,10 @@
           "stat": "unknown",
           "percent": 100
         }
-      ]
+      ],
+      "nameFr": "Le Baiser de la Fée",
+      "rawTextFr": "Après Attente (20), Sanctuaire de l'Éclosion inflige 100% de Poison en plus. Après Attente (40), augmente la quantité d'Altérations sur tous les ennemis de 33 (+33 par rang)%. Réserve.",
+      "abilityNameFr": "Le Baiser de la Fée"
     },
     {
       "name": "The Earth's Child",
@@ -105,7 +113,10 @@
         "Stall"
       ],
       "rawText": "After Stall (20), Sanctuary of Bloom also inflicts 1 per 33 Magic Frost and 1 per 25 Magic Burn each second.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L’Enfant de la Terre",
+      "rawTextFr": "Après Attente (20), Sanctuaire de l'Éclosion inflige aussi 1 Givre par 33 Magie et 1 Brûlure par 25 Magie chaque seconde.",
+      "abilityNameFr": "L’Enfant de la Terre"
     }
   ],
   "rankASClassPools": [
@@ -125,5 +136,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "L'Éclosion",
+  "quoteFr": "Ohh... tu sens ça ? Cette faille est vivante."
 }

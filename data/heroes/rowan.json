@@ -50,7 +50,9 @@
     "name": "Hearty",
     "type": "Passive",
     "rawText": "After Stall (10), gain 2 (+1 per 100 Max Health, +1 per 15 Defense) HP/S.",
-    "scalings": []
+    "scalings": [],
+    "nameFr": "Robuste",
+    "rawTextFr": "Après Attente (10), gagne 2 (+1 par 100 PV Max, +1 par 15 Défense) PV/s."
   },
   "rankBSpecializations": [
     {
@@ -86,7 +88,10 @@
           "stat": "Magic",
           "percent": 100
         }
-      ]
+      ],
+      "nameFr": "Le Tectonique (Ligne de Faille)",
+      "rawTextFr": "Gagne 33% PV Max en Boucliers, puis inflige 50 (+25% PV Max, +200% Défense, +100% Magie) dégâts et Étourdit les ennemis devant Rowan pendant 4 secondes.",
+      "abilityNameFr": "Le Tectonique (Ligne de Faille)"
     },
     {
       "name": "The Protector",
@@ -109,7 +114,10 @@
           "stat": "unknown",
           "percent": 1000
         }
-      ]
+      ],
+      "nameFr": "Le Protecteur",
+      "rawTextFr": "À chaque attaque automatique, gagne 3% PV Max en Boucliers, puis inflige des dégâts bonus égaux à 75 (+25 par rang)% des Boucliers actuels (Dégâts Max : 1000% PV Max).",
+      "abilityNameFr": "Le Protecteur"
     },
     {
       "name": "The Friend",
@@ -122,7 +130,10 @@
         "Backup"
       ],
       "rawText": "On Stall trigger, permanently gain 20 Max HP and 4 Defense. Backup. Backup Only: At start of combat, Tanks and Vanguards gain all Defense and Max HP gained from this ability.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Ami",
+      "rawTextFr": "Au déclenchement d’Attente, gagne 20 PV Max et 4 Défense de façon permanente. Réserve. Réserve uniquement : au début du combat, les Tanks et Avant-gardes gagnent toute la Défense et les PV Max obtenus par cette abilité.",
+      "abilityNameFr": "L'Ami"
     }
   ],
   "rankASClassPools": [
@@ -142,5 +153,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "L'Ancre",
+  "quoteFr": "Tu es en sécurité avec moi."
 }

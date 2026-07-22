@@ -65,7 +65,9 @@
         "stat": "unknown",
         "percent": 33
       }
-    ]
+    ],
+    "nameFr": "Triple Menace",
+    "rawTextFr": "Déchaîne un combo de 3 coups de poing. Chaque coup compte comme une attaque automatique infligeant 100 (+100% Attaque, +50% Magie)% dégâts (Max : 500%) et accorde à Reyna des Boucliers durables égaux à 33% des dégâts infligés."
   },
   "rankBSpecializations": [
     {
@@ -78,7 +80,10 @@
         "Backup"
       ],
       "rawText": "Gain 2 Attack per Rush triggered this game. For Rush (5), Warriors gain 1 Crit and 1 Omnivamp per Rush triggered this game. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Championne",
+      "rawTextFr": "Gagne 2 Attaque par Charge déclenchée cette partie. Pour Charge (5), les Guerriers gagnent 1 Critique et 1 Vol de vie par Charge déclenchée cette partie. Réserve.",
+      "abilityNameFr": "La Championne"
     },
     {
       "name": "The Brawler",
@@ -100,7 +105,10 @@
           "stat": "unknown",
           "percent": 33
         }
-      ]
+      ],
+      "nameFr": "La Bagarreuse",
+      "rawTextFr": "Triple Menace applique 33% de Boucliers en plus. Gagne 1 Attaque par 12 points de Bouclier, jusqu’à 33% PV Max en Attaque.",
+      "abilityNameFr": "La Bagarreuse"
     },
     {
       "name": "The Boxer",
@@ -116,7 +124,10 @@
           "stat": "Attack",
           "percent": 150
         }
-      ]
+      ],
+      "nameFr": "La Boxeuse",
+      "rawTextFr": "Toutes les 3 attaques automatiques, inflige 150 (+150% Attaque) dégâts bonus et 3 (+1 par 5 Vitesse d'attaque) Brûlure.",
+      "abilityNameFr": "La Boxeuse"
     }
   ],
   "rankASClassPools": [
@@ -141,5 +152,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Prétendante",
+  "quoteFr": "Si je suis de la partie, on s'entraîne dur. Au travail."
 }

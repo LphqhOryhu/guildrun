@@ -55,7 +55,9 @@
         "stat": "Magic",
         "percent": 750
       }
-    ]
+    ],
+    "nameFr": "Pluie d'Étoiles",
+    "rawTextFr": "190+150|250|450|750% Magie en dégâts par invocation de magie céleste. Sur élimination, gagne 10 (+10 par rang) Magie de façon permanente. Sur coup Critique, Étourdit tous les ennemis pendant 0,5 (+0,5 par rang) seconde."
   },
   "rankBSpecializations": [
     {
@@ -65,7 +67,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Gain an item slot. At start of combat, gain 45 Magic, 4 Mana Regen, and 8 HP/S per rarity level of each equipped item.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "L'Élégante",
+      "rawTextFr": "Gagne un emplacement d’item. Au début du combat, gagne 45 Magie, 4 Régén. Mana et 8 PV/s par niveau de rareté de chaque item équipé.",
+      "abilityNameFr": "L'Élégante"
     },
     {
       "name": "The Ostentatious",
@@ -101,7 +106,10 @@
           "stat": "Mana",
           "percent": 25
         }
-      ]
+      ],
+      "nameFr": "L'Ostentatoire",
+      "rawTextFr": "Au lancement, les autres Héros gagnent 20% Magie en Magie et 25% Régén. Mana en Régén. Mana. Réserve uniquement : au début du combat, les Mages et Mystiques gagnent 20% Magie en Magie et 25% Régén. Mana en Régén. Mana.",
+      "abilityNameFr": "L'Ostentatoire"
     },
     {
       "name": "The Magnanimous",
@@ -110,7 +118,10 @@
       "type": "Passive",
       "keywords": [],
       "rawText": "Starfall also hits the lowest health enemy the first 2 (+1 per rank) times it is cast each combat. On kill, gain Stealth for 4 seconds and permanently gain 3 (+3 per rank) Crit.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Magnanime",
+      "rawTextFr": "Pluie d'Étoiles touche aussi l'ennemi avec le moins de PV lors des 2 (+1 par rang) premiers lancers de chaque combat. Sur élimination, gagne Invisibilité pendant 4 secondes et gagne 3 (+3 par rang) Critique de façon permanente.",
+      "abilityNameFr": "La Magnanime"
     }
   ],
   "rankASClassPools": [
@@ -135,5 +146,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Matriarche",
+  "quoteFr": "Tu es sûr que ta guilde peut se permettre de m’engager ?"
 }

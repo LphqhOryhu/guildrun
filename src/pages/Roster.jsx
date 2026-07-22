@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { heroes, allClasses, allMechanics, allKeywords } from '../data/heroes.js'
+import { trClass, trMechanic, trKeyword } from '../data/frLabels.js'
 import HeroCard from '../components/HeroCard.jsx'
 import HeroDetailModal from '../components/HeroDetailModal.jsx'
 
@@ -27,7 +28,7 @@ export default function Roster() {
 
   return (
     <div>
-      <h2 className="section-title">Roster</h2>
+      <h2 className="section-title">Héros</h2>
 
       <div className="filters">
         <input
@@ -42,7 +43,7 @@ export default function Roster() {
             className={`chip ${classFilter === c ? 'active' : ''}`}
             onClick={() => toggle(setClassFilter, classFilter, c)}
           >
-            {c}
+            {trClass(c)}
           </button>
         ))}
         {allMechanics.map((m) => (
@@ -51,7 +52,7 @@ export default function Roster() {
             className={`chip ${mechanicFilter === m ? 'active' : ''}`}
             onClick={() => toggle(setMechanicFilter, mechanicFilter, m)}
           >
-            {m}
+            {trMechanic(m)}
           </button>
         ))}
         {allKeywords.map((k) => (
@@ -60,7 +61,7 @@ export default function Roster() {
             className={`chip ${keywordFilter === k ? 'active' : ''}`}
             onClick={() => toggle(setKeywordFilter, keywordFilter, k)}
           >
-            {k}
+            {trKeyword(k)}
           </button>
         ))}
       </div>

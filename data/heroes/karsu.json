@@ -61,7 +61,9 @@
         "stat": "Magic",
         "percent": 100
       }
-    ]
+    ],
+    "nameFr": "Perce-Neige",
+    "rawTextFr": "Décoche une volée de 5 flèches sur les ennemis proches. Chaque flèche inflige 25 (+100% Attaque, +100% Magie) dégâts et 4 (+1 par 15 Vitesse d'attaque) Givre."
   },
   "rankBSpecializations": [
     {
@@ -73,7 +75,10 @@
         "Stall"
       ],
       "rawText": "Snowpiercer fires 5 more arrows. After Stall (20), Snowpiercer arrows gain 25 (+25 per rank) Crit.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Neige Tombante",
+      "rawTextFr": "Perce-Neige tire 5 flèches supplémentaires. Après Attente (20), les flèches de Perce-Neige gagnent 25 (+25 par rang) Critique.",
+      "abilityNameFr": "La Neige Tombante"
     },
     {
       "name": "The Warband",
@@ -84,7 +89,10 @@
         "Backup"
       ],
       "rawText": "On cast, permanently gain 1 Crit, 2 Attack, and 3 Attack Speed. At start of combat, other Duelists gain all stats gained from this ability. Backup.",
-      "scalings": []
+      "scalings": [],
+      "nameFr": "La Troupe",
+      "rawTextFr": "Au lancement, gagne 1 Critique, 2 Attaque et 3 Vitesse d'attaque de façon permanente. Au début du combat, les autres Duellistes gagnent toutes les statistiques obtenues par cette abilité. Réserve.",
+      "abilityNameFr": "La Troupe"
     },
     {
       "name": "The Frostbite",
@@ -100,7 +108,10 @@
           "stat": "Attack",
           "percent": 10
         }
-      ]
+      ],
+      "nameFr": "La Gelure",
+      "rawTextFr": "À chaque attaque automatique, tire une flèche supplémentaire qui inflige 1 (+1 par 100 Vitesse d'attaque) Givre et 1 (+10% Attaque)% des dégâts d'attaque automatique normaux.",
+      "abilityNameFr": "La Gelure"
     }
   ],
   "rankASClassPools": [
@@ -120,5 +131,7 @@
     "guild": "",
     "currentWork": "",
     "motivation": ""
-  }
+  },
+  "titleFr": "La Finisseuse",
+  "quoteFr": "Je ne suis pas là pour parler."
 }
