@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import Roster from './pages/Roster.jsx'
+import Items from './pages/Items.jsx'
+import Relics from './pages/Relics.jsx'
 import Builder from './pages/Builder.jsx'
 import Journal from './pages/Journal.jsx'
 import TierList from './pages/TierList.jsx'
 
 const TABS = [
   { id: 'roster', label: 'Roster', Component: Roster },
+  { id: 'items', label: 'Items', Component: Items },
+  { id: 'relics', label: 'Relics', Component: Relics },
   { id: 'builder', label: 'Builder', Component: Builder },
   { id: 'journal', label: 'Journal', Component: Journal },
   { id: 'tierlist', label: 'Tier List', Component: TierList },
@@ -37,6 +41,9 @@ export default function App() {
       <main className="app-main">
         <ActiveComponent />
       </main>
+      <footer className="app-footer">
+        Données : <a href="https://guildrun.wiki/" target="_blank" rel="noreferrer">guildrun.wiki</a> (référence non-officielle) — non affilié à Leyline.
+      </footer>
     </div>
   )
 }

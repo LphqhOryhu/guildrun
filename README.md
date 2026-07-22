@@ -89,9 +89,10 @@ navigues et copies le texte des pages, moi qui structure.
 ## Sections du site
 
 1. **Roster** — grille des héros, filtres (classe / mécanique / mot-clé Rush-Stall-Backup) + recherche, fiche détaillée au clic.
-2. **Builder** — sélection de 3 à 6 héros + une spécialisation de rang B chacun, analyse (classes, timings Rush/Stall, mécaniques, couverture Backup), sauvegarde de builds nommés (localStorage).
-3. **Journal** — log de runs (build, difficulté 1-8, vague atteinte, victoire/défaite, score endless, notes), localStorage, export/import JSON.
-4. **Tier list perso** — calculée depuis le journal (winrate, progression moyenne, difficulté max) par héros et par build, avec override manuel.
+2. **Items** / **Relics** — grille filtrable par rareté + recherche (162 items, 322 relics).
+3. **Builder** — sélection de 3 à 6 héros + une spécialisation de rang B chacun, analyse (classes, timings Rush/Stall, mécaniques, couverture Backup, pools A/S en jeu), sauvegarde de builds nommés (localStorage).
+4. **Journal** — log de runs (build, difficulté Base à Red Rift, vague atteinte, victoire/défaite, score endless, notes), localStorage, export/import JSON.
+5. **Tier list perso** — calculée depuis le journal (winrate, progression moyenne, difficulté max) par héros et par build, avec override manuel.
 
 Données : [guildrun.wiki](https://guildrun.wiki/) (référence non-officielle,
-non affiliée à Leyline) — à créditer dans le footer du site.
+non affiliée à Leyline) — créditée dans le footer du site.
