@@ -4,4 +4,5 @@ dist/
 *.local
 screenshots/
 data/intake/heroes/*.txt
+data/intake/*-raw.txt
 data/scraped/

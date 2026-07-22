@@ -1,0 +1,3288 @@
+[
+  {
+    "name": "Accuracy Contract",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "Quest: Crit 10 times. Reward: Gain 15 Shards.",
+    "quest": "Crit 10 times.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Adaptive Sword",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "At start of combat, set the holder's Attack and Magic to the higher of the two.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Adrenal Eye",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "For Rush (7), gain +33% basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Aegis",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+5 HP/s",
+        "amount": 5,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Amulet",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+2 Mana Regen",
+        "amount": 2,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Amulet of Shields",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+8 Mana Regen",
+        "amount": 8,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Whenever the holder applies Shields, apply 25% more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Amulet of Storms",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "On cast, remove 30 Frost from each enemy with 30 or more Frost to Stun those enemies for 2 seconds.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Amulet of Winter",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+40 Magic",
+        "amount": 40,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+45 Defense",
+        "amount": 45,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 400 Frost Reward: Whenever the holder inflicts Frost, inflict 33% more.",
+    "quest": "Inflict 400 Frost",
+    "reward": "Whenever the holder inflicts Frost, inflict 33% more.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Blade",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "If this item is held by an Assassin, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Crit",
+        "amount": 30,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "The holder counts as an Assassin during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+45 Crit",
+        "amount": 45,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "The holder counts as an Assassin during combat. If they were already an Assassin, they gain +30% Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Hood",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "On kill, if held by an Assassin this item gains 4 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Tome",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "If this item is held by an Assassin, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Battlemage Robes",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "On kill, gain 25 Mana. On cast, heal 25% Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Belt",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Big Amulet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+8 Mana Regen",
+        "amount": 8,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Blade",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+50 Attack",
+        "amount": 50,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Bow",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+40 Attack Speed",
+        "amount": 40,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Scepter",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+50 Magic",
+        "amount": 50,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Shield",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+60 Defense",
+        "amount": 60,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Shiv",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Crit",
+        "amount": 30,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Big Vest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+400 Max HP",
+        "amount": 400,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Blade",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+12 Attack",
+        "amount": 12,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+7 Crit",
+        "amount": 7,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Bloodfang",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+12 Attack",
+        "amount": 12,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+7 Omnivamp",
+        "amount": 7,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Boots",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Brawler's Ledger",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "Gain 1 Attack per 8 Shards generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Bruiser's Mitts",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "On auto attack, gain 10 Max HP. When auto attacked, gain 1 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Bulwark",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Catalyst of Patience",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+40 Magic",
+        "amount": 40,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+45 Defense",
+        "amount": 45,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "The holder gains 1 Defense and 1 Magic per Stall trigger this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Chain Mail",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Chalice",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Charm",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+2 Mana Regen",
+        "amount": 2,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Cleansing Charm",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+6 Mana Regen",
+        "amount": 6,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+15 HP/s",
+        "amount": 15,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "Every 5 seconds, remove 33% of all Debuffs from the holder.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Cleric's Circlet",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+50 Magic",
+        "amount": 50,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "Quest: Apply 10000 Shields Reward: Whenever the holder applies Shields, also heal for 50% of the Shields applied.",
+    "quest": "Apply 10000 Shields",
+    "reward": "Whenever the holder applies Shields, also heal for 50% of the Shields applied.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Cleric's Scroll",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+8 Mana Regen",
+        "amount": 8,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Quest: Apply 2500 Shields. Reward: After Stall (20), remove 50% of all Debuffs from all Heroes.",
+    "quest": "Apply 2500 Shields.",
+    "reward": "After Stall (20), remove 50% of all Debuffs from all Heroes.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Crown of Haste",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+300 Max HP",
+        "amount": 300,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+40 Attack",
+        "amount": 40,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "The holder gains 1 Attack and 8 Max HP per Rush trigger this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Crown of Patience",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+40 Magic",
+        "amount": 40,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+45 Defense",
+        "amount": 45,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "The holder's Stall abilities trigger 12 seconds sooner.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Crystal",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Dagger",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deadeye Hood",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "At start of combat, if the holder is alone in the back row triple this item's stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Bow",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "If this item is held by a Duelist, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+40 Attack Speed",
+        "amount": 40,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "The holder counts as a Duelist during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Foil",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "Every 15 auto attacks, if held by a Duelist this item gains 1 Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+60 Attack Speed",
+        "amount": 60,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "The holder counts as a Duelist during combat. If they were already a Duelist, they gain +20% Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Vest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "If this item is held by a Duelist, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Emerald Charm",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "On cast, gain 1 Mana Regen and 5 HP/S.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Enlarging Vest",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "After Stall (20), gain +20% Max HP and grow in size.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Executioner's Axe",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+30 Omnivamp",
+        "amount": 30,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "Gain 1 Crit per 1% missing health on the holder's target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Executioner's Blade",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+50 Crit",
+        "amount": 50,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "Quest: Crit 25 times. Reward: damage from the holder executes enemies below 15% Max HP.",
+    "quest": "Crit 25 times.",
+    "reward": "damage from the holder executes enemies below 15% Max HP.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Eye of Haste",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "The holder's Rush abilities last 3 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Eye of Patience",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "The holder's Stall abilities trigger 6 seconds sooner.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Fang",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+7 Crit",
+        "amount": 7,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+7 Omnivamp",
+        "amount": 7,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Flaming Gauntlets",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, inflict 4 Burn on the target. When auto attacked, inflict 4 Burn on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Flask",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Force Crystal",
+    "rarity": "Unique",
+    "stats": [],
+    "rawEffect": "At start of combat, give the holder and adjacent Heroes 100 Attack Speed and 50 Crit. At end of combat, destroy this item if it has been used 3 times.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Freezing Contract",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 200 Frost. Reward: Whenever the holder inflicts Frost, inflict 20% more.",
+    "quest": "Inflict 200 Frost.",
+    "reward": "Whenever the holder inflicts Frost, inflict 20% more.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Freezing Gauntlet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Every 2 times the holder is auto attacked, inflict 1 Frost on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Freezing Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 50 Frost. Reward: Gain 10 Shards.",
+    "quest": "Inflict 50 Frost.",
+    "reward": "Gain 10 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Freezing Tome",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "On cast, inflict 10 Frost on the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Freezing Wand",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "On cast, inflict 12 Frost on the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frosted Gauntlets",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, inflict 2 Frost on the target. When auto attacked, inflict 2 Frost on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Gauntlet",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+12 Attack",
+        "amount": 12,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Gem",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Golden Helmet",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+45 Defense",
+        "amount": 45,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "After Stall (30), gain 3 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Greedy Gauntlet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "On Shards generated, give all Heroes 1250 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Greedy Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+7 Crit",
+        "amount": 7,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "Quest: Generate 10 Shards from any source. Reward: At start of combat, gain 1 Shard.",
+    "quest": "Generate 10 Shards from any source.",
+    "reward": "At start of combat, gain 1 Shard.",
+    "shopPrice": null
+  },
+  {
+    "name": "Greedy Shiv",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "On Shards generated, deal 750 damage to all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Guardian's Lantern",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+400 Max HP",
+        "amount": 400,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "At start of combat, the holder and adjacent Heroes gain a Shield equal to 10% of the holder's Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Hammer",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Hasty Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+12 Attack",
+        "amount": 12,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "Quest: Trigger Rush 3 times from any source. Reward: The holder's Rush abilities last 2 seconds longer.",
+    "quest": "Trigger Rush 3 times from any source.",
+    "reward": "The holder's Rush abilities last 2 seconds longer.",
+    "shopPrice": null
+  },
+  {
+    "name": "Hasty Sword",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "On Rush trigger, gain 15 Attack Speed and 15 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Hasty Vest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "On Rush trigger, gain 250 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Hourglass",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "Quest: Trigger Stall 5 times from any source. Reward: After Stall (30), restore the holder to 100% Max HP and give them 100 Mana.",
+    "quest": "Trigger Stall 5 times from any source.",
+    "reward": "After Stall (30), restore the holder to 100% Max HP and give them 100 Mana.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Infectious Bow",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "Whenever the holder inflicts a Debuff, inflict 1 more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Infectious Gauntlet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Whenever the holder inflicts a Debuff, inflict 1 more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Infectious Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 125 Debuffs. Reward: Gain 10 Shards.",
+    "quest": "Inflict 125 Debuffs.",
+    "reward": "Gain 10 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Large Power Crystal",
+    "rarity": "Unique",
+    "stats": [],
+    "rawEffect": "When this item is destroyed, permanently give the holder a very large amount of primary stats for each of their classes. When the holder survives combat, destroy this item if it has survived 2 combats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Leather Vest",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+5 HP/s",
+        "amount": 5,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Lone Wolf's Bow",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+75 Attack",
+        "amount": 75,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "At start of combat, if there are no Heroes within 2 hexes of the holder the holder's attacks hit the nearest enemy to their target for 50% damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+50 Magic",
+        "amount": 50,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "The holder counts as a Mage during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+75 Magic",
+        "amount": 75,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "The holder counts as a Mage during combat. If they were already a Mage, they gain +25% Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Staff",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "If this item is held by a Mage, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Tome",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "If this item is held by a Mage, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Wand",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "On active ability kill, if held by a Mage this item gains 6 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Magician's Ledger",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Gain 1 Magic per 8 Shards generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Merchant's Scroll",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "Quest: Win a combat with 25 or more Shards or more in the bank. Reward: The holder's active abilities gain 150 Crit.",
+    "quest": "Win a combat with 25 or more Shards or more in the bank.",
+    "reward": "The holder's active abilities gain 150 Crit.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+8 Mana Regen",
+        "amount": 8,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "The holder counts as a Mystic during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+12 Mana Regen",
+        "amount": 12,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "The holder counts as a Mystic during combat. If they were already a Mystic, they gain +25% Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Orb",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "Every 6 casts, if held by a Mystic this item gains 1 Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Staff",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "If this item is held by a Mystic, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Tome",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "If this item is held by a Mystic, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Nimble Boots",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+40 Attack Speed",
+        "amount": 40,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "For Rush (8), gain 25 Attack Speed. Double the holder's move speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Onyx Gem",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+30 Crit",
+        "amount": 30,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "After Stall (20), gain Stealth for 4 seconds.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Orb",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+2 Mana Regen",
+        "amount": 2,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+12 Starting Mana",
+        "amount": 12,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Patient Flask",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "On Stall trigger, gain 15 Attack Speed and 15 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Patient Gauntlet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "On Stall trigger, heal 500.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Patient Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+2 Mana Regen",
+        "amount": 2,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Quest: Trigger Stall 3 times from any source. Reward: The holder's Stall abilities trigger 4 seconds faster.",
+    "quest": "Trigger Stall 3 times from any source.",
+    "reward": "The holder's Stall abilities trigger 4 seconds faster.",
+    "shopPrice": null
+  },
+  {
+    "name": "Plague Amulet",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "On cast, gain 4 Magic per type of Debuff on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Polymath's Prism",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "Gain +20% to the primary stats of each of the holder's classes.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Power Crystal",
+    "rarity": "Unique",
+    "stats": [],
+    "rawEffect": "When this item is destroyed, permanently give the holder a large amount of primary stats for each of their classes. When the holder survives combat, destroy this item.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Protection Crystal",
+    "rarity": "Unique",
+    "stats": [],
+    "rawEffect": "At start of combat, give the holder and adjacent Heroes 100 Defense and 1000 Max HP. At end of combat, destroy this item if it has been used 3 times.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Quiver",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+7 Crit",
+        "amount": 7,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Ring of the Leech",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+22 Crit",
+        "amount": 22,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "Whenever an enemy takes Poison damage, gain 1 Crit and 1 HP/S.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Ring of Virality",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+300 Max HP",
+        "amount": 300,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+6 Mana Regen",
+        "amount": 6,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 175 Poison Reward: Whenever the holder inflicts Poison, inflict 50% more.",
+    "quest": "Inflict 175 Poison",
+    "reward": "Whenever the holder inflicts Poison, inflict 50% more.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Robes",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Rogue's Cowl",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+25 Crit",
+        "amount": 25,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "For Rush (6), gain Stealth.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Runestone",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+12 Starting Mana",
+        "amount": 12,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Runic Buckler",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+60 Defense",
+        "amount": 60,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "At start of combat, the holder gains a Shield equal to 400% of their Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Sacrificial Scythe",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+30 Omnivamp",
+        "amount": 30,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "At start of combat, lose 25% Max HP. The first time each combat the holder reaches 100% Max HP, gain 5 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Salve",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Scroll of Enlightenment",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "Quest: Cast 15 times. Reward: Gain +25% Magic and +25% Mana Regen.",
+    "quest": "Cast 15 times.",
+    "reward": "Gain +25% Magic and +25% Mana Regen.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Scroll of Perseverance",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+300 Max HP",
+        "amount": 300,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+45 Defense",
+        "amount": 45,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Quest: Take 7500 Damage. Reward: Gain +25% Max HP and +25% Defense.",
+    "quest": "Take 7500 Damage.",
+    "reward": "Gain +25% Max HP and +25% Defense.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Scroll of Violence",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+40 Attack",
+        "amount": 40,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+30 Attack Speed",
+        "amount": 30,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "Quest: Auto attack 100 times. Reward: Gain +25% Attack and +25% Attack Speed.",
+    "quest": "Auto attack 100 times.",
+    "reward": "Gain +25% Attack and +25% Attack Speed.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Searing Contract",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 300 Burn. Reward: Whenever the holder inflicts Burn, inflict 33% more.",
+    "quest": "Inflict 300 Burn.",
+    "reward": "Whenever the holder inflicts Burn, inflict 33% more.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Searing Lance",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, inflict 1 Burn.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Searing Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 75 Burn. Reward: Gain 10 Shards.",
+    "quest": "Inflict 75 Burn.",
+    "reward": "Gain 10 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Searing Tome",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "On cast, inflict 15 Burn on the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Searing Vest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "Whenever the holder is auto attacked, inflict 1 Burn on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Sentinel's Plate",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "At start of combat, if the holder is alone in the front row triple this item's stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Serrated Dagger",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+30 Crit",
+        "amount": 30,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On Crit, reduce the target's Defense by 3.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shattering Charm",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      },
+      {
+        "raw": "+25 Starting Mana",
+        "amount": 25,
+        "stat": "Starting Mana"
+      }
+    ],
+    "rawEffect": "Whenever the holder Shields another Hero, damage all enemies equal to 33% of the Shield applied.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shielding Flask",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Gain 30 Crit and 4 Mana Regen while Shielded.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shielding Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+100 Max HP",
+        "amount": 100,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+2 Mana Regen",
+        "amount": 2,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Quest: Apply 750 Shields. Reward: Gain 10 Shards.",
+    "quest": "Apply 750 Shields.",
+    "reward": "Gain 10 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Shielding Vest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "At start of combat, gain 500 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Sigil",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      },
+      {
+        "raw": "+7 Omnivamp",
+        "amount": 7,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Siphoning Dagger",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, steal 1 Mana from the target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Sniper's Jewel",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+22 Crit",
+        "amount": 22,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+1 Attack Range",
+        "amount": 1,
+        "stat": "Attack Range"
+      },
+      {
+        "raw": "+22 Omnivamp",
+        "amount": 22,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "+1 Attack Range, +22 Crit, +22 Omnivamp",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Spellblade",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+12 Attack",
+        "amount": 12,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+12 Magic",
+        "amount": 12,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "On cast, gain 25 Attack. On auto attack, gain 1 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Spiked Plate",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+400 Max HP",
+        "amount": 400,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "Quest: Take 2500 Shield damage. Reward: Reflect 33% of Shield damage taken back to the source.",
+    "quest": "Take 2500 Shield damage.",
+    "reward": "Reflect 33% of Shield damage taken back to the source.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Squire's Helm",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "At start of combat, if there is exactly one Hero in front of the holder they both permanently gain 40 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Squire's Sword",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "At start of combat, if there is exactly one Hero in front of the holder they both permanently gain 6 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Sword of Combustion",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+40 Attack",
+        "amount": 40,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+30 Attack Speed",
+        "amount": 30,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, deal bonus damage equal to the Burn on the target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Sword of the Spark",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+300 Max HP",
+        "amount": 300,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Attack Speed",
+        "amount": 30,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 600 Burn. Reward: Whenever the holder inflicts Burn, inflict 66% more.",
+    "quest": "Inflict 600 Burn.",
+    "reward": "Whenever the holder inflicts Burn, inflict 66% more.",
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Buckler",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "If this item is held by a Tank, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Cape",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "If this item is held by a Tank, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+60 Defense",
+        "amount": 60,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "The holder counts as a Tank during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+90 Defense",
+        "amount": 90,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "The holder counts as a Tank during combat. If they were already a Tank, they gain +15% Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Tower Shield",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "On Stall trigger, if held by a Tank this item gains 2 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Temporal Accelerator",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+300 Max HP",
+        "amount": 300,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+40 Attack",
+        "amount": 40,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "The holder's Rush abilities last 5 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "The Golden Standard",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Gain 1 Attack, 1 Magic, 1 Attack Speed, and 1 Defense per 12 Shards generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Thief's Dagger",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+22 Crit",
+        "amount": 22,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+10 Attack Speed",
+        "amount": 10,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On kill, gain 3 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tome",
+    "rarity": "Common",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 5,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Toxic Contract",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+4 Mana Regen",
+        "amount": 4,
+        "stat": "Mana Regen"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 100 Poison. Reward: Whenever the holder inflicts Poison, inflict 33% more.",
+    "quest": "Inflict 100 Poison.",
+    "reward": "Whenever the holder inflicts Poison, inflict 33% more.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Toxic Dart",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On Crit, inflict 3 Poison.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Toxic Gauntlet",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "Every 3 times the holder is auto attacked, inflict 1 Poison on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Toxic Ring",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+15 Defense",
+        "amount": 15,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+7 Crit",
+        "amount": 7,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "Quest: Inflict 25 Poison. Reward: Gain 10 Shards.",
+    "quest": "Inflict 25 Poison.",
+    "reward": "Gain 10 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Toxic Shiv",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "On Crit, inflict 1 Poison.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tranquil Eye",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+25 Magic",
+        "amount": 25,
+        "stat": "Magic"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "After Stall (40), gain +33% basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Bracelet",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+10 HP/s",
+        "amount": 10,
+        "stat": "HP/s"
+      }
+    ],
+    "rawEffect": "On Rush trigger, if held by a Vanguard this item gains 20 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Buckler",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      }
+    ],
+    "rawEffect": "If this item is held by a Vanguard, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+400 Max HP",
+        "amount": 400,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "The holder counts as a Vanguard during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+600 Max HP",
+        "amount": 600,
+        "stat": "Max HP"
+      }
+    ],
+    "rawEffect": "The holder counts as a Vanguard during combat. If they were already a Vanguard, they gain +25% Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Sword",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "If this item is held by a Vanguard, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Venomous Gauntlets",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+200 Max HP",
+        "amount": 200,
+        "stat": "Max HP"
+      },
+      {
+        "raw": "+30 Defense",
+        "amount": 30,
+        "stat": "Defense"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "On auto attack, inflict 1 Poison on the target. When auto attacked, inflict 1 Poison on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Viscera Collector",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+15 Omnivamp",
+        "amount": 15,
+        "stat": "Omnivamp"
+      }
+    ],
+    "rawEffect": "Quest: Trigger Rush 5 times from any source. Reward: For Rush (7), the holder's auto attacks gain 150 Crit.",
+    "quest": "Trigger Rush 5 times from any source.",
+    "reward": "For Rush (7), the holder's auto attacks gain 150 Crit.",
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Bow",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+20 Attack Speed",
+        "amount": 20,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "If this item is held by a Warrior, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Crest",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+50 Attack",
+        "amount": 50,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "The holder counts as a Warrior during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Glyph",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+75 Attack",
+        "amount": 75,
+        "stat": "Attack"
+      }
+    ],
+    "rawEffect": "The holder counts as a Warrior during combat. If they were already a Warrior, they gain +25% Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Greataxe",
+    "rarity": "Rare",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "On combat survival, if held by a Warrior this item gains 10 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 15,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Sword",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+25 Attack",
+        "amount": 25,
+        "stat": "Attack"
+      },
+      {
+        "raw": "+15 Crit",
+        "amount": 15,
+        "stat": "Crit"
+      }
+    ],
+    "rawEffect": "If this item is held by a Warrior, double its stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Wizard's Focus",
+    "rarity": "Epic",
+    "stats": [
+      {
+        "raw": "+75 Magic",
+        "amount": 75,
+        "stat": "Magic"
+      }
+    ],
+    "rawEffect": "At start of combat, if the holder is the only Hero in the back 2 rows they gain 50 Starting Mana and 50 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 25,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Zeus's Thunder",
+    "rarity": "Unique",
+    "stats": [
+      {
+        "raw": "+22 Crit",
+        "amount": 22,
+        "stat": "Crit"
+      },
+      {
+        "raw": "+30 Attack Speed",
+        "amount": 30,
+        "stat": "Attack Speed"
+      }
+    ],
+    "rawEffect": "Quest: Attack 250 times. The holder must be Irini. Reward: On auto attack, deal bonus damage to all enemies equal to 66% of the holder's Attack Speed.",
+    "quest": "Attack 250 times. The holder must be Irini.",
+    "reward": "On auto attack, deal bonus damage to all enemies equal to 66% of the holder's Attack Speed.",
+    "shopPrice": null
+  }
+]

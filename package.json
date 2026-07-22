@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate": "node scripts/validateHeroes.mjs",
+    "validate": "node scripts/validateHeroes.mjs && node scripts/validateItems.mjs",
+    "validate:heroes": "node scripts/validateHeroes.mjs",
+    "validate:items": "node scripts/validateItems.mjs",
     "merge:extracted": "node scripts/mergeExtracted.mjs",
     "intake:generate": "node scripts/generateHeroIntake.mjs",
-    "intake:parse": "node scripts/parseHeroIntake.mjs"
+    "intake:parse": "node scripts/parseHeroIntake.mjs",
+    "intake:parse:items": "node scripts/parseItems.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

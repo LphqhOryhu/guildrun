@@ -15,8 +15,11 @@ const sourceDirs = [
   join(__dirname, '..', 'data', 'extracted'),
   join(__dirname, '..', 'data', 'scraped', 'heroes'),
 ]
-const scrapedRankModifiers = join(__dirname, '..', 'data', 'scraped', 'rank-modifiers.json')
-const rankModifiersOut = join(__dirname, '..', 'data', 'rank-modifiers.json')
+const arrayMerges = [
+  { scraped: join(__dirname, '..', 'data', 'scraped', 'rank-modifiers.json'), out: join(__dirname, '..', 'data', 'rank-modifiers.json'), key: (m) => `${m.class}::${m.name}`, sort: (a, b) => a.class.localeCompare(b.class) || a.name.localeCompare(b.name), label: 'rank-modifiers' },
+  { scraped: join(__dirname, '..', 'data', 'scraped', 'items.json'), out: join(__dirname, '..', 'data', 'items.json'), key: (m) => m.name, sort: (a, b) => a.name.localeCompare(b.name), label: 'items' },
+  { scraped: join(__dirname, '..', 'data', 'scraped', 'relics.json'), out: join(__dirname, '..', 'data', 'relics.json'), key: (m) => m.name, sort: (a, b) => a.name.localeCompare(b.name), label: 'relics' },
+]
 
 function mergeFrom(sourceDir) {
   let files
@@ -49,38 +52,37 @@ function mergeFrom(sourceDir) {
   return { merged, skipped }
 }
 
-// data/rank-modifiers.json is one array, not one-file-per-item, so merging it
-// means: add any (class, name) entry that's new, leave existing entries alone
-// (a manual correction to a modifier's text should never be overwritten by a
-// re-scrape).
-function mergeRankModifiers() {
+// data/{rank-modifiers,items,relics}.json are each one array, not one-file-
+// per-item, so merging means: add any entry whose key is new, leave existing
+// entries alone (a manual correction should never be overwritten by a re-scrape).
+function mergeArrayFile({ scraped: scrapedPath, out, key, sort, label }) {
   let scraped
   try {
-    scraped = JSON.parse(readFileSync(scrapedRankModifiers, 'utf-8'))
+    scraped = JSON.parse(readFileSync(scrapedPath, 'utf-8'))
   } catch {
-    console.log('(no data/scraped/rank-modifiers.json to merge)')
+    console.log(`(no ${scrapedPath} to merge)`)
     return { merged: 0, skipped: 0 }
   }
 
-  const existing = existsSync(rankModifiersOut) ? JSON.parse(readFileSync(rankModifiersOut, 'utf-8')) : []
-  const existingKeys = new Set(existing.map((m) => `${m.class}::${m.name}`))
+  const existing = existsSync(out) ? JSON.parse(readFileSync(out, 'utf-8')) : []
+  const existingKeys = new Set(existing.map(key))
 
   let merged = 0
   let skipped = 0
-  for (const mod of scraped) {
-    const key = `${mod.class}::${mod.name}`
-    if (existingKeys.has(key)) {
+  for (const entry of scraped) {
+    const k = key(entry)
+    if (existingKeys.has(k)) {
       skipped += 1
       continue
     }
-    existing.push(mod)
-    existingKeys.add(key)
+    existing.push(entry)
+    existingKeys.add(k)
     merged += 1
   }
 
-  existing.sort((a, b) => a.class.localeCompare(b.class) || a.name.localeCompare(b.name))
-  writeFileSync(rankModifiersOut, JSON.stringify(existing, null, 2), 'utf-8')
-  console.log(`rank-modifiers: ${merged} merged, ${skipped} skipped (already present) -> data/rank-modifiers.json`)
+  existing.sort(sort)
+  writeFileSync(out, JSON.stringify(existing, null, 2), 'utf-8')
+  console.log(`${label}: ${merged} merged, ${skipped} skipped (already present) -> ${out.split(/[\\/]/).slice(-2).join('/')}`)
   return { merged, skipped }
 }
 
@@ -92,9 +94,11 @@ function main() {
     totalMerged += merged
     totalSkipped += skipped
   }
-  const rm = mergeRankModifiers()
-  totalMerged += rm.merged
-  totalSkipped += rm.skipped
+  for (const config of arrayMerges) {
+    const { merged, skipped } = mergeArrayFile(config)
+    totalMerged += merged
+    totalSkipped += skipped
+  }
   console.log(`\n${totalMerged} file(s)/entries merged, ${totalSkipped} skipped (already present).`)
 }
 
