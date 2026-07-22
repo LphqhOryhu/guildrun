@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "validate": "node scripts/validateHeroes.mjs",
-    "merge:extracted": "node scripts/mergeExtracted.mjs"
+    "merge:extracted": "node scripts/mergeExtracted.mjs",
+    "intake:generate": "node scripts/generateHeroIntake.mjs",
+    "intake:parse": "node scripts/parseHeroIntake.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

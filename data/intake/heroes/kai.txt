@@ -1,0 +1,73 @@
+==================================================
+HERO: Kai  (id: 26)
+SOURCE:
+==================================================
+# Fill in the fields below. Leave a field blank if it doesn't apply or you
+# can't find it. Don't delete the labels or the [TAG]/[/TAG] markers, even
+# for fields you leave empty - the parser looks for them by name.
+#
+# SOURCE (optional): the URL you copied this hero from, for traceability.
+# Single-line fields: "LABEL: value" on one line.
+# Multi-line / verbatim text: paste it inside the matching bracket markers below.
+# Lists (CLASSES, ELEMENTS, MECHANICS): comma-separated on one line.
+
+TITLE:
+GUILD:
+GUILD_MOTTO:
+CLASSES:
+ATTACK_TYPE:
+ELEMENTS:
+MECHANICS:
+
+[BASE_STATS_RANK_C]
+# One stat per line, exactly as labeled on the page, e.g.:
+# HP: 1234
+# Attack: 210
+[/BASE_STATS_RANK_C]
+
+EHP:
+EOFF:
+SEC_PER_CAST:
+
+[RANK_UP_GAINS_B]
+# what this hero automatically gains on ranking up to B (free text, e.g. "+40 HP, +8 Attack")
+[/RANK_UP_GAINS_B]
+[RANK_UP_GAINS_A]
+[/RANK_UP_GAINS_A]
+[RANK_UP_GAINS_S]
+[/RANK_UP_GAINS_S]
+
+ACTIVE_NAME:
+ACTIVE_RESOURCE_COST:
+[ACTIVE_DESCRIPTION]
+[/ACTIVE_DESCRIPTION]
+
+SPEC_1_NAME:
+SPEC_1_ADDS_CLASS:
+SPEC_1_KEYWORDS:
+[SPEC_1_DESCRIPTION]
+[/SPEC_1_DESCRIPTION]
+
+SPEC_2_NAME:
+SPEC_2_ADDS_CLASS:
+SPEC_2_KEYWORDS:
+[SPEC_2_DESCRIPTION]
+[/SPEC_2_DESCRIPTION]
+
+SPEC_3_NAME:
+SPEC_3_ADDS_CLASS:
+SPEC_3_KEYWORDS:
+[SPEC_3_DESCRIPTION]
+[/SPEC_3_DESCRIPTION]
+
+[LORE_GUILD]
+[/LORE_GUILD]
+[LORE_CURRENT_WORK]
+[/LORE_CURRENT_WORK]
+[LORE_MOTIVATION]
+[/LORE_MOTIVATION]
+LORE_QUOTE:
+
+==================================================
+END HERO
+==================================================
