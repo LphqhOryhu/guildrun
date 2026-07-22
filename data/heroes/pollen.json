@@ -1,0 +1,129 @@
+{
+  "name": "Pollen",
+  "id": 8,
+  "title": "The Bloom",
+  "guild": "Gaia Project",
+  "attackType": "Ranged",
+  "classes": [
+    "Mystic"
+  ],
+  "mechanics": [
+    "Poison",
+    "Shields",
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Mystic Mechanics: Shields, Shards, Debuffs, Stall."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "575",
+    "Base Attack Damage": "20",
+    "Base Attack Speed": "0.42",
+    "Attack Range": "4",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "30",
+    "Attack Speed": "0",
+    "Max Mana": "135",
+    "Mana Regen": "8",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "4"
+  },
+  "derivedComposites": {
+    "ehp": "661.25",
+    "eoff": "9.66",
+    "secPerCast": "16.88"
+  },
+  "rankUpGainsPerRankUp": {
+    "Mana Regen": "+5",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Max HP": "+12.5%",
+    "Attack": "+6",
+    "Crit": "+4"
+  },
+  "startingAbility": {
+    "name": "Sanctuary of Bloom",
+    "type": "Active",
+    "rawText": "Create a flower field for 5 seconds. Each second, inflict 1 (+1 per 8 Mana Regen) Poison on enemies and apply 10 (+100% Magic) Shields to Heroes inside the flower field. Each second after Stall (15), heal Heroes inside the flower field for 10 (+50% Magic).",
+    "scalings": [
+      {
+        "raw": "10 (+100% Magic)",
+        "base": 10,
+        "stat": "Magic",
+        "percent": 100
+      },
+      {
+        "raw": "10 (+50% Magic)",
+        "base": 10,
+        "stat": "Magic",
+        "percent": 50
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Bloomer",
+      "addsClass": null,
+      "abilityName": "The Bloomer",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "After Stall (15), Double Sanctuary of Bloom's healing and Shielding. It lasts 1 second longer.",
+      "scalings": []
+    },
+    {
+      "name": "The Fae's Kiss",
+      "addsClass": null,
+      "abilityName": "The Fae's Kiss",
+      "type": "Passive",
+      "keywords": [
+        "Stall",
+        "Backup"
+      ],
+      "rawText": "After Stall (20), Sanctuary of Bloom inflicts 100% more Poison. After Stall (40), increase the amount of Debuffs on all enemies by 33 (+33 per rank)%. Backup.",
+      "scalings": [
+        {
+          "raw": "100% more",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 100
+        }
+      ]
+    },
+    {
+      "name": "The Earth's Child",
+      "addsClass": "Mage",
+      "abilityName": "The Earth's Child",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "After Stall (20), Sanctuary of Bloom also inflicts 1 per 33 Magic Frost and 1 per 25 Magic Burn each second.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mystic",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Mage",
+      "base": false,
+      "unlockedBy": "The Earth's Child"
+    }
+  ],
+  "quote": "Ohh.. can you smell that? This rift is alive.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

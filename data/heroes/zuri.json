@@ -1,0 +1,154 @@
+{
+  "name": "Zuri",
+  "id": 5,
+  "title": "The Gorgon",
+  "guild": "L'Héritage",
+  "attackType": "Melee",
+  "classes": [
+    "Tank",
+    "Assassin"
+  ],
+  "mechanics": [
+    "Crit"
+  ],
+  "mechanicsDetail": [
+    "Tank Mechanics: Stall, Poison, Frost.",
+    "Assassin Mechanics: Crit, Shards, Poison, Rush, Stealth."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "900",
+    "Base Attack Damage": "30",
+    "Base Attack Speed": "0.37",
+    "Attack Range": "1",
+    "Crit": "50",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "52",
+    "Attack Speed": "0",
+    "Max Mana": "110",
+    "Mana Regen": "4",
+    "Starting Mana": "65",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1134",
+    "eoff": "16.65",
+    "secPerCast": "27.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Defense": "+27",
+    "Crit": "+11",
+    "Max HP": "+18.8%",
+    "Attack": "+9",
+    "Magic": "+12",
+    "Mana Regen": "+1",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Stone Skin",
+    "type": "Passive",
+    "rawText": "On Crit, permanently gain 1 Defense and 1 Magic. Triggers 2 (+1 per 20 Crit, +1 per 60 Defense) times per combat.",
+    "scalings": []
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Cruel",
+      "addsClass": null,
+      "abilityName": "Petrification",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Petrify all enemies targeting Zuri, dealing 150 (+250% Magic) damage, inflicting 1 Poison per Stone Skin trigger this game, and Stunning for 4 seconds.",
+      "addsClass": null,
+      "abilityName": "The Serpent's Kiss",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "When auto attacked, inflict 1 (+1 per 60 Defense, +1 per 50 Magic) Poison on the attacker and gain 0 (+1 per rank) HP/S.",
+      "scalings": []
+    },
+    {
+      "name": "The Bladedancer",
+      "addsClass": null,
+      "abilityName": "The Bladedancer",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Stall"
+      ],
+      "rawText": "For Rush (10), auto attacks deal 5 (+100% Crit, +50% Magic) bonus damage and heal 5 (+100% Crit, +50% Magic). After Stall (20), auto attacks deal 5 (+100% Crit, +50% Defense) bonus damage and heal 5 (+100% Crit, +50% Defense).",
+      "scalings": [
+        {
+          "raw": "100% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 100
+        },
+        {
+          "raw": "50% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 50
+        },
+        {
+          "raw": "100% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 100
+        },
+        {
+          "raw": "50% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 50
+        },
+        {
+          "raw": "100% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 100
+        },
+        {
+          "raw": "50% Defense",
+          "base": 0,
+          "stat": "Defense",
+          "percent": 50
+        },
+        {
+          "raw": "100% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 100
+        },
+        {
+          "raw": "50% Defense",
+          "base": 0,
+          "stat": "Defense",
+          "percent": 50
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Tank",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Assassin",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "It's okay. You can take a peek.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

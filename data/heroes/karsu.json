@@ -1,0 +1,124 @@
+{
+  "name": "Karsu",
+  "id": 20,
+  "title": "The Finisher",
+  "guild": "A Temple",
+  "attackType": "Ranged",
+  "classes": [
+    "Duelist"
+  ],
+  "mechanics": [
+    "Frost"
+  ],
+  "mechanicsDetail": [
+    "Duelist Mechanics: Stall, Rush, Debuffs, Crit, Shards."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "650",
+    "Base Attack Damage": "30",
+    "Base Attack Speed": "0.53",
+    "Attack Range": "5",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "29",
+    "Attack Speed": "20",
+    "Max Mana": "80",
+    "Mana Regen": "4",
+    "Starting Mana": "40",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "5"
+  },
+  "derivedComposites": {
+    "ehp": "744.25",
+    "eoff": "21.94",
+    "secPerCast": "20"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack Speed": "+25",
+    "Max HP": "+25%",
+    "Attack": "+12",
+    "Crit": "+8",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Snowpiercer",
+    "type": "Active",
+    "rawText": "Loose a volley of 5 arrows at nearby enemies. Each arrow deals 25 (+100% Attack, +100% Magic) damage and inflicts 4 (+1 per 15 Attack Speed) Frost.",
+    "scalings": [
+      {
+        "raw": "100% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 100
+      },
+      {
+        "raw": "100% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 100
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Falling Snow",
+      "addsClass": null,
+      "abilityName": "The Falling Snow",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "Snowpiercer fires 5 more arrows. After Stall (20), Snowpiercer arrows gain 25 (+25 per rank) Crit.",
+      "scalings": []
+    },
+    {
+      "name": "The Warband",
+      "addsClass": null,
+      "abilityName": "The Warband",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "On cast, permanently gain 1 Crit, 2 Attack, and 3 Attack Speed. At start of combat, other Duelists gain all stats gained from this ability. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Frostbite",
+      "addsClass": "Warrior",
+      "abilityName": "The Frostbite",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On auto attack, fire an additional arrow that inflicts 1 (+1 per 100 Attack Speed) Frost and deals 1 (+10% Attack)% of normal auto attack damage.",
+      "scalings": [
+        {
+          "raw": "1 (+10% Attack)",
+          "base": 1,
+          "stat": "Attack",
+          "percent": 10
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Duelist",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Warrior",
+      "base": false,
+      "unlockedBy": "The Frostbite"
+    }
+  ],
+  "quote": "I'm not here to talk.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

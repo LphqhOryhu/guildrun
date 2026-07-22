@@ -1,0 +1,122 @@
+{
+  "name": "Rip",
+  "id": 18,
+  "title": "The Butcher",
+  "guild": "A Temple",
+  "attackType": "Melee",
+  "classes": [
+    "Vanguard"
+  ],
+  "mechanics": [
+    "Rush"
+  ],
+  "mechanicsDetail": [
+    "Vanguard Mechanics: Rush, Shields, Burn."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "1250",
+    "Base Attack Damage": "41",
+    "Base Attack Speed": "0.42",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "42",
+    "Attack Speed": "0",
+    "Max Mana": "75",
+    "Mana Regen": "4",
+    "Starting Mana": "25",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1512.5",
+    "eoff": "19.8",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Max HP": "+37.5%",
+    "Attack": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Crit": "+4",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Bloodthirsty",
+    "type": "Passive",
+    "rawText": "For Rush (10), gain 5% Max Health Attack. Whenever Rip or an enemy adjacent to him first drops below 50% Max HP, refresh all of his Rush abilities and gain 2% Max Health Attack Speed.",
+    "scalings": [
+      {
+        "raw": "5% Max",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 5
+      },
+      {
+        "raw": "50% Max",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 50
+      },
+      {
+        "raw": "2% Max",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 2
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Glutton",
+      "addsClass": null,
+      "abilityName": "The Glutton",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "On Rush trigger, permanently gain 33 Max HP. Backup. Backup Only: At start of combat, Vanguards gain all Max HP gained from this ability.",
+      "scalings": []
+    },
+    {
+      "name": "The Enraged",
+      "addsClass": null,
+      "abilityName": "Rampage",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Enter a rage, gaining 10% Max Health + 250% Magic Max HP, 5 (+5 per rank) Attack Speed, and 2 (+2 per rank) Omnivamp. This ability stacks.",
+      "addsClass": null,
+      "abilityName": "The Brute",
+      "type": "+ Assassin",
+      "keywords": [],
+      "rawText": "Passive",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Vanguard",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Assassin",
+      "base": false,
+      "unlockedBy": "The Brute"
+    }
+  ],
+  "quote": "Woof woof, no need to be scared. I don't bite.",
+  "lore": {
+    "guild": "A Temple - “No gods. No masters.” Anarchy in the Rifts! Rushing and debuffing everything in their path.",
+    "currentWork": "He's a frontliner with a reputation for tearing the heart out of whatever he kills, a habit left over from his old job on a cleanup crew hauling monster carcasses He Awakened mid-shift; A Temple was the only guild that showed up to recruit him. Behind the mask he's entirely sane. Most teammates need time to work that out.",
+    "motivation": "Point him towards fresh meat and he'll join your slaughterhouse gladly. Your recruiter gets about thirty seconds to do so."
+  }
+}

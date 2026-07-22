@@ -15,6 +15,8 @@ const sourceDirs = [
   join(__dirname, '..', 'data', 'extracted'),
   join(__dirname, '..', 'data', 'scraped', 'heroes'),
 ]
+const scrapedRankModifiers = join(__dirname, '..', 'data', 'scraped', 'rank-modifiers.json')
+const rankModifiersOut = join(__dirname, '..', 'data', 'rank-modifiers.json')
 
 function mergeFrom(sourceDir) {
   let files
@@ -47,6 +49,41 @@ function mergeFrom(sourceDir) {
   return { merged, skipped }
 }
 
+// data/rank-modifiers.json is one array, not one-file-per-item, so merging it
+// means: add any (class, name) entry that's new, leave existing entries alone
+// (a manual correction to a modifier's text should never be overwritten by a
+// re-scrape).
+function mergeRankModifiers() {
+  let scraped
+  try {
+    scraped = JSON.parse(readFileSync(scrapedRankModifiers, 'utf-8'))
+  } catch {
+    console.log('(no data/scraped/rank-modifiers.json to merge)')
+    return { merged: 0, skipped: 0 }
+  }
+
+  const existing = existsSync(rankModifiersOut) ? JSON.parse(readFileSync(rankModifiersOut, 'utf-8')) : []
+  const existingKeys = new Set(existing.map((m) => `${m.class}::${m.name}`))
+
+  let merged = 0
+  let skipped = 0
+  for (const mod of scraped) {
+    const key = `${mod.class}::${mod.name}`
+    if (existingKeys.has(key)) {
+      skipped += 1
+      continue
+    }
+    existing.push(mod)
+    existingKeys.add(key)
+    merged += 1
+  }
+
+  existing.sort((a, b) => a.class.localeCompare(b.class) || a.name.localeCompare(b.name))
+  writeFileSync(rankModifiersOut, JSON.stringify(existing, null, 2), 'utf-8')
+  console.log(`rank-modifiers: ${merged} merged, ${skipped} skipped (already present) -> data/rank-modifiers.json`)
+  return { merged, skipped }
+}
+
 function main() {
   let totalMerged = 0
   let totalSkipped = 0
@@ -55,7 +92,10 @@ function main() {
     totalMerged += merged
     totalSkipped += skipped
   }
-  console.log(`\n${totalMerged} file(s) merged, ${totalSkipped} file(s) skipped (already present).`)
+  const rm = mergeRankModifiers()
+  totalMerged += rm.merged
+  totalSkipped += rm.skipped
+  console.log(`\n${totalMerged} file(s)/entries merged, ${totalSkipped} skipped (already present).`)
 }
 
 main()

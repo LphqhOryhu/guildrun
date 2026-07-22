@@ -7,10 +7,13 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { parseHeroDump, looksLikeDumpFormat, KNOWN_CLASSES } from './lib/parseHeroDump.mjs'
+import { HERO_IDS } from './lib/heroIds.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const intakeDir = join(__dirname, '..', 'data', 'intake', 'heroes')
 const scrapedDir = join(__dirname, '..', 'data', 'scraped', 'heroes')
+const rankModifiersOut = join(__dirname, '..', 'data', 'scraped', 'rank-modifiers.json')
 const uncertainReport = join(__dirname, '..', 'data', 'intake', '_uncertain-scalings.md')
 
 const KNOWN_STATS = ['Magic', 'Attack', 'HP', 'Defense', 'Resistance', 'Speed', 'Mana', 'Shield', 'Crit Chance', 'Crit Damage', 'Attack Speed']
@@ -192,6 +195,28 @@ function missingFields(hero) {
   return missing
 }
 
+function missingFieldsDump(hero) {
+  const missing = []
+  if (!hero.title) missing.push('title')
+  if (!hero.guild) missing.push('guild')
+  if (!hero.attackType) missing.push('attackType')
+  if (hero.classes.length === 0) missing.push('classes')
+  if (Object.keys(hero.baseStatsRankC).length === 0) missing.push('baseStatsRankC')
+  if (!hero.startingAbility.name) missing.push('startingAbility')
+  hero.rankBSpecializations.forEach((s, i) => {
+    if (!s.name) missing.push(`rankBSpecializations[${i}].name`)
+    if (!s.rawText) missing.push(`rankBSpecializations[${i}].rawText`)
+  })
+  if (hero.rankASClassPools.length === 0) missing.push('rankASClassPools')
+  if (!hero.lore.guild && !hero.lore.currentWork && !hero.lore.motivation) missing.push('lore (collapsed on page - optional)')
+  return missing
+}
+
+function slugToName(slug) {
+  const known = Object.keys(HERO_IDS).find((n) => n.toLowerCase() === slug.toLowerCase())
+  return known ?? slug.charAt(0).toUpperCase() + slug.slice(1)
+}
+
 function main() {
   mkdirSync(scrapedDir, { recursive: true })
 
@@ -204,14 +229,48 @@ function main() {
   }
 
   const uncertainSink = []
+  const modifierPool = new Map() // "Class::Name" -> modifier entry
   let empty = 0
   let complete = 0
   let partial = 0
 
   for (const file of files) {
     const raw = readFileSync(join(intakeDir, file), 'utf-8')
+    const slug = file.replace('.txt', '')
+
+    if (looksLikeDumpFormat(raw)) {
+      const name = slugToName(slug)
+      const id = HERO_IDS[name] ?? null
+      const { hero, classPoolModifiers } = parseHeroDump(raw, name, id)
+
+      for (const mod of classPoolModifiers) {
+        const key = `${mod.class}::${mod.name}`
+        const existing = modifierPool.get(key)
+        if (!existing) {
+          modifierPool.set(key, mod)
+        } else {
+          // Same modifier seen again via a different hero of the same class -
+          // union any sharedWith classes observed across occurrences.
+          existing.sharedWith = [...new Set([...existing.sharedWith, ...mod.sharedWith])]
+        }
+      }
+
+      const missing = missingFieldsDump(hero)
+      writeFileSync(join(scrapedDir, `${slug}.json`), JSON.stringify(hero, null, 2), 'utf-8')
+
+      const hardMissing = missing.filter((m) => !m.includes('optional'))
+      if (hardMissing.length === 0) {
+        console.log(`✓ ${name}: complete -> data/scraped/heroes/${slug}.json${missing.length ? ` (${missing.join(', ')})` : ''}`)
+        complete += 1
+      } else {
+        console.log(`△ ${name}: partial (missing: ${missing.join(', ')}) -> data/scraped/heroes/${slug}.json`)
+        partial += 1
+      }
+      continue
+    }
+
     const headerMatch = raw.match(/HERO:\s*(.+?)\s*\(id:\s*(\d+)\)/)
-    const name = headerMatch ? headerMatch[1].trim() : file.replace('.txt', '')
+    const name = headerMatch ? headerMatch[1].trim() : slug
     const id = headerMatch ? Number(headerMatch[2]) : null
 
     const { fields, blocks } = parseIntakeFile(raw)
@@ -224,7 +283,6 @@ function main() {
 
     const hero = buildHero(name, id, fields, blocks, uncertainSink)
     const missing = missingFields(hero)
-    const slug = file.replace('.txt', '')
     writeFileSync(join(scrapedDir, `${slug}.json`), JSON.stringify(hero, null, 2), 'utf-8')
 
     if (missing.length === 0) {
@@ -243,6 +301,18 @@ function main() {
       'utf-8'
     )
     console.log(`\n${uncertainSink.length} scaling(s) avec stat non reconnue -> data/intake/_uncertain-scalings.md`)
+  }
+
+  if (modifierPool.size > 0) {
+    const modifiers = [...modifierPool.values()].sort((a, b) => a.class.localeCompare(b.class) || a.name.localeCompare(b.name))
+    writeFileSync(rankModifiersOut, JSON.stringify(modifiers, null, 2), 'utf-8')
+
+    console.log(`\nRank modifiers collectés -> data/scraped/rank-modifiers.json (${modifiers.length} au total)`)
+    for (const cls of KNOWN_CLASSES) {
+      const count = modifiers.filter((m) => m.class === cls).length
+      const marker = count >= 15 ? '✓' : '△'
+      console.log(`  ${marker} ${cls}: ${count}/15`)
+    }
   }
 
   console.log(`\n${complete + partial}/${files.length} héros traités (${complete} complets, ${partial} partiels), ${empty} pas encore commencés.`)

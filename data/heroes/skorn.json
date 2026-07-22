@@ -1,0 +1,105 @@
+{
+  "name": "Skorn",
+  "id": 12,
+  "title": "The Bulwark",
+  "guild": "A Temple",
+  "attackType": "Melee",
+  "classes": [
+    "Tank"
+  ],
+  "mechanics": [
+    "Poison",
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Tank Mechanics: Stall, Poison, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "925",
+    "Base Attack Damage": "30",
+    "Base Attack Speed": "0.38",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "60",
+    "Attack Speed": "0",
+    "Max Mana": "105",
+    "Mana Regen": "4",
+    "Starting Mana": "30",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1202.5",
+    "eoff": "13.11",
+    "secPerCast": "26.25"
+  },
+  "rankUpGainsPerRankUp": {
+    "Defense": "+38",
+    "Max HP": "+25%",
+    "Magic": "+12",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Crit": "+4",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Retribution",
+    "type": "Passive",
+    "rawText": "When auto attacked after Stall (10), deal 2 (+100% Magic) damage and inflict 1 per 50 Defense Poison on the attacker.",
+    "scalings": [
+      {
+        "raw": "2 (+100% Magic)",
+        "base": 2,
+        "stat": "Magic",
+        "percent": 100
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Haughty",
+      "addsClass": null,
+      "abilityName": "Come At Me!",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Taunt all enemies and gain 10 (+10% Defense, +10% Magic) Shields per Stall triggered this game. After 5 seconds, deal damage to all enemies targeting Skorn equal to 50% of his remaining Shield.",
+      "addsClass": null,
+      "abilityName": "The Winter's Bite",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Whenever Skorn inflicts Poison, he inflicts an equal amount of Frost. Whenever Skorn inflicts Frost, he gains 0 (+10 per rank) Shields.",
+      "scalings": []
+    },
+    {
+      "name": "The Bristleguard",
+      "addsClass": null,
+      "abilityName": "The Bristleguard",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "At start of combat, for each Tank in combat inflict 5 (+10 per rank) Poison on all enemies and give 5 (+10 per rank) Defense to all Heroes. Backup.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Tank",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "Let them try. I'll take it gladly.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

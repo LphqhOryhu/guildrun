@@ -1,0 +1,101 @@
+{
+  "name": "Ming",
+  "id": 21,
+  "title": "The Drifter",
+  "guild": "The Hunt",
+  "attackType": "Melee",
+  "classes": [
+    "Vanguard"
+  ],
+  "mechanics": [
+    "Burn",
+    "Rush"
+  ],
+  "mechanicsDetail": [
+    "Vanguard Mechanics: Rush, Shields, Burn."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "1100",
+    "Base Attack Damage": "37",
+    "Base Attack Speed": "0.35",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "41",
+    "Attack Speed": "0",
+    "Max Mana": "70",
+    "Mana Regen": "4",
+    "Starting Mana": "30",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1325.5",
+    "eoff": "14.89",
+    "secPerCast": "17.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Max HP": "+37.5%",
+    "Attack": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Crit": "+4",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Inner Flame",
+    "type": "Passive",
+    "rawText": "Each second, inflict 1 per 650 Max Health Burn on adjacent enemies. For Rush (5), double the Burn.",
+    "scalings": []
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Searing",
+      "addsClass": null,
+      "abilityName": "Searing Mantra",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Channel flames to deal 100 (+25% Max Health, +100% Magic) damage, inflict 5 Burn per Rush triggered this game, and Stun all surrounding enemies for 3 seconds.",
+      "addsClass": null,
+      "abilityName": "The Tempered",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "For Rush (15), Vanguards gain 25 (+25 per rank)% Max HP. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Enlightened",
+      "addsClass": null,
+      "abilityName": "The Enlightened",
+      "type": "Passive",
+      "keywords": [
+        "Rush"
+      ],
+      "rawText": "Increase the duration of Rush abilities by 1 (+1 per rank) seconds. For Rush (0), Ming is immune to damage.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Vanguard",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "So this is where the world sends me next.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

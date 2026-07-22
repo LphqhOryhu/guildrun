@@ -1,0 +1,118 @@
+{
+  "name": "Fiona",
+  "id": 10,
+  "title": "The Maker",
+  "guild": "Aegis Global",
+  "attackType": "Ranged",
+  "classes": [
+    "Mystic"
+  ],
+  "mechanics": [
+    "Shields"
+  ],
+  "mechanicsDetail": [
+    "Mystic Mechanics: Shields, Shards, Debuffs, Stall."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "750",
+    "Base Attack Damage": "25",
+    "Base Attack Speed": "0.39",
+    "Attack Range": "3",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "31",
+    "Attack Speed": "0",
+    "Max Mana": "115",
+    "Mana Regen": "8",
+    "Starting Mana": "45",
+    "Mana Lock (s)": "0.75",
+    "Move Speed": "1.5",
+    "Projectile Speed": "5"
+  },
+  "derivedComposites": {
+    "ehp": "866.25",
+    "eoff": "11.21",
+    "secPerCast": "14.38"
+  },
+  "rankUpGainsPerRankUp": {
+    "Mana Regen": "+5",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Max HP": "+12.5%",
+    "Attack": "+6",
+    "Crit": "+4"
+  },
+  "startingAbility": {
+    "name": "Vault Spark",
+    "type": "Active",
+    "rawText": "Spark a protective vault. Apply 250 (+250% Magic) Shields to the 1 (+1 per 12 Mana Regen) lowest current % Max HP Heroes.",
+    "scalings": [
+      {
+        "raw": "250 (+250% Magic)",
+        "base": 250,
+        "stat": "Magic",
+        "percent": 250
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Right Hand",
+      "addsClass": null,
+      "abilityName": "The Right Hand",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Every 5 casts, create a random item and gain 2 (+1 per rank) Shards.",
+      "scalings": []
+    },
+    {
+      "name": "The Lustrous",
+      "addsClass": "Vanguard",
+      "abilityName": "The Lustrous",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "On cast, gain 33% Max Health Shields. Whenever an enemy damages a Shielded Hero, inflict 0 (+1 per rank) Burn on that enemy per 20 Shields removed. Backup.",
+      "scalings": [
+        {
+          "raw": "33% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 33
+        }
+      ]
+    },
+    {
+      "name": "The Tycoon",
+      "addsClass": null,
+      "abilityName": "The Tycoon",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Every 5 casts, gain a Tycoon stack. At start of combat, Heroes gain 75 (+4 per 1 Mana Regen) Max HP per Tycoon stack. Backup.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mystic",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Vanguard",
+      "base": false,
+      "unlockedBy": "The Lustrous"
+    }
+  ],
+  "quote": "I've got all we need here with me.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

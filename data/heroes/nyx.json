@@ -1,0 +1,117 @@
+{
+  "name": "Nyx",
+  "id": 7,
+  "title": "The Stray",
+  "guild": "The Hunt",
+  "attackType": "Melee",
+  "classes": [
+    "Duelist"
+  ],
+  "mechanics": [
+    "Rush"
+  ],
+  "mechanicsDetail": [
+    "Duelist Mechanics: Stall, Rush, Debuffs, Crit, Shards."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "800",
+    "Base Attack Damage": "38",
+    "Base Attack Speed": "0.53",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "38",
+    "Attack Speed": "20",
+    "Max Mana": "55",
+    "Mana Regen": "4",
+    "Starting Mana": "15",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "952",
+    "eoff": "27.79",
+    "secPerCast": "13.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack Speed": "+25",
+    "Max HP": "+25%",
+    "Attack": "+12",
+    "Crit": "+8",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Ferality",
+    "type": "Passive",
+    "rawText": "For Rush (5), gain 5 (+25% Attack Speed) Attack Speed and 5 (+25% Attack) Attack for each time this ability has triggered this combat. Every 12 auto attacks, refresh all of Nyx's Rush abilities.",
+    "scalings": [
+      {
+        "raw": "5 (+25% Attack Speed)",
+        "base": 5,
+        "stat": "Attack Speed",
+        "percent": 25
+      },
+      {
+        "raw": "5 (+25% Attack)",
+        "base": 5,
+        "stat": "Attack",
+        "percent": 25
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Keen-Eyed",
+      "addsClass": "Assassin",
+      "abilityName": "The Keen-Eyed",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Assassins and Duelists instantly kill any enemies they damage below 20 (+5 per rank)% Max HP. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Wild",
+      "addsClass": null,
+      "abilityName": "Wild Flurry",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Perform a 5-hit combo. Each hit counts as an auto attack that deals 100 (+33% Attack Speed, +25% Magic, +25% Attack)% damage. If the enemy dies during the combo, Nyx jumps to the nearest enemy and re-casts this ability.",
+      "addsClass": null,
+      "abilityName": "The Spark",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "After Stall (10), each auto attack inflicts 2 (+1 per 30 Attack Speed) Burn. After Stall (20), each auto attack inflicts 1 (+1 per 40 Attack Speed) Frost. After Stall (30), each auto attack inflicts 1 per 50 Attack Speed Poison.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Duelist",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Assassin",
+      "base": false,
+      "unlockedBy": "The Keen-Eyed"
+    }
+  ],
+  "quote": "Yeah. I know I'm small. Get over it.",
+  "lore": {
+    "guild": "The Hunt - “When the call comes, we hunt.” Bringing the hood to the Rifts. Rushing and stalling, whatever you need.",
+    "currentWork": "Nyx slipped past three rift lockdowns before The Hunt gave up chasing the kid and signed them instead. Now the youngest breaker on any roster: too quick to catch, too vicious to ignore. Nyx has no family on file, no address, no home. They don't trust The Hunt enough to sleep at their guild house. But every time there's a fight, the kid is always already there.",
+    "motivation": "Nyx doesn't follow guilds but people worth trusting - and hasn't found one yet. Be the first, and the kid stops being a stray."
+  }
+}

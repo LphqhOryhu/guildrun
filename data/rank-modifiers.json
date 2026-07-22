@@ -1,0 +1,868 @@
+[
+  {
+    "class": "Assassin",
+    "name": "Aim True, Aim Quick",
+    "rawText": "For Rush (10), gain +100% Crit.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Banked Presence",
+    "rawText": "For Rush (10), Assassins gain 1 Crit per Shard in bank. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Brutal Precision",
+    "rawText": "Gain 60 Crit and 20 Omnivamp.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Critical Defenses",
+    "rawText": "At start of combat, if this Hero is in the front row they gain 250% Crit Defense.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Critical Invigoration",
+    "rawText": "On Crit, heal 50% Crit health and gain 3 Mana.",
+    "keywords": [],
+    "sharedWith": [
+      "Duelist",
+      "Warrior"
+    ]
+  },
+  {
+    "class": "Assassin",
+    "name": "Critical Offense Growth",
+    "rawText": "On Crit, permanently gain 1 Attack and 1 Magic.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Enforced Presence",
+    "rawText": "On Rush trigger, Assassins gain 15 Crit, 12 Attack, and 12 Magic. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "From the Shadows",
+    "rawText": "At start of combat, if this Hero is in the back row they gain +100% Crit and Stealth for 5 seconds.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Lurker",
+    "rawText": "At start of combat, gain Stealth for 4 seconds. On kill, gain Stealth for 4 seconds.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Poisonous Burst",
+    "rawText": "On Crit, inflict 1 (+1 per 15 Crit) Poison on the target.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Poisonous Edge",
+    "rawText": "Gain +50% Crit against enemies with Poison.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Poisonous Eye",
+    "rawText": "At start of combat, inflict 10 (+25% Crit) Poison on all enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Rush Overdrive",
+    "rawText": "Rush abilities last 3 seconds longer. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": [
+      "Vanguard",
+      "Warrior"
+    ]
+  },
+  {
+    "class": "Assassin",
+    "name": "Shard Collector",
+    "rawText": "Every other Crit, gain 1 Shard.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Assassin",
+    "name": "Shard Plunderer",
+    "rawText": "On kill, gain 8 Shards.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Burning Acceleration",
+    "rawText": "Whenever a Duelist attacks an enemy with Burn, they gain 2 Attack Speed. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Burning Attacks",
+    "rawText": "On auto attack, inflict 1 (+1 per 40 Attack Speed) Burn (Max: 9).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Critical Invigoration",
+    "rawText": "On Crit, heal 50% Crit health and gain 3 Mana.",
+    "keywords": [],
+    "sharedWith": [
+      "Assassin",
+      "Warrior"
+    ]
+  },
+  {
+    "class": "Duelist",
+    "name": "Critical Timing",
+    "rawText": "For Rush (5), gain +50% Crit. After Stall (20), gain +50% Crit.",
+    "keywords": [
+      "Rush",
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Debuff Velocity",
+    "rawText": "On auto attack, gain 1 Crit and 1 Attack per Debuff on the target.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Freezing Acceleration",
+    "rawText": "Whenever a Duelist attacks an enemy with Frost, they gain 2 Attack Speed. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Freezing Attacks",
+    "rawText": "On auto attack, inflict 1 (+1 per 80 Attack Speed) Frost (Max: 6).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Golden Eye",
+    "rawText": "Every 10 auto attacks, gain 1 Shard.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Poisonous Acceleration",
+    "rawText": "Whenever a Duelist attacks an enemy with Poison, they gain 2 Attack Speed. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Poisonous Attacks",
+    "rawText": "On auto attack, inflict 1 (+1 per 120 Attack Speed) Poison (Max: 3).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Ranger",
+    "rawText": "Gain 1 Range.",
+    "keywords": [],
+    "sharedWith": [
+      "Warrior"
+    ]
+  },
+  {
+    "class": "Duelist",
+    "name": "Rolling Speed",
+    "rawText": "Duelists gain 2 Attack Speed per reroll this game. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Rush Dynamo",
+    "rawText": "Duelists gain 1 Attack Speed per Rush trigger this game. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Scaling Speed",
+    "rawText": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 20 Attack Speed.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Duelist",
+    "name": "Stall Dynamo",
+    "rawText": "Duelists gain 1 Attack Speed per Stall trigger this game. Backup.",
+    "keywords": [
+      "Stall",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Arcane Destruction",
+    "rawText": "On cast, gain 100 Crit.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Burning Absorption",
+    "rawText": "On cast, gain 1 Magic per 8 Burn on enemies in range.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Burning Casts",
+    "rawText": "On cast, inflict 50% Magic Burn on enemies in range.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Enchanted Attacks",
+    "rawText": "On auto attack, deal 100% Magic bonus damage.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Fast Cast",
+    "rawText": "Gain 8 Mana Regen and 40 Starting Mana.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Freezing Absorption",
+    "rawText": "On cast, gain 1 Magic per 5 Frost on enemies in range.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Freezing Casts",
+    "rawText": "On cast, inflict 25% Magic Frost on enemies in range.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Hermit",
+    "rawText": "At start of combat, if this Hero is alone in the back 2 rows they gain +25% Magic and +50% Crit.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Instacast",
+    "rawText": "After Stall (15, Stall 30, and Stall 45), gain 100 Mana.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Mage Armor",
+    "rawText": "At start of combat, if this Hero is in the front row they gain 100% Magic Defense.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Magical Growth",
+    "rawText": "At start of combat, Mages permanently gain 15 Magic. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Stall Certainty",
+    "rawText": "Stall abilities trigger 6 seconds faster. Backup.",
+    "keywords": [
+      "Stall",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Stalled Cold",
+    "rawText": "After Stall (20), inflict 35% Magic Frost on all enemies.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Stalled Growth",
+    "rawText": "After Stall (30), permanently gain 40 Magic.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mage",
+    "name": "Stalled Heat",
+    "rawText": "After Stall (20), inflict 50% Magic Burn on all enemies.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Arcane Growth",
+    "rawText": "On cast, permanently gain 1 Magic.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Debuff Amplification",
+    "rawText": "On cast, increase the amount of each Debuff on enemies in range by 50% Mana Regen.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Debuff Channeling",
+    "rawText": "On cast, gain 1 Mana Regen for each type of Debuff on all enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Debuff Protection",
+    "rawText": "On cast, give the lowest percent health Hero 1 Shield per 2 Debuffs on all enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Empowered Magic",
+    "rawText": "On cast, give other Heroes 100% Mana Regen Attack and 100% Mana Regen Magic.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Protective Magic",
+    "rawText": "On cast, give the lowest percent health Hero 100 (+500% Mana Regen) Shields.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Rolling Conduit",
+    "rawText": "Mystics gain 1 Mana Regen for each reroll this game. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Shard Weaver",
+    "rawText": "Every other cast, gain 2 Shards.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Shield Formation",
+    "rawText": "At start of combat, give this Hero and adjacent Heroes 250 (+250% Magic, +1000% Mana Regen) Shields.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Shield Magnification",
+    "rawText": "When this Hero applies Shields, apply 50% more Shields.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Sideline Empowerment",
+    "rawText": "Backup Only: At start of combat, give Heroes 4 (+4 per rank) Mana Regen, 25 (+25 per rank) Attack, and 25 (+25 per rank) Magic.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Sideline Support",
+    "rawText": "Backup Only: At start of combat, gain 5 Shards and give Heroes 500 (+500 per rank) Shields.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Stall Battery",
+    "rawText": "On Stall trigger, gain 1 Shard and give Heroes 3 Mana Regen. Backup.",
+    "keywords": [
+      "Stall",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Mystic",
+    "name": "Stall Certainty",
+    "rawText": "Stall abilities trigger 6 seconds faster. Backup.",
+    "keywords": [
+      "Stall",
+      "Backup"
+    ],
+    "sharedWith": [
+      "Tank"
+    ]
+  },
+  {
+    "class": "Mystic",
+    "name": "Stall Enlightenment",
+    "rawText": "After Stall (30), permanently gain 2 Mana Regen.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Distraction",
+    "rawText": "After Stall (10, Stall 20, Stall 30, Stall 40, and Stall 50): Taunt all enemies.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": [
+      "Vanguard"
+    ]
+  },
+  {
+    "class": "Tank",
+    "name": "Freezing Aura",
+    "rawText": "When auto attacked, inflict 1 (+1 per 100 Defense) Frost on the attacker (Max: 6).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Freezing Presence",
+    "rawText": "Tanks gain +33% Defense against damage from enemies with Frost. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Freezing Restoration",
+    "rawText": "When auto attacked by an enemy with Frost, gain 2 HP/S.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Poisonous Aura",
+    "rawText": "When auto attacked, inflict 1 (+1 per 250 Defense) Poison on the attacker (Max: 3).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Poisonous Presence",
+    "rawText": "Tanks gain +33% Defense against damage from enemies with Poison. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Poisonous Restoration",
+    "rawText": "When auto attacked by an enemy with Poison, gain 2 HP/S.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Protector",
+    "rawText": "This Hero gains +20% Defense for each enemy targeting it.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Rear Support",
+    "rawText": "At start of combat, if this Hero is in the back row all Heroes gain +75% Defense.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Resolute",
+    "rawText": "When auto attacked, gain 1 Defense.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Second Wind",
+    "rawText": "After Stall (35), heal 100% Max HP, gain 100 Mana, and gain +20% Defense.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Spiked",
+    "rawText": "When auto attacked, deal 50% Defense damage to adjacent enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "Stall Certainty",
+    "rawText": "Stall abilities trigger 6 seconds faster. Backup.",
+    "keywords": [
+      "Stall",
+      "Backup"
+    ],
+    "sharedWith": [
+      "Mystic"
+    ]
+  },
+  {
+    "class": "Tank",
+    "name": "Stalled Defense",
+    "rawText": "On Stall trigger, gain 45 Defense.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Tank",
+    "name": "The Best Offense...",
+    "rawText": "Tanks gain 1 Attack and 1 Magic per 3 Defense they have. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Aggressive Presence",
+    "rawText": "Vanguards gain 40 (+40 per rank) Attack. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Brutal Vitality",
+    "rawText": "Gain 1000 Max HP and 20 Omnivamp.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Bulk Formation",
+    "rawText": "At start of combat, give this Hero and adjacent Heroes 25% Max Health Max HP.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Burning Aura",
+    "rawText": "On auto attack or when auto attacked, inflict 1 (+1 per 1000 Max Health) Burn on the enemy (Max: 5).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Burning Eye",
+    "rawText": "At start of combat, inflict 1 per 50 Max Health Burn on all enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Burning Restoration",
+    "rawText": "On auto attack or when auto attacked, if the enemy has Burn gain 1 HP/S.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Calming Presence",
+    "rawText": "Vanguards gain 13 (+10 per rank) HP/S. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Distraction",
+    "rawText": "After Stall (10, Stall 20, Stall 30, Stall 40, and Stall 50): Taunt all enemies.",
+    "keywords": [
+      "Stall"
+    ],
+    "sharedWith": [
+      "Tank"
+    ]
+  },
+  {
+    "class": "Vanguard",
+    "name": "Intimidating Aura",
+    "rawText": "Each second, deal 2% Max Health damage to adjacent enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Rush Overdrive",
+    "rawText": "Rush abilities last 3 seconds longer. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": [
+      "Assassin",
+      "Warrior"
+    ]
+  },
+  {
+    "class": "Vanguard",
+    "name": "Rushed Offense",
+    "rawText": "On Rush trigger, gain 100 Max HP, 12 Attack, and 10 Attack Speed.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Rushed Size",
+    "rawText": "For Rush (12), gain +100% Max HP.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Shield Line",
+    "rawText": "At start of combat, give all Heroes in the front 2 rows 66% Max Health Shields.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Vindictive Shields",
+    "rawText": "The first time each combat this Hero goes below 50% Max HP, they gain 50% Max Health Shields and deal 50% Max Health damage to adjacent enemies.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Vanguard",
+    "name": "Violent Presence",
+    "rawText": "Whenever a Vanguard auto attacks or is auto attacked, they gain 25 Shields. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Brutal Force",
+    "rawText": "Gain 100 Attack and 20 Omnivamp.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Critical Aggression",
+    "rawText": "For Rush (10), gain +100% Crit.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Critical Attack Growth",
+    "rawText": "On Crit, permanently gain 2 Attack.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Critical Attacks",
+    "rawText": "This Hero's auto attacks gain 150 Crit.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Critical Invigoration",
+    "rawText": "On Crit, heal 50% Crit health and gain 3 Mana.",
+    "keywords": [],
+    "sharedWith": [
+      "Assassin",
+      "Duelist"
+    ]
+  },
+  {
+    "class": "Warrior",
+    "name": "Fight and Win",
+    "rawText": "On damage dealt for Rush (8), gain lasting Shields equal to 50% of the damage dealt.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Hit Hard, Hit Fast",
+    "rawText": "For Rush (8), gain +100% Attack.",
+    "keywords": [
+      "Rush"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Ranger",
+    "rawText": "Gain 1 Range.",
+    "keywords": [],
+    "sharedWith": [
+      "Duelist"
+    ]
+  },
+  {
+    "class": "Warrior",
+    "name": "Rush Overdrive",
+    "rawText": "Rush abilities last 3 seconds longer. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": [
+      "Assassin",
+      "Vanguard"
+    ]
+  },
+  {
+    "class": "Warrior",
+    "name": "Rush Strength",
+    "rawText": "Warriors gain 2 Attack per Rush trigger this game. Backup.",
+    "keywords": [
+      "Rush",
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Scaling Attack",
+    "rawText": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 25 Attack.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Shield Power",
+    "rawText": "This Hero gains 1 Attack per 10 Shields it has (Max Bonus: 1000).",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Shielding Presence",
+    "rawText": "At start of combat, Warriors gain 1000 (+500 per rank) lasting Shields. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Unfiltered Rage",
+    "rawText": "Gain 2 Omnivamp and 2 Crit per 1% of this Hero's missing health.",
+    "keywords": [],
+    "sharedWith": []
+  },
+  {
+    "class": "Warrior",
+    "name": "Victorious Presence",
+    "rawText": "On combat victory, Warriors permanently gain 20 Attack. Backup.",
+    "keywords": [
+      "Backup"
+    ],
+    "sharedWith": []
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "name": "Aria",
+  "id": 6,
+  "title": "The Requiem",
+  "guild": "L'Héritage",
+  "attackType": "Ranged",
+  "classes": [
+    "Mage"
+  ],
+  "mechanics": [
+    "Frost",
+    "Burn"
+  ],
+  "mechanicsDetail": [
+    "Mage Mechanics: Stall, Burn, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "600",
+    "Base Attack Damage": "23",
+    "Base Attack Speed": "0.4",
+    "Attack Range": "4",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "25",
+    "Defense": "26",
+    "Attack Speed": "0",
+    "Max Mana": "110",
+    "Mana Regen": "4",
+    "Starting Mana": "40",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "5"
+  },
+  "derivedComposites": {
+    "ehp": "678",
+    "eoff": "10.58",
+    "secPerCast": "27.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Magic": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Defense": "+8",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Requiem Barrage",
+    "type": "Active",
+    "rawText": "Channel an energy beam for 2.5 seconds. Each half second, deal 15 (+100% Magic) damage, inflict 1 per 15 Magic Frost, and inflict 1 per 10 Magic Burn to all enemies inside the beam.",
+    "scalings": [
+      {
+        "raw": "15 (+100% Magic)",
+        "base": 15,
+        "stat": "Magic",
+        "percent": 100
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Crescendo",
+      "addsClass": null,
+      "abilityName": "The Crescendo",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "On Stall trigger, permanently gain 3 Magic. After Stall (20, Stall 40, and Stall 60), gain +50% Magic and increase the duration of Requiem Barrage by 1 second.",
+      "scalings": [
+        {
+          "raw": "50% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 50
+        }
+      ]
+    },
+    {
+      "name": "The Resplendent",
+      "addsClass": null,
+      "abilityName": "The Resplendent",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Mages inflict 20% (+10% per rank) more Debuffs. Backup. Aria inflicts an additional 50% more Debuffs.",
+      "scalings": [
+        {
+          "raw": "10% per",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 10
+        },
+        {
+          "raw": "50% more",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 50
+        }
+      ]
+    },
+    {
+      "name": "The Harmony",
+      "addsClass": "Mystic",
+      "abilityName": "The Harmony",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Requiem Barrage Shields Heroes for 50% Magic + 500% Mana Regen.",
+      "scalings": [
+        {
+          "raw": "50% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 50
+        },
+        {
+          "raw": "500% Mana",
+          "base": 0,
+          "stat": "Mana",
+          "percent": 500
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mage",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Mystic",
+      "base": false,
+      "unlockedBy": "The Harmony"
+    }
+  ],
+  "quote": "I've brought them with me.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

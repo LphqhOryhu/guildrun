@@ -1,0 +1,116 @@
+{
+  "name": "Grace",
+  "id": 27,
+  "title": "The Saint",
+  "guild": "Frontline",
+  "attackType": "Ranged",
+  "classes": [
+    "Mystic"
+  ],
+  "mechanics": [
+    "Shields",
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Mystic Mechanics: Shields, Shards, Debuffs, Stall."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "575",
+    "Base Attack Damage": "20",
+    "Base Attack Speed": "0.38",
+    "Attack Range": "4",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "25",
+    "Attack Speed": "0",
+    "Max Mana": "120",
+    "Mana Regen": "8",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "4"
+  },
+  "derivedComposites": {
+    "ehp": "646.88",
+    "eoff": "8.74",
+    "secPerCast": "15"
+  },
+  "rankUpGainsPerRankUp": {
+    "Mana Regen": "+5",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Max HP": "+12.5%",
+    "Attack": "+6",
+    "Crit": "+4"
+  },
+  "startingAbility": {
+    "name": "Salvation",
+    "type": "Active",
+    "rawText": "Bless the lowest % Max HP Hero, applying 125+125|250|500|750% Magic Shields for 5 (+25% Mana Regen) seconds and healing them for half that amount. After Stall (20), this ability can target and resurrect dead Heroes.",
+    "scalings": [
+      {
+        "raw": "5 (+25% Mana Regen)",
+        "base": 5,
+        "stat": "Mana Regen",
+        "percent": 25
+      },
+      {
+        "raw": "750% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 750
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Selfless",
+      "addsClass": null,
+      "abilityName": "The Selfless",
+      "type": "Passive",
+      "keywords": [
+        "Stall",
+        "Backup"
+      ],
+      "rawText": "After Stall (10), Salvation targets all Heroes. Backup Only: After Stall (20 and Stall 40), apply 333 (+333 per rank) Shields to all Heroes and heal them for half that amount.",
+      "scalings": []
+    },
+    {
+      "name": "The Benevolent",
+      "addsClass": null,
+      "abilityName": "The Benevolent",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "On cast after Stall (20), permanently give the target primary stats for each of their classes. This ability only triggers 1 (+1 per rank) times per combat.",
+      "scalings": []
+    },
+    {
+      "name": "The Radiant",
+      "addsClass": null,
+      "abilityName": "The Radiant",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Whenever a Mystic Shields a Hero, give that Hero 6 (+4 per rank) Attack and Magic. Backup.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mystic",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "Me? Really? I.. I'll try my best.",
+  "lore": {
+    "guild": "Frontline - “Stronger every break.” Get your pump on! This will give you permanent scaling!",
+    "currentWork": "The bookish one in a family of athletes, Grace never expected to end up in a rift. Then her awakened powers turned up a rare healing affinity, and the Department of Guild Affairs fielded her before she'd decided if she wanted it. Frightened before every fight, frightened after every one, and back again for the next anyway. It's exactly the story Frontline's self-improvement campaigns are built to tell.",
+    "motivation": "Give her the confidence she's missing. Believe in her, and she becomes the backbone of your team."
+  }
+}

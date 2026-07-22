@@ -1,0 +1,124 @@
+{
+  "name": "Yuuna",
+  "id": 4,
+  "title": "The Professional",
+  "guild": "The Hunt",
+  "attackType": "Melee",
+  "classes": [
+    "Assassin"
+  ],
+  "mechanics": [
+    "Crit"
+  ],
+  "mechanicsDetail": [
+    "Assassin Mechanics: Crit, Shards, Poison, Rush, Stealth."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "800",
+    "Base Attack Damage": "40",
+    "Base Attack Speed": "0.45",
+    "Attack Range": "1",
+    "Crit": "50",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "37",
+    "Attack Speed": "0",
+    "Max Mana": "75",
+    "Mana Regen": "4",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "0.75",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "948",
+    "eoff": "27",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Crit": "+19",
+    "Attack": "+12",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Max HP": "+12.5%",
+    "Attack Speed": "+5",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Shuriken Shadow Strike",
+    "type": "Active",
+    "rawText": "Leap into the air and throw 1 (+1 per 50 Crit) shurikens at the lowest-health enemy for 150 (+150% Attack, +150% Magic) damage each. Max Shurikens: 8",
+    "scalings": [
+      {
+        "raw": "150% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 150
+      },
+      {
+        "raw": "150% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 150
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Shadow",
+      "addsClass": null,
+      "abilityName": "The Shadow",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "When Yuuna goes below 75% Max HP, she gains Stealth for 4 seconds. Triggers once per combat. Whenever Yuuna gains Stealth, she gains 30 Mana and permanently gains 5 (+5 per rank) Crit.",
+      "scalings": [
+        {
+          "raw": "75% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 75
+        }
+      ]
+    },
+    {
+      "name": "The Collector",
+      "addsClass": null,
+      "abilityName": "The Collector",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Shuriken Shadow Strike fires an additional shuriken. On kill, gain 5 Shards then permanently increase the Shards generated from this ability by 1. Triggers once per combat.",
+      "scalings": []
+    },
+    {
+      "name": "The Nightshade",
+      "addsClass": null,
+      "abilityName": "The Nightshade",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Shuriken Shadow Strike gains +150% Crit against Poisoned enemies. Whenever an Assassin Crits, they inflict 4 (+4 per rank) Poison. Backup.",
+      "scalings": [
+        {
+          "raw": "150% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 150
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Assassin",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "I will not let our guild down.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

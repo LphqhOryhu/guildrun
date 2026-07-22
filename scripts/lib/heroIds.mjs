@@ -1,0 +1,31 @@
+// name -> numeric id used in the source's per-hero URL pattern (guildrun.wiki/heroes/<id>/).
+// Shared between generateHeroIntake.mjs (to create one template per hero) and
+// parseHeroIntake.mjs (to recover the id when parsing a raw page-text dump,
+// which doesn't otherwise repeat the id anywhere in its visible text).
+export const HERO_IDS = {
+  Irini: 1,
+  Hoyoung: 2,
+  Reyna: 3,
+  Yuuna: 4,
+  Zuri: 5,
+  Aria: 6,
+  Nyx: 7,
+  Pollen: 8,
+  Niklas: 9,
+  Fiona: 10,
+  Rowan: 11,
+  Skorn: 12,
+  Logan: 13,
+  Funke: 14,
+  Tilly: 15,
+  Gustav: 16,
+  Ratna: 17,
+  Rip: 18,
+  Karsu: 20,
+  Ming: 21,
+  Pimenta: 22,
+  Sal: 23,
+  Dragomir: 24,
+  Kai: 26,
+  Grace: 27,
+}

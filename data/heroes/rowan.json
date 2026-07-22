@@ -1,0 +1,118 @@
+{
+  "name": "Rowan",
+  "id": 11,
+  "title": "The Anchor",
+  "guild": "Gaia Project",
+  "attackType": "Melee",
+  "classes": [
+    "Vanguard",
+    "Tank"
+  ],
+  "mechanics": [
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Vanguard Mechanics: Rush, Shields, Burn.",
+    "Tank Mechanics: Stall, Poison, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "1000",
+    "Base Attack Damage": "31",
+    "Base Attack Speed": "0.35",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "54",
+    "Attack Speed": "0",
+    "Max Mana": "110",
+    "Mana Regen": "4",
+    "Starting Mana": "60",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1270",
+    "eoff": "12.48",
+    "secPerCast": "27.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Max HP": "+31.3%",
+    "Defense": "+27",
+    "Attack": "+9",
+    "Magic": "+9",
+    "Attack Speed": "+7",
+    "Mana Regen": "+1",
+    "Crit": "+4"
+  },
+  "startingAbility": {
+    "name": "Hearty",
+    "type": "Passive",
+    "rawText": "After Stall (10), gain 2 (+1 per 100 Max Health, +1 per 15 Defense) HP/S.",
+    "scalings": []
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Tectonic",
+      "addsClass": null,
+      "abilityName": "Fault Line",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Gain 33% Max Health Shields, then deal 50 (+25% Max Health, +200% Defense, +100% Magic) damage and Stun enemies in front of Rowan for 4 seconds.",
+      "addsClass": null,
+      "abilityName": "The Protector",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On auto attack, gain 3% Max Health Shields, then deal bonus damage equal to 75 (+25 per rank)% of current Shields (Max Damage: 1000% Max Health.",
+      "scalings": [
+        {
+          "raw": "3% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 3
+        },
+        {
+          "raw": "1000% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 1000
+        }
+      ]
+    },
+    {
+      "name": "The Friend",
+      "addsClass": null,
+      "abilityName": "The Friend",
+      "type": "Passive",
+      "keywords": [
+        "Stall",
+        "Backup"
+      ],
+      "rawText": "On Stall trigger, permanently gain 20 Max HP and 4 Defense. Backup. Backup Only: At start of combat, Tanks and Vanguards gain all Defense and Max HP gained from this ability.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Vanguard",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Tank",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "You're safe with me.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

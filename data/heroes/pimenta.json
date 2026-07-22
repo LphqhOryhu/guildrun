@@ -1,0 +1,129 @@
+{
+  "name": "Pimenta",
+  "id": 22,
+  "title": "The Rose Knight",
+  "guild": "Gaia Project",
+  "attackType": "Melee",
+  "classes": [
+    "Tank"
+  ],
+  "mechanics": [
+    "Poison",
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Tank Mechanics: Stall, Poison, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "950",
+    "Base Attack Damage": "33",
+    "Base Attack Speed": "0.42",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "58",
+    "Attack Speed": "0",
+    "Max Mana": "90",
+    "Mana Regen": "4",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1225.5",
+    "eoff": "15.94",
+    "secPerCast": "22.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Defense": "+38",
+    "Max HP": "+25%",
+    "Magic": "+12",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Crit": "+4",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Pepper Spray",
+    "type": "Active",
+    "rawText": "Create a poison cloud around Pimenta for 4 seconds. Each second, deal 5 (+50% Magic, +50% Defense) damage and inflict 2 (+1 per 25 Defense) Poison to enemies in the poison cloud. Each second after Stall (15), gain 3 (+2 per rank) HP/S per enemy in the poison cloud.",
+    "scalings": [
+      {
+        "raw": "50% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 50
+      },
+      {
+        "raw": "50% Defense",
+        "base": 0,
+        "stat": "Defense",
+        "percent": 50
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Spicy",
+      "addsClass": "Duelist",
+      "abilityName": "The Spicy",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On auto attack, for each type of Debuff on the target inflict 2 (+1 per rank) more of that Debuff and deal 10 (+75% Attack Speed) bonus damage.",
+      "scalings": [
+        {
+          "raw": "10 (+75% Attack Speed)",
+          "base": 10,
+          "stat": "Attack Speed",
+          "percent": 75
+        }
+      ]
+    },
+    {
+      "name": "The Seasoned",
+      "addsClass": "Mage",
+      "abilityName": "The Seasoned",
+      "type": "Passive",
+      "keywords": [
+        "Stall",
+        "Backup"
+      ],
+      "rawText": "Pepper Spray expands in size and lasts 1 second longer. After Stall (15), Tanks and Mages gain 20 (+20 per rank) Defense. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Lover",
+      "addsClass": null,
+      "abilityName": "The Lover",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "At start of combat, Heroes directly behind Pimenta permanently gain 15 Attack Speed. Sal gains 15 more.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Tank",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Duelist",
+      "base": false,
+      "unlockedBy": "The Spicy"
+    },
+    {
+      "class": "Mage",
+      "base": false,
+      "unlockedBy": "The Seasoned"
+    }
+  ],
+  "quote": "If they want you, they'll have to go through me.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

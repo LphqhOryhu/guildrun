@@ -1,0 +1,145 @@
+{
+  "name": "Reyna",
+  "id": 3,
+  "title": "The Contender",
+  "guild": "Frontline",
+  "attackType": "Melee",
+  "classes": [
+    "Warrior"
+  ],
+  "mechanics": [
+    "Shields"
+  ],
+  "mechanicsDetail": [],
+  "baseStatsRankC": {
+    "Max HP": "850",
+    "Base Attack Damage": "43",
+    "Base Attack Speed": "0.44",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "25",
+    "Magic": "0",
+    "Defense": "39",
+    "Attack Speed": "0",
+    "Max Mana": "70",
+    "Mana Regen": "4",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1015.75",
+    "eoff": "27.2",
+    "secPerCast": "17.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Triple Threat",
+    "type": "Active",
+    "rawText": "Unleash a 3-punch combo. Each punch counts as an auto attack that deals 100 (+100% Attack, +50% Magic)% damage (Max: 500%) and gives Reyna lasting Shields equal to 33% of the damage dealt.",
+    "scalings": [
+      {
+        "raw": "100% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 100
+      },
+      {
+        "raw": "50% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 50
+      },
+      {
+        "raw": "33% of",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 33
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Champion",
+      "addsClass": null,
+      "abilityName": "The Champion",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "Gain 2 Attack per Rush triggered this game. For Rush (5), Warriors gain 1 Crit and 1 Omnivamp per Rush triggered this game. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Brawler",
+      "addsClass": "Vanguard",
+      "abilityName": "The Brawler",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Triple Threat applies 33% more Shields. Gain 1 Attack per 12 Shields, up to 33% Max Health Attack.",
+      "scalings": [
+        {
+          "raw": "33% more",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 33
+        },
+        {
+          "raw": "33% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 33
+        }
+      ]
+    },
+    {
+      "name": "The Boxer",
+      "addsClass": "Duelist",
+      "abilityName": "The Boxer",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Every 3 auto attacks, deal 150 (+150% Attack) bonus damage and inflict 3 (+1 per 5 Attack Speed) Burn.",
+      "scalings": [
+        {
+          "raw": "150 (+150% Attack)",
+          "base": 150,
+          "stat": "Attack",
+          "percent": 150
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Warrior",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Vanguard",
+      "base": false,
+      "unlockedBy": "The Brawler"
+    },
+    {
+      "class": "Duelist",
+      "base": false,
+      "unlockedBy": "The Boxer"
+    }
+  ],
+  "quote": "If I'm in, we train hard. Let's get to work.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

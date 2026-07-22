@@ -1,0 +1,112 @@
+{
+  "name": "Funke",
+  "id": 14,
+  "title": "The Shackled",
+  "guild": "A Temple",
+  "attackType": "Ranged",
+  "classes": [
+    "Mage"
+  ],
+  "mechanics": [
+    "Burn"
+  ],
+  "mechanicsDetail": [
+    "Mage Mechanics: Stall, Burn, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "650",
+    "Base Attack Damage": "21",
+    "Base Attack Speed": "0.47",
+    "Attack Range": "4",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "25",
+    "Defense": "27",
+    "Attack Speed": "0",
+    "Max Mana": "85",
+    "Mana Regen": "4",
+    "Starting Mana": "45",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "6"
+  },
+  "derivedComposites": {
+    "ehp": "737.75",
+    "eoff": "11.35",
+    "secPerCast": "21.25"
+  },
+  "rankUpGainsPerRankUp": {
+    "Magic": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Defense": "+8",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Wildfire",
+    "type": "Active",
+    "rawText": "Blast a fireball at all enemies in Funke's range, dealing 175 (+200% Magic) damage and inflicting 15 (+66% Magic) Burn.",
+    "scalings": [
+      {
+        "raw": "175 (+200% Magic)",
+        "base": 175,
+        "stat": "Magic",
+        "percent": 200
+      },
+      {
+        "raw": "15 (+66% Magic)",
+        "base": 15,
+        "stat": "Magic",
+        "percent": 66
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Stoked",
+      "addsClass": null,
+      "abilityName": "The Stoked",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Mages gain 1 (+1 per rank) Magic whenever an enemy in their range takes Burn damage. Backup. Funke gains 1 Mana whenever an enemy in his range takes Burn damage.",
+      "scalings": []
+    },
+    {
+      "name": "The Inferno",
+      "addsClass": null,
+      "abilityName": "The Inferno",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "Gain 2 Attack Range. At start of combat and after Stall (20), inflict 25 (+1 per 4 Magic) Burn on all enemies in range.",
+      "scalings": []
+    },
+    {
+      "name": "The Detonator",
+      "addsClass": null,
+      "abilityName": "The Detonator",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On cast, all enemies in range take 10 (+10 per rank) ticks of Burn damage.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mage",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "Let me do things my way.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Niklas",
+  "id": 9,
+  "title": "The Dealer",
+  "guild": "Aegis Global",
+  "attackType": "Melee",
+  "classes": [
+    "Vanguard"
+  ],
+  "mechanics": [
+    "Shards",
+    "Burn",
+    "Rush"
+  ],
+  "mechanicsDetail": [
+    "Vanguard Mechanics: Rush, Shields, Burn."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "1150",
+    "Base Attack Damage": "40",
+    "Base Attack Speed": "0.4",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "44",
+    "Attack Speed": "0",
+    "Max Mana": "90",
+    "Mana Regen": "4",
+    "Starting Mana": "45",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1403",
+    "eoff": "18.4",
+    "secPerCast": "22.5"
+  },
+  "rankUpGainsPerRankUp": {
+    "Max HP": "+37.5%",
+    "Attack": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Crit": "+4",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Red Hot Deals",
+    "type": "Passive",
+    "rawText": "When Niklas survives combat, consume the item in his left-most item slot. Permanently gain 100% of its stats and gain Shards equal to 80% its value. For Rush (14), auto attacks inflict 1 (+1 per 500 Max Health) Burn per equipped item.",
+    "scalings": [
+      {
+        "raw": "100% of",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 100
+      },
+      {
+        "raw": "80% its",
+        "base": 0,
+        "stat": "unknown",
+        "percent": 80
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Dealer",
+      "addsClass": null,
+      "abilityName": "Wheel and Deal",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Swing a mace to deal 175 (+25% Max Health, +200% Attack, +150% Magic) damage and Stun for 3 seconds. This ability has a 25% chance to create a random item.",
+      "addsClass": null,
+      "abilityName": "The Executive",
+      "type": "Passive",
+      "keywords": [
+        "Rush"
+      ],
+      "rawText": "Gain two item slots. For Rush (15), gain 33% Max Health Shields per equipped item.",
+      "scalings": [
+        {
+          "raw": "33% Max",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 33
+        }
+      ]
+    },
+    {
+      "name": "The Hoarder",
+      "addsClass": "Tank",
+      "abilityName": "The Hoarder",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Whenever a Vanguard or Tank is auto attacked, they deal 1 damage to the attacker per Shard generated this game. Backup.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Vanguard",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Tank",
+      "base": false,
+      "unlockedBy": "The Hoarder"
+    }
+  ],
+  "quote": "Looks like you know a deal when you see one.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

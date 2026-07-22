@@ -1,0 +1,127 @@
+{
+  "name": "Sal",
+  "id": 23,
+  "title": "The Keeper",
+  "guild": "Gaia Project",
+  "attackType": "Ranged",
+  "classes": [
+    "Mage"
+  ],
+  "mechanics": [
+    "Frost"
+  ],
+  "mechanicsDetail": [
+    "Mage Mechanics: Stall, Burn, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "725",
+    "Base Attack Damage": "30",
+    "Base Attack Speed": "0.45",
+    "Attack Range": "2",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "25",
+    "Defense": "34",
+    "Attack Speed": "0",
+    "Max Mana": "100",
+    "Mana Regen": "4",
+    "Starting Mana": "50",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "6"
+  },
+  "derivedComposites": {
+    "ehp": "848.25",
+    "eoff": "15.53",
+    "secPerCast": "25"
+  },
+  "rankUpGainsPerRankUp": {
+    "Magic": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Defense": "+8",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Permafrost",
+    "type": "Active",
+    "rawText": "Sal empowers her attacks, causing them to also hit the nearest enemy to Sal's target, dealing 10 (+50% Magic) bonus damage and inflicting 1 (+1 per rank) Frost. This ability stacks.",
+    "scalings": [
+      {
+        "raw": "10 (+50% Magic)",
+        "base": 10,
+        "stat": "Magic",
+        "percent": 50
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Breezy",
+      "addsClass": "Duelist",
+      "abilityName": "The Breezy",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Whenever a Mage or Duelist inflicts a Debuff, they gain 0 (+1 per rank) Attack Speed and 1 (+1 per rank) Magic. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Lover",
+      "addsClass": null,
+      "abilityName": "The Lover",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "At start of combat, Heroes directly in front of Sal permanently gain 20 Defense. Pimenta gains 20 more.",
+      "scalings": []
+    },
+    {
+      "name": "The Brisk",
+      "addsClass": "Warrior",
+      "abilityName": "The Brisk",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Bonus damage from Permafrost can Crit. On Crit, inflict 1 (+1 per rank) Frost. On cast, Sal gains 33% Attack + 33% Magic Crit.",
+      "scalings": [
+        {
+          "raw": "33% Attack",
+          "base": 0,
+          "stat": "Attack",
+          "percent": 33
+        },
+        {
+          "raw": "33% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 33
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mage",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Duelist",
+      "base": false,
+      "unlockedBy": "The Breezy"
+    },
+    {
+      "class": "Warrior",
+      "base": false,
+      "unlockedBy": "The Brisk"
+    }
+  ],
+  "quote": "See? We're still here.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

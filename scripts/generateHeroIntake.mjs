@@ -9,38 +9,10 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { HERO_IDS } from './lib/heroIds.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const intakeDir = join(__dirname, '..', 'data', 'intake', 'heroes')
-
-// name -> numeric id used in the source's per-hero URL pattern, if you have one.
-const HERO_IDS = {
-  Irini: 1,
-  Hoyoung: 2,
-  Reyna: 3,
-  Yuuna: 4,
-  Zuri: 5,
-  Aria: 6,
-  Nyx: 7,
-  Pollen: 8,
-  Niklas: 9,
-  Fiona: 10,
-  Rowan: 11,
-  Skorn: 12,
-  Logan: 13,
-  Funke: 14,
-  Tilly: 15,
-  Gustav: 16,
-  Ratna: 17,
-  Rip: 18,
-  Karsu: 20,
-  Ming: 21,
-  Pimenta: 22,
-  Sal: 23,
-  Dragomir: 24,
-  Kai: 26,
-  Grace: 27,
-}
 
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-')

@@ -1,0 +1,129 @@
+{
+  "name": "Dragomir",
+  "id": 24,
+  "title": "The Executive",
+  "guild": "Aegis Global",
+  "attackType": "Melee",
+  "classes": [
+    "Assassin"
+  ],
+  "mechanics": [
+    "Shards",
+    "Crit",
+    "Omnivamp"
+  ],
+  "mechanicsDetail": [
+    "Assassin Mechanics: Crit, Shards, Poison, Rush, Stealth."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "800",
+    "Base Attack Damage": "35",
+    "Base Attack Speed": "0.45",
+    "Attack Range": "1",
+    "Crit": "50",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "40",
+    "Attack Speed": "0",
+    "Max Mana": "75",
+    "Mana Regen": "4",
+    "Starting Mana": "35",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "960",
+    "eoff": "23.63",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Crit": "+19",
+    "Attack": "+12",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Max HP": "+12.5%",
+    "Attack Speed": "+5",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Devour",
+    "type": "Active",
+    "rawText": "Gain 1 (+10% Crit) Omnivamp, then deal 250 (+200% Magic, +1000% Omnivamp) damage. On kill, gain 2 (+2 per rank) Shards.",
+    "scalings": [
+      {
+        "raw": "1 (+10% Crit)",
+        "base": 1,
+        "stat": "Crit",
+        "percent": 10
+      },
+      {
+        "raw": "200% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 200
+      },
+      {
+        "raw": "1000% Omnivamp",
+        "base": 0,
+        "stat": "Omnivamp",
+        "percent": 1000
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Greedy",
+      "addsClass": null,
+      "abilityName": "The Greedy",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Devour generates 2 (+1 per rank) more Shards on kill. On cast, consume 2 Shards to permanently gain 1 (+1 per rank) Omnivamp and 1 (+1 per rank) Crit.",
+      "scalings": []
+    },
+    {
+      "name": "The Sanguine",
+      "addsClass": "Mage",
+      "abilityName": "The Sanguine",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On cast, gain 4 (+4 per rank) Omnivamp and teleport behind the lowest health enemy. On Devour kill, gain 70 Mana and Stealth for 4 seconds.",
+      "scalings": []
+    },
+    {
+      "name": "The Kingpin",
+      "addsClass": "Vanguard",
+      "abilityName": "The Kingpin",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "For Rush (8), Assassins and Vanguards gain 1 Omnivamp and 1 Crit per Shard generated this game. Backup.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Assassin",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Mage",
+      "base": false,
+      "unlockedBy": "The Sanguine"
+    },
+    {
+      "class": "Vanguard",
+      "base": false,
+      "unlockedBy": "The Kingpin"
+    }
+  ],
+  "quote": "You'll want me here. Trust me.",
+  "lore": {
+    "guild": "Aegis Global - “Certainty in an uncertain world.” Profit is power. Money makes money and everything on the way will be debuffed.",
+    "currentWork": "Dragomir's Awakening nearly killed him. Look closely and you could argue it partly did. Yet every year since, he's looked a little more vibrant, a little more alive; his doctors stopped trying to offer explanations long ago. He's well-spoken, with an old-world courtesy that puts people at ease and keeps anyone from investigating his condition too closely.",
+    "motivation": "Aegis is starting to ask questions. A new guild means new faces and answers he won't have to give for years."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Tilly",
+  "id": 15,
+  "title": "The Heiress",
+  "guild": "L'Héritage",
+  "attackType": "Melee",
+  "classes": [
+    "Warrior",
+    "Duelist"
+  ],
+  "mechanics": [
+    "Shards"
+  ],
+  "mechanicsDetail": [
+    "Duelist Mechanics: Stall, Rush, Debuffs, Crit, Shards."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "750",
+    "Base Attack Damage": "38",
+    "Base Attack Speed": "0.5",
+    "Attack Range": "2",
+    "Crit": "15",
+    "Attack": "25",
+    "Magic": "0",
+    "Defense": "34",
+    "Attack Speed": "20",
+    "Max Mana": "75",
+    "Mana Regen": "4",
+    "Starting Mana": "25",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "877.5",
+    "eoff": "32.77",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack": "+21",
+    "Attack Speed": "+17",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Luxurious",
+    "type": "Passive",
+    "rawText": "Gain 25% Attack Attack Speed and 25% Attack Speed Attack. Every 25 auto attacks, gain 2 (+2 per rank) Shards.",
+    "scalings": [
+      {
+        "raw": "25% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 25
+      },
+      {
+        "raw": "25% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 25
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Stylish",
+      "addsClass": null,
+      "abilityName": "The Stylish",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Gain an item slot. On auto attack, deal bonus damage per Shard generated this game.",
+      "scalings": []
+    },
+    {
+      "name": "The Sharp",
+      "addsClass": null,
+      "abilityName": "The Sharp",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Stall",
+        "Backup"
+      ],
+      "rawText": "For Rush (10), Warriors gain 8 (+8 per rank)% Attack and 4 (+4 per rank)% Crit. Backup. After Stall (20), Duelists gain 8 (+8 per rank)% Attack Speed and 4 (+4 per rank)% Crit. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Elegant",
+      "addsClass": null,
+      "abilityName": "Pirouette",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Warrior",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Duelist",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "Oh.. I might actually be brilliant at this.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Ratna",
+  "id": 17,
+  "title": "The Matriarch",
+  "guild": "L'Héritage",
+  "attackType": "Ranged",
+  "classes": [
+    "Mage"
+  ],
+  "mechanics": [
+    "Crit"
+  ],
+  "mechanicsDetail": [
+    "Mage Mechanics: Stall, Burn, Frost."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "575",
+    "Base Attack Damage": "20",
+    "Base Attack Speed": "0.43",
+    "Attack Range": "4",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "25",
+    "Defense": "27",
+    "Attack Speed": "0",
+    "Max Mana": "80",
+    "Mana Regen": "4",
+    "Starting Mana": "30",
+    "Mana Lock (s)": "0.75",
+    "Move Speed": "1.5",
+    "Projectile Speed": "6"
+  },
+  "derivedComposites": {
+    "ehp": "661.25",
+    "eoff": "9.89",
+    "secPerCast": "20"
+  },
+  "rankUpGainsPerRankUp": {
+    "Magic": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Mana Regen": "+2",
+    "Attack": "+6",
+    "Defense": "+8",
+    "Attack Speed": "+5"
+  },
+  "startingAbility": {
+    "name": "Starfall",
+    "type": "Active",
+    "rawText": "Conjure celestial magic to deal 190+150|250|450|750% Magic damage. On kill, permanently gain 10 (+10 per rank) Magic. On Crit, Stun all enemies for .5 (+.5 per rank) seconds.",
+    "scalings": [
+      {
+        "raw": "750% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 750
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Fashionable",
+      "addsClass": null,
+      "abilityName": "The Fashionable",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Gain an item slot. At start of combat, gain 45 Magic, 4 Mana Regen, and 8 HP/S per rarity level of each equipped item.",
+      "scalings": []
+    },
+    {
+      "name": "The Ostentatious",
+      "addsClass": "Mystic",
+      "abilityName": "The Ostentatious",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "On cast, other Heroes gain 20% Magic Magic and 25% Mana Regen Mana Regen. Backup Only: At start of combat, Mages and Mystics gain 20% Magic Magic and 25% Mana Regen Mana Regen.",
+      "scalings": [
+        {
+          "raw": "20% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 20
+        },
+        {
+          "raw": "25% Mana",
+          "base": 0,
+          "stat": "Mana",
+          "percent": 25
+        },
+        {
+          "raw": "20% Magic",
+          "base": 0,
+          "stat": "Magic",
+          "percent": 20
+        },
+        {
+          "raw": "25% Mana",
+          "base": 0,
+          "stat": "Mana",
+          "percent": 25
+        }
+      ]
+    },
+    {
+      "name": "The Magnanimous",
+      "addsClass": "Assassin",
+      "abilityName": "The Magnanimous",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Starfall also hits the lowest health enemy the first 2 (+1 per rank) times it is cast each combat. On kill, gain Stealth for 4 seconds and permanently gain 3 (+3 per rank) Crit.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mage",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Mystic",
+      "base": false,
+      "unlockedBy": "The Ostentatious"
+    },
+    {
+      "class": "Assassin",
+      "base": false,
+      "unlockedBy": "The Magnanimous"
+    }
+  ],
+  "quote": "Are you sure your guild can afford me?",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

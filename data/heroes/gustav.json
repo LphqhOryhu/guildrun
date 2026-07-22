@@ -1,0 +1,125 @@
+{
+  "name": "Gustav",
+  "id": 16,
+  "title": "The Analyst",
+  "guild": "Aegis Global",
+  "attackType": "Ranged",
+  "classes": [
+    "Mystic"
+  ],
+  "mechanics": [
+    "Frost",
+    "Shields"
+  ],
+  "mechanicsDetail": [
+    "Mystic Mechanics: Shields, Shards, Debuffs, Stall."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "700",
+    "Base Attack Damage": "22",
+    "Base Attack Speed": "0.36",
+    "Attack Range": "3",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "30",
+    "Attack Speed": "0",
+    "Max Mana": "150",
+    "Mana Regen": "8",
+    "Starting Mana": "45",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "4"
+  },
+  "derivedComposites": {
+    "ehp": "805",
+    "eoff": "9.11",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Mana Regen": "+5",
+    "Magic": "+12",
+    "Defense": "+16",
+    "Attack Speed": "+10",
+    "Max HP": "+12.5%",
+    "Attack": "+6",
+    "Crit": "+4"
+  },
+  "startingAbility": {
+    "name": "Blizzard",
+    "type": "Active",
+    "rawText": "Create a Blizzard for 5 seconds. Each second, inflict 1 (+1 per 8 Mana Regen) Frost and deal 10 (+50% Magic) damage to enemies inside the Blizzard. Shield Heroes inside it for 10 (+100% Magic).",
+    "scalings": [
+      {
+        "raw": "10 (+50% Magic)",
+        "base": 10,
+        "stat": "Magic",
+        "percent": 50
+      },
+      {
+        "raw": "10 (+100% Magic)",
+        "base": 10,
+        "stat": "Magic",
+        "percent": 100
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Investor",
+      "addsClass": null,
+      "abilityName": "The Investor",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "At start of combat, spend 4 Shards to give Gustav an Investment. Give all Heroes 2 Mana Regen per Investment. Backup. Every 5 Investments, gain 30 Shards.",
+      "scalings": []
+    },
+    {
+      "name": "The Glacier",
+      "addsClass": "Tank",
+      "abilityName": "The Glacier",
+      "type": "Passive",
+      "keywords": [
+        "Stall"
+      ],
+      "rawText": "Blizzard applies 100% Defense more Shields and always targets Gustav. After Stall (25 and Stall 50), permanently gain 2 (+2 per rank) Defense.",
+      "scalings": [
+        {
+          "raw": "100% Defense",
+          "base": 0,
+          "stat": "Defense",
+          "percent": 100
+        }
+      ]
+    },
+    {
+      "name": "The Avalanche",
+      "addsClass": null,
+      "abilityName": "The Avalanche",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On cast, gain 1 Shard. On Shards generated, gain 1 Mana Regen and 5 Magic.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Mystic",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Tank",
+      "base": false,
+      "unlockedBy": "The Glacier"
+    }
+  ],
+  "quote": "I've been wanting to test a scenario like this.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

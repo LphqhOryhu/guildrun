@@ -1,0 +1,104 @@
+{
+  "name": "Irini",
+  "id": 1,
+  "title": "Second Wind",
+  "guild": "Frontline",
+  "attackType": "Ranged",
+  "classes": [
+    "Duelist"
+  ],
+  "mechanics": [
+    "Stall"
+  ],
+  "mechanicsDetail": [
+    "Duelist Mechanics: Stall, Rush, Debuffs, Crit, Shards."
+  ],
+  "baseStatsRankC": {
+    "Max HP": "650",
+    "Base Attack Damage": "31",
+    "Base Attack Speed": "0.54",
+    "Attack Range": "3",
+    "Crit": "15",
+    "Attack": "0",
+    "Magic": "0",
+    "Defense": "29",
+    "Attack Speed": "20",
+    "Max Mana": "75",
+    "Mana Regen": "4",
+    "Starting Mana": "10",
+    "Mana Lock (s)": "0.75",
+    "Move Speed": "1.5",
+    "Projectile Speed": "5"
+  },
+  "derivedComposites": {
+    "ehp": "744.25",
+    "eoff": "23.1",
+    "secPerCast": "18.75"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack Speed": "+25",
+    "Max HP": "+25%",
+    "Attack": "+12",
+    "Crit": "+8",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Limitless",
+    "type": "Passive",
+    "rawText": "Each auto attack, gain 1 Attack Speed. After Stall (15), auto attacks deal 100% Attack Speed bonus damage.",
+    "scalings": [
+      {
+        "raw": "100% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 100
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Electric",
+      "addsClass": null,
+      "abilityName": "Gathering Storm",
+      "type": "Active",
+      "keywords": [],
+      "rawText": "added",
+      "scalings": []
+    },
+    {
+      "name": "Call down lightning, dealing 10 (+20% Attack Speed, +10% Attack, +10% Magic) damage per Stall and Rush triggered this game.",
+      "addsClass": null,
+      "abilityName": "The Mighty",
+      "type": "Passive",
+      "keywords": [
+        "Backup"
+      ],
+      "rawText": "Whenever a Duelist auto attacks it gains 0 (+1 per rank) Attack Speed and 0 (+1 per rank) Attack. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Olympic",
+      "addsClass": null,
+      "abilityName": "The Olympic",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Gain the unique quest item Zeus's Thunder.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Duelist",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "They said I'd never do this again.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

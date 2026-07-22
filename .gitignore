@@ -3,3 +3,5 @@ dist/
 .DS_Store
 *.local
 screenshots/
+data/intake/heroes/*.txt
+data/scraped/

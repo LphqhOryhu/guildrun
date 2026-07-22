@@ -1,0 +1,108 @@
+{
+  "name": "Logan",
+  "id": 13,
+  "title": "The Executioner",
+  "guild": "Frontline",
+  "attackType": "Melee",
+  "classes": [
+    "Warrior"
+  ],
+  "mechanics": [],
+  "mechanicsDetail": [],
+  "baseStatsRankC": {
+    "Max HP": "825",
+    "Base Attack Damage": "50",
+    "Base Attack Speed": "0.4",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "25",
+    "Magic": "0",
+    "Defense": "40",
+    "Attack Speed": "0",
+    "Max Mana": "80",
+    "Mana Regen": "4",
+    "Starting Mana": "30",
+    "Mana Lock (s)": "0.5",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "990",
+    "eoff": "28.75",
+    "secPerCast": "20"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Execution",
+    "type": "Active",
+    "rawText": "Swing a crushing axe to deal 150+100|200|400|600% Attack+200% Magic damage. Logan gains power by dealing damage with this ability.",
+    "scalings": [
+      {
+        "raw": "200% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 200
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Iron",
+      "addsClass": null,
+      "abilityName": "The Iron",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "For Rush (8), Warriors gain 0 (+2 per rank) Attack and 0 (+2 per rank) Defense per Rush trigger this game. Backup.",
+      "scalings": []
+    },
+    {
+      "name": "The Juggernaut",
+      "addsClass": null,
+      "abilityName": "The Juggernaut",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Whenever Logan deals damage with Execution, he gains lasting Shields equal to 75% (+50% per rank) of the damage dealt.",
+      "scalings": [
+        {
+          "raw": "50% per",
+          "base": 0,
+          "stat": "unknown",
+          "percent": 50
+        }
+      ]
+    },
+    {
+      "name": "The Momentous",
+      "addsClass": null,
+      "abilityName": "The Momentous",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "On kill, gain 40 Mana and permanently gain 15 Attack and 5 Crit.",
+      "scalings": []
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Warrior",
+      "base": true,
+      "unlockedBy": null
+    }
+  ],
+  "quote": "I don't fight for sport. I fight to end this.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}

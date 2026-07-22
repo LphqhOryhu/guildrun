@@ -1,0 +1,141 @@
+{
+  "name": "Kai",
+  "id": 26,
+  "title": "The Shotcaller",
+  "guild": "The Hunt",
+  "attackType": "Melee",
+  "classes": [
+    "Warrior"
+  ],
+  "mechanics": [
+    "Shields"
+  ],
+  "mechanicsDetail": [],
+  "baseStatsRankC": {
+    "Max HP": "875",
+    "Base Attack Damage": "46",
+    "Base Attack Speed": "0.38",
+    "Attack Range": "1",
+    "Crit": "15",
+    "Attack": "25",
+    "Magic": "0",
+    "Defense": "40",
+    "Attack Speed": "0",
+    "Max Mana": "105",
+    "Mana Regen": "4",
+    "Starting Mana": "50",
+    "Mana Lock (s)": "1",
+    "Move Speed": "1.5",
+    "Projectile Speed": "0"
+  },
+  "derivedComposites": {
+    "ehp": "1050",
+    "eoff": "25.13",
+    "secPerCast": "26.25"
+  },
+  "rankUpGainsPerRankUp": {
+    "Attack": "+31",
+    "Max HP": "+25%",
+    "Crit": "+8",
+    "Attack Speed": "+10",
+    "Magic": "+6",
+    "Defense": "+8",
+    "Mana Regen": "+1"
+  },
+  "startingAbility": {
+    "name": "Resolute Strike",
+    "type": "Active",
+    "rawText": "Charge up a mighty attack, gaining 300 (+400% Attack, +250% Magic) Shields. After 2 seconds, deal 100 (+100% Attack) damage plus bonus damage equal to Kai's remaining Shields to surrounding enemies.",
+    "scalings": [
+      {
+        "raw": "100 (+100% Attack)",
+        "base": 100,
+        "stat": "Attack",
+        "percent": 100
+      },
+      {
+        "raw": "400% Attack",
+        "base": 0,
+        "stat": "Attack",
+        "percent": 400
+      },
+      {
+        "raw": "250% Magic",
+        "base": 0,
+        "stat": "Magic",
+        "percent": 250
+      }
+    ]
+  },
+  "rankBSpecializations": [
+    {
+      "name": "The Unstoppable",
+      "addsClass": null,
+      "abilityName": "The Unstoppable",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Gain 60 (+25% Attack)% more Shields from all sources. Whenever Kai gains Shields, he also gains 9 (+6 per rank) Attack.",
+      "scalings": [
+        {
+          "raw": "60 (+25% Attack)",
+          "base": 60,
+          "stat": "Attack",
+          "percent": 25
+        }
+      ]
+    },
+    {
+      "name": "The Bold",
+      "addsClass": "Tank",
+      "abilityName": "The Bold",
+      "type": "Passive",
+      "keywords": [],
+      "rawText": "Resolute Strike hits 1 second faster and affects a larger area. On cast, gain 250 (+500% Defense) lasting Shields.",
+      "scalings": [
+        {
+          "raw": "250 (+500% Defense)",
+          "base": 250,
+          "stat": "Defense",
+          "percent": 500
+        }
+      ]
+    },
+    {
+      "name": "The Intrepid",
+      "addsClass": null,
+      "abilityName": "The Intrepid",
+      "type": "Passive",
+      "keywords": [
+        "Rush",
+        "Backup"
+      ],
+      "rawText": "For Rush (8), gain 100% Crit. Whenever a Warrior Crits reduce their target's Defense by 2 (+1 per rank). Backup.",
+      "scalings": [
+        {
+          "raw": "100% Crit",
+          "base": 0,
+          "stat": "Crit",
+          "percent": 100
+        }
+      ]
+    }
+  ],
+  "rankASClassPools": [
+    {
+      "class": "Warrior",
+      "base": true,
+      "unlockedBy": null
+    },
+    {
+      "class": "Tank",
+      "base": false,
+      "unlockedBy": "The Bold"
+    }
+  ],
+  "quote": "Don't have all the fun without me.",
+  "lore": {
+    "guild": "",
+    "currentWork": "",
+    "motivation": ""
+  }
+}
