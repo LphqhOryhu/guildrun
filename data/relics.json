@@ -1,0 +1,3148 @@
+[
+  {
+    "name": "Acceleration Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Trigger Rush 3 times. Reward: Rush abilities last 1 second longer.",
+    "quest": "Trigger Rush 3 times.",
+    "reward": "Rush abilities last 1 second longer.",
+    "shopPrice": null
+  },
+  {
+    "name": "Acceleration Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Trigger Rush 15 times. Reward: Rush abilities last 4 seconds longer.",
+    "quest": "Trigger Rush 15 times.",
+    "reward": "Rush abilities last 4 seconds longer.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Trigger Rush 6 times. Reward: Rush abilities last 3 seconds longer.",
+    "quest": "Trigger Rush 6 times.",
+    "reward": "Rush abilities last 3 seconds longer.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Filigree",
+    "rarity": "Epic",
+    "rawEffect": "On kill for Rush (20), gain 12 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Fluctuator",
+    "rarity": "Unique",
+    "rawEffect": "On Rush trigger, give Heroes 10 Attack Speed and 10 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Acceleration Immunizer",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (2), Heroes are immune to damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Lattice",
+    "rarity": "Common",
+    "rawEffect": "For Rush (10), Heroes gain 20 HP/S.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Legacy Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "For Rush (6), Heroes gain +1% basic stats for every 2 times you've triggered Rush this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Trigger Rush 25 times. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Trigger Rush 25 times.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Nexus",
+    "rarity": "Rare",
+    "rawEffect": "Every 2 Rush triggers, gain 1 Shard.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Prism",
+    "rarity": "Epic",
+    "rawEffect": "On Rush trigger, give Heroes 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Reactor",
+    "rarity": "Rare",
+    "rawEffect": "On Rush trigger, give Heroes 5 Crit and 10 Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Acceleration Resonator",
+    "rarity": "Unique",
+    "rawEffect": "On Rush trigger, Heroes gain 250 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Acceleration Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Trigger Rush 4 times. Reward: Rush abilities last 2 seconds longer.",
+    "quest": "Trigger Rush 4 times.",
+    "reward": "Rush abilities last 2 seconds longer.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Advanced Differentiator",
+    "rarity": "Rare",
+    "rawEffect": "Shop rerolls cost 2 less.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Alignment Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Trigger Rush or Stall 25 times. Reward: On Rush or Stall trigger, Heroes gain 10 Attack Speed and 15 Defense.",
+    "quest": "Trigger Rush or Stall 25 times.",
+    "reward": "On Rush or Stall trigger, Heroes gain 10 Attack Speed and 15 Defense.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "All In Starting",
+    "rarity": "Unique",
+    "rawEffect": "Gain 40 Shards. Start with Emergency Rewind unavailable.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Arcane Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Mages and Mystics gain 50 Magic and 4 Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Arcane Backup Prism",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 20 Magic per rank of each Mage in the reserves and 2 Mana Regen per rank of each Mystic in the reserves.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Arcane Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Cast 25 Active Abilities. Reward: Heroes gain 25 Starting Mana.",
+    "quest": "Cast 25 Active Abilities.",
+    "reward": "Heroes gain 25 Starting Mana.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Arcane Energy Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "Whenever a Mage or Mystic casts, they deal damage equal to 100% of their Magic to all enemies and apply Shields equal to 1000% of their Mana Regen to all Heroes.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Arcane Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Deal 15000 damage with active abilities. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Deal 15000 damage with active abilities.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Ascension Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win a combat with Heroes of 3 or more different ranks in combat. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win a combat with Heroes of 3 or more different ranks in combat.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as an Assassin during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Assassins. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Ambush Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 30 Crit. Whenever an Assassin auto attacks while Stealthed, they inflict Poison on their target equal to 75% of their Crit. At start of combat, Assassins in the back 2 rows gain Stealth for 5 seconds and target the most threatening enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Combative Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Assassins gain 15 Crit and 25 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Elevation Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an Assassin kills an enemy they permanently gain 7 Crit then you gain 1 Shard per 100 Crit they have (Max: 10).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "If there is an Assassin in combat, Heroes gain Stealth for 3 seconds the first time they go below 66% Max HP each combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Enchanted Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Assassins gain 15 Crit and 25 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Endurance Banner",
+    "rarity": "Unique",
+    "rawEffect": "Assassin's Rush abilities last 3 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Greed Banner",
+    "rarity": "Unique",
+    "rawEffect": "Assassins gain 1 Attack and 1 Magic per 5 Shards you've generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Assassins gain 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Memento",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, gain 4 Shards per Assassin in combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Assassin's Patience Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever an Assassin Crits, they permanently gain 1 Attack and 1 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Payday Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever an Assassin kills an enemy, gain 4 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Smokescreen Banner",
+    "rarity": "Unique",
+    "rawEffect": "Assassins gain Stealth for 3 seconds the first time they go below 33% Max HP each combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Assassin's Supremacy Filigree",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (4), Assassins gain Stealth and 200 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Attack Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Attack Speed Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Backline Aggressor",
+    "rarity": "Common",
+    "rawEffect": "At start of combat, Heroes in the back row gain 10 Attack Speed and 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Backline Quickener",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, Heroes in the back row gain 40 Attack Speed and increased move speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Backline Sharpener",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, Heroes in the back row gain 25 Crit and increased move speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Basic Differentiator",
+    "rarity": "Common",
+    "rawEffect": "Shop rerolls cost 1 less.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Battle Stance",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "Heroes have 50% increased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Blight Resonance Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an enemy takes Poison or Burn damage, heal all adjacent Heroes to them for 50% of that damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Bossy Starting",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Win 6 combats. Reward: Gain 50 Shards.",
+    "quest": "Win 6 combats.",
+    "reward": "Gain 50 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Burn Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Inflict 150 Burn. Reward: Gain 15 Shards.",
+    "quest": "Inflict 150 Burn.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Burn Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Whenever a Hero inflicts Burn, inflict 33% more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burn Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Inflict 1200 Burn. Reward: The first time each enemy reaches 100 Burn, inflict 50 Burn on their nearest ally.",
+    "quest": "Inflict 1200 Burn.",
+    "reward": "The first time each enemy reaches 100 Burn, inflict 50 Burn on their nearest ally.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burn Bauble",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, inflict 15 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Burn Catalyst",
+    "rarity": "Rare",
+    "rawEffect": "For Rush (15), enemies receive 50% more Burn damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burn Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Inflict 600 Burn. Reward: Whenever a Hero inflicts Burn, they gain 1 Magic and 1 Attack per 6 Burn inflicted.",
+    "quest": "Inflict 600 Burn.",
+    "reward": "Whenever a Hero inflicts Burn, they gain 1 Magic and 1 Attack per 6 Burn inflicted.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burn Migrator",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an enemy dies, transfer their Burn to the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burn Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Inflict 300 Burn. Reward: Heroes gain 200 Max HP and 25 Attack.",
+    "quest": "Inflict 300 Burn.",
+    "reward": "Heroes gain 200 Max HP and 25 Attack.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Burning",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "At start of combat, inflict Burn on all Heroes equal to 3% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Burning Spiral Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Whenever an enemy with 100 or more Burn dies, damage all enemies in a large area around them equal to 50% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Combative Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 6 Attack. On combat victory, permanently increase the Attack gained by 6.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Crest Windfall Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get two random items which make a Hero count as having an additional class. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Crit Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Critical Absorption Prism",
+    "rarity": "Epic",
+    "rawEffect": "On Crit, the Hero that Crit steals 60 Max HP from their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Critical Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Crit 100 times. Reward: Each Hero's first auto attack against each enemy gains 1500 Crit and Stuns them for 2.5 seconds.",
+    "quest": "Crit 100 times.",
+    "reward": "Each Hero's first auto attack against each enemy gains 1500 Crit and Stuns them for 2.5 seconds.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Critical Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Crit 200 times. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Crit 200 times.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Critical Singularity",
+    "rarity": "Legendary",
+    "rawEffect": "At start of combat, each Hero with less than 150 Crit has their Crit set to 150. Each Hero with 150 or more Crit has their Attack Speed, Attack, and Magic set to 150 if they had less than 150 of those stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Critical Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Crit 20 times. Reward: Heroes gain 25 Attack Speed and 5 Omnivamp.",
+    "quest": "Crit 20 times.",
+    "reward": "Heroes gain 25 Attack Speed and 5 Omnivamp.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Damaged",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "At start of combat, Heroes take damage equal to 25% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Decay",
+    "rarity": "Enemy",
+    "rawEffect": "Heroes have 17.5% decreased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Decay",
+    "rarity": "Enemy",
+    "rawEffect": "Heroes have 20% decreased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Deceleration Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Trigger Stall 3 times. Reward: Stall abilities trigger 2 seconds faster.",
+    "quest": "Trigger Stall 3 times.",
+    "reward": "Stall abilities trigger 2 seconds faster.",
+    "shopPrice": null
+  },
+  {
+    "name": "Deceleration Aegis",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (15, Stall 30, and Stall 45), Heroes gain 800 lasting Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Apotheosis",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (25, Stall 50, and Stall 75), give Heroes +20% to all their basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Trigger Stall 15 times. Reward: Stall abilities trigger 9 seconds faster.",
+    "quest": "Trigger Stall 15 times.",
+    "reward": "Stall abilities trigger 9 seconds faster.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Trigger Stall 6 times. Reward: Stall abilities trigger 6 seconds faster.",
+    "quest": "Trigger Stall 6 times.",
+    "reward": "Stall abilities trigger 6 seconds faster.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Corruptor",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (15) and Stall (30), double the amount of Poison on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Filigree",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (30 and Stall 60), gain 12 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Fluctuator",
+    "rarity": "Unique",
+    "rawEffect": "On Stall Trigger: Heroes gain 10 Attack Speed and 10 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Deceleration Lattice",
+    "rarity": "Common",
+    "rawEffect": "After Stall (20), Heroes gain 10 HP/S.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Legacy Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "After Stall (45), Heroes gain +1% basic stats for every 2 times you've triggered Stall this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Trigger Stall 25 times. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Trigger Stall 25 times.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Nexus",
+    "rarity": "Rare",
+    "rawEffect": "Every 2 Stall triggers, gain 1 Shard.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Reactor",
+    "rarity": "Rare",
+    "rawEffect": "On Stall trigger, give Heroes a 10% Max HP Shield and 8 Mana.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Deceleration Resonator",
+    "rarity": "Unique",
+    "rawEffect": "On Stall trigger, Heroes heal 250.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Deceleration Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Trigger Stall 4 times. Reward: Stall abilities trigger 3 seconds faster.",
+    "quest": "Trigger Stall 4 times.",
+    "reward": "Stall abilities trigger 3 seconds faster.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Defense Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Defensive Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Tanks and Vanguards gain 45 Defense and 300 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Defensive Backup Prism",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 30 Defense per rank of each Tank in the reserves and 200 Max HP per rank of each Vanguard in the reserves.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Defensive Energy Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "At start of combat, Tanks and Vanguards gain Shields equal to 100% of their Max HP. After Stall (20 and Stall 40), Tanks and Vanguards gain Shields equal to 1000% of their Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Demon's Fury",
+    "rarity": "Act Boss",
+    "rawEffect": "Whenever an enemy reaches 50% remaining Max HP, it gains 20 Attack Speed and Shields equal to 10% of its Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Desperation Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win a combat with only 1 surviving Hero. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win a combat with only 1 surviving Hero.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Divergence Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Win a combat with 3 or more Heroes that do not share a Class in play. Reward: Gain 25 Shards.",
+    "quest": "Win a combat with 3 or more Heroes that do not share a Class in play.",
+    "reward": "Gain 25 Shards.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Dominion Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Inflict 5000 Debuffs. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Inflict 5000 Debuffs.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Duelist during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Duelists. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Chill Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Duelist auto attacks, they inflict 2 Frost on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Combative Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Duelists gain 20 Attack Speed and 25 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "If there is a Duelist in combat, Heroes deal 30 bonus damage with each auto attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Flame Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Duelist auto attacks, they inflict 3 Burn on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Fury Filigree",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (10), Duelists gain 150 Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Duelists gain 20 Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Memento",
+    "rarity": "Rare",
+    "rawEffect": "For each Duelist in combat, Stall abilities trigger 4 seconds earlier.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Momentum Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 40 Attack Speed. Whenever a Duelist auto attacks, they deal 5 bonus damage for each time they have auto attacked this combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Outbreak Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Duelist auto attacks, they gain 1 Attack Speed and 1 Attack per type of Debuff on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Precise Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Duelists gain 20 Attack Speed and 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Precision Banner",
+    "rarity": "Unique",
+    "rawEffect": "Duelists gain 1 Crit per 5 Shards you've generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Duelist's Profusion Filigree",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (12), whenever a Duelist auto attacks they also hit the nearest enemy to their target, dealing 25% damage and applying on-hit effects.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Rhythm Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Duelist auto attacks, they randomly inflict 2 Poison, 4 Frost, or 6 Burn on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Duelist's Toxin Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Duelist auto attacks, they inflict 1 Poison on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Enchanted Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 6 Magic. On combat victory, permanently increase the Magic gained by 6.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Fast Track Starting",
+    "rarity": "Unique",
+    "rawEffect": "Instantly rank up the above Hero. Start with 10 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Fighting Form",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "Heroes have 25% increased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Fire Dragon's Flame",
+    "rarity": "Act Boss",
+    "rawEffect": "At start of combat, inflict ? Burn on all Heroes. On combat victory, permanently increase the amount of Burn this inflicts by 4.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Fire Starter",
+    "rarity": "Common",
+    "rawEffect": "Each second for Rush (10), inflict 3 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frontline Barricader",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, Heroes in the front row gain 60 Defense and grow in size.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frontline Defender",
+    "rarity": "Common",
+    "rawEffect": "At start of combat, Heroes in the front row gain 100 Max HP and 15 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frontline Embiggener",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, Heroes in the front row gain 400 Max HP and grow in size.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Inflict 100 Frost. Reward: Gain 15 Shards.",
+    "quest": "Inflict 100 Frost.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Frost Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Whenever a Hero inflicts Frost, inflict 33% more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Inflict 800 Frost. Reward: The first time each enemy reaches 75 Frost, Stun them for 2 seconds.",
+    "quest": "Inflict 800 Frost.",
+    "reward": "The first time each enemy reaches 75 Frost, Stun them for 2 seconds.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Bauble",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, inflict 10 Frost on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Frost Catalyst",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (15, Stall 30, and Stall 45), all enemies receive damage equal to 5 times the amount of Frost they have.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Inflict 400 Frost. Reward: Whenever a Hero inflicts Frost, they gain 1 Magic and 1 Attack per 4 Frost inflicted.",
+    "quest": "Inflict 400 Frost.",
+    "reward": "Whenever a Hero inflicts Frost, they gain 1 Magic and 1 Attack per 4 Frost inflicted.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Dragon's Chill",
+    "rarity": "Act Boss",
+    "rawEffect": "At start of combat, inflict ? Frost on all Heroes. On combat victory, permanently increase the amount of Frost this inflicts by 3.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Frost Migrator",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an enemy dies, transfer their Frost to the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Surge",
+    "rarity": "Common",
+    "rawEffect": "At start of combat, inflict 20 Frost on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Frost Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Inflict 200 Frost. Reward: Heroes gain 30 Defense and 3 Mana Regen.",
+    "quest": "Inflict 200 Frost.",
+    "reward": "Heroes gain 30 Defense and 3 Mana Regen.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Generation Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Generate 25 Shards. Reward: On Shards generated, Heroes gain 15 Crit and 500 Shields.",
+    "quest": "Generate 25 Shards.",
+    "reward": "On Shards generated, Heroes gain 15 Crit and 500 Shields.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Glacial Decay Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Frost now deals damage to enemies when it ticks down (like Burn does).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Glacial Guard Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Hero inflicts Frost, they gain 6 Shields per Frost inflicted.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Godspeed Ascension Engine",
+    "rarity": "Legendary",
+    "rawEffect": "For Rush (1), Heroes gain +150% basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Golden Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Win a combat with 66 or more Shards in your bank. Reward: Get 4 random Crest items. Crest items make a Hero count as having an additional class.",
+    "quest": "Win a combat with 66 or more Shards in your bank.",
+    "reward": "Get 4 random Crest items. Crest items make a Hero count as having an additional class.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Greed Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win a combat with 100 or more Shards in your bank. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win a combat with 100 or more Shards in your bank.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Harmony Crystal",
+    "rarity": "Team Size",
+    "rawEffect": "Increase your team size by 1 (Max: 5).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 45,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Health Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Heroic Capacity Expander",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes can equip an additional item (Max: 5).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Hunted",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "Heroes have -50% Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Hydra's Healing",
+    "rarity": "Act Boss",
+    "rawEffect": "At start of combat, enemies gain 1 HP/S per 150 Max HP they have.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Immolation Accelerator",
+    "rarity": "Epic",
+    "rawEffect": "On Rush trigger, inflict 20 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Immunity",
+    "rarity": "Enemy",
+    "rawEffect": "For Rush (13), enemies are immune to damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Immunity",
+    "rarity": "Enemy",
+    "rawEffect": "For Rush (18), enemies are immune to damage.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Improvidence",
+    "rarity": "Enemy",
+    "rawEffect": "Each second, enemies heal 3% Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Improvidence",
+    "rarity": "Enemy",
+    "rawEffect": "Each second, enemies heal 5% Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Item Bazaar Starting",
+    "rarity": "Unique",
+    "rawEffect": "Items cost 2 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Item Windfall Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get 5 random common items. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Legacy Charm Starting",
+    "rarity": "Unique",
+    "rawEffect": "Heroes gain 1% basic stats. Every 2 combat victories, permanently increase the amount of basic stats by 1%.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Mage during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Mages. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Administration Filigree",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Mage casts, they deal damage to the lowest-health enemy equal to 300% of their Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Cataclysm Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 50 Magic. Whenever a Mage casts, they inflict Burn and Frost on all enemies in their range equal to 20% of their Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Elemental Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mage casts, all enemies in their range take 4 damage per Frost and 2 damage per Burn they have.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "If there is a Mage in combat, your Hero's active abilities gain 100 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Enlightenment Banner",
+    "rarity": "Unique",
+    "rawEffect": "After Stall (15), Mages permanently gain 6 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Flowing Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Mages gain 25 Magic and 4 Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Frostbite Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mage casts, they inflict Frost on their target equal to 66% of the Mana spent.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Inferno Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mage casts, they inflict Burn on their target equal to 100% of the Mana spent.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Mages gain 25 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Memento",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, inflict 15 Frost on all enemies per Mage in combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mage's Precise Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Mages gain 25 Magic and 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Serenity Banner",
+    "rarity": "Unique",
+    "rawEffect": "After Stall (15 and Stall 30), Mages gain 100 Mana.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mage's Transmutation Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Mage auto attacks, they deal bonus damage to their target equal to 100% of their Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Magic Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mana Regen Parcel Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare item that gives Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Martial Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Assassins, Duelists, and Warriors gain 15 Crit, 20 Attack Speed, and 25 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Martial Backup Prism",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 10 Crit per rank of each Assassin in the reserves, 15 Attack Speed per rank of each Duelist in the reserves, and 20 Attack per rank of each Warrior in the reserves.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Martial Energy Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "Auto attacks by Assassins, Duelists, and Warriors gain 100 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Merchant Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Reroll the shop 9 times, then complete a combat. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Reroll the shop 9 times, then complete a combat.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Momentous Differentiator",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 2 Attack Speed for each time you've rerolled the shop this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Multiclass Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Win a combat with 4 or more combined classes in play. Reward: Get 3 random Crest items. Crest items make a Hero count as having an additional class.",
+    "quest": "Win a combat with 4 or more combined classes in play.",
+    "reward": "Get 3 random Crest items. Crest items make a Hero count as having an additional class.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystery Charm Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get a random rare relic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Mystic during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Mystics. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Abundance Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 8 Mana Regen. Whenever a Mystic Shields a Hero, give that Hero lasting Shields equal to 50% of the Shield applied.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Barrier Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mystic casts, they Shield the lowest-health Hero equal to 500% of their Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "If there is a Mystic in combat, Heroes gain 4 Mana Regen and 10 HP/S.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Enchanted Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Mystics gain 4 Mana Regen and 25 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Inundation Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Mystic Shields a Hero, damage their nearest enemy for 50% of the Shield applied.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Mystics gain 4 Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Memento",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, Heroes gain a 15% Max HP Shield per Mystic in combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Outbreak Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mystic casts, they gain 2 Magic per type of Debuff on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Payday Banner",
+    "rarity": "Unique",
+    "rawEffect": "Every 5 times a Mystic casts, gain 1 Shard.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Prosperity Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mystic casts, they gain Magic equal to 50% of their Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Prosperity Filigree",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Mystic casts after Stall (15), they give the nearest Hero Magic and Attack equal to 66% of their Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Mystic's Protection Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Mystic casts, they Shield the nearest Hero equal to the total number of Debuff stacks on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Mystic's Vital Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Mystics gain 4 Mana Regen and 200 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Omnity Enforcer",
+    "rarity": "Legendary",
+    "rawEffect": "Get all 7 Crests. Crests are items which make a Hero count as having an additional class during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Omnity Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win a combat with a Hero of all 7 classes in combat or in the reserves. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win a combat with a Hero of all 7 classes in combat or in the reserves.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Pain",
+    "rarity": "Enemy",
+    "rawEffect": "Each second, Heroes take damage equal to 2.75% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Pain",
+    "rarity": "Enemy",
+    "rawEffect": "Each second, Heroes take damage equal to 8% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Perfect Divergence Prism",
+    "rarity": "Epic",
+    "rawEffect": "At start of combat, if no Heroes in combat share a Class all Heroes gain +33% to all their basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Perfect Unity Prism",
+    "rarity": "Epic",
+    "rawEffect": "At start of combat, if all Heroes in combat share a Class all Heroes gain +20% to all their basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Accelerator",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (12), if an enemy would gain a Debuff they gain 2 more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "For Rush (12), if an enemy would gain a Debuff they gain 1 more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Inflict 25 Poison, 50 Frost, and 75 Burn on a single enemy. Reward: At start of Combat, inflict 25 Poison, 50 Frost, and 75 Burn on all enemies.",
+    "quest": "Inflict 25 Poison, 50 Frost, and 75 Burn on a single enemy.",
+    "reward": "At start of Combat, inflict 25 Poison, 50 Frost, and 75 Burn on all enemies.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Bauble",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, inflict 3 Poison, 6 Frost, and 9 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Plague Collector",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Inflict 250 Debuffs. Reward: Gain 15 Shards.",
+    "quest": "Inflict 250 Debuffs.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Plague Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Inflict 750 Debuffs. Reward: Gain 30 Shards.",
+    "quest": "Inflict 750 Debuffs.",
+    "reward": "Gain 30 Shards.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Generator",
+    "rarity": "Common",
+    "rawEffect": "At start of combat, inflict 5 Poison, 10 Frost, and 15 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Harvester",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (15), Heroes gain 1 Defense and 1 Magic per 25 Debuffs on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Transmission Engine",
+    "rarity": "Legendary",
+    "rawEffect": "At start of combat and every 10 seconds, inflict 10 Poison, 20 Frost, and 30 Burn on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plague Velocitizer",
+    "rarity": "Epic",
+    "rawEffect": "Every 4 seconds, Heroes gain 1 Attack Speed and 2 Attack per type of Debuff on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Plated Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 10 Defense. On combat victory, permanently increase the Defense gained by 10.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Inflict 50 Poison. Reward: Gain 15 Shards.",
+    "quest": "Inflict 50 Poison.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Poison Amplifier",
+    "rarity": "Rare",
+    "rawEffect": "Whenever a Hero inflicts Poison, inflict 33% more.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Inflict 400 Poison. Reward: The first time each enemy reaches 50 Poison, they lose 33% Max HP, 50% Attack, and 50% Attack Speed.",
+    "quest": "Inflict 400 Poison.",
+    "reward": "The first time each enemy reaches 50 Poison, they lose 33% Max HP, 50% Attack, and 50% Attack Speed.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Bauble",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, inflict 5 Poison on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Poison Bloom",
+    "rarity": "Common",
+    "rawEffect": "After Stall (10 and Stall 20), inflict 10 Poison on all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Catalyst",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (15), whenever an enemy with Poison is auto attacked, they take damage equal to their Poison.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Inflict 200 Poison. Reward: Whenever a Hero inflicts Poison, they gain 1 Magic and 1 Attack per 2 Poison inflicted.",
+    "quest": "Inflict 200 Poison.",
+    "reward": "Whenever a Hero inflicts Poison, they gain 1 Magic and 1 Attack per 2 Poison inflicted.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Dragon's Venom",
+    "rarity": "Act Boss",
+    "rawEffect": "At start of combat, inflict ? Poison on all Heroes. On combat victory, permanently increase the amount of Poison this inflicts by 2.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Poison Migrator",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an enemy dies, transfer their Poison to the nearest enemy.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Poison Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Inflict 100 Poison. Reward: Heroes gain 20 Attack Speed and 15 Crit.",
+    "quest": "Inflict 100 Poison.",
+    "reward": "Heroes gain 20 Attack Speed and 15 Crit.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Precise Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 4 Crit. On combat victory, permanently increase the Crit gained by 4.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Precision Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Crit 40 times. Reward: On Crit, reduce the target's Defense by 4.",
+    "quest": "Crit 40 times.",
+    "reward": "On Crit, reduce the target's Defense by 4.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Precision Lattice",
+    "rarity": "Common",
+    "rawEffect": "Each Hero's first attack against each enemy gains 250 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Precision Nexus",
+    "rarity": "Rare",
+    "rawEffect": "On Crit, the Hero that Crit heals 40 and gains 4 Mana.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Precision Reactor",
+    "rarity": "Rare",
+    "rawEffect": "For Rush (10), Heroes gain 60 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Protective Differentiator",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (15 and Stall 30), give Heroes a lasting 1% Max HP Shield for each time you've rerolled the shop this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Quality over Quantity Starting",
+    "rarity": "Unique",
+    "rawEffect": "Heroes can equip two additional items (Max: 6). Max team size is decreased by 1.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Quantity over Quality Starting",
+    "rarity": "Unique",
+    "rawEffect": "Increase max team size by 1 (Max: 5). Heroes have 1 fewer item slot (Min: 1).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Rapid Growth",
+    "rarity": "Enemy",
+    "rawEffect": "For Rush (10), enemies have 66% increased stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Rapid Growth",
+    "rarity": "Enemy",
+    "rawEffect": "For Rush (9), enemies have 150% increased stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Relic Bazaar Starting",
+    "rarity": "Unique",
+    "rawEffect": "The shop shows an additional relic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Reserve Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Win a combat with 2 Heroes in your reserves. Reward: At start of combat, Heroes in the Reserves permanently gain a small amount of every stat.",
+    "quest": "Win a combat with 2 Heroes in your reserves.",
+    "reward": "At start of combat, Heroes in the Reserves permanently gain a small amount of every stat.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Rested",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "Heroes have 10% increased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Rift Storm Invoker",
+    "rarity": "Legendary",
+    "rawEffect": "The Rift Storm starts 30 seconds sooner. Heroes take 100% reduced damage from The Rift Storm.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Generate 20 Shards. Reward: At start of combat, gain 2 Shards.",
+    "quest": "Generate 20 Shards.",
+    "reward": "At start of combat, gain 2 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Shard Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Generate 25 Shards. Reward: On Shards generated, generate 1 more Shard.",
+    "quest": "Generate 25 Shards.",
+    "reward": "On Shards generated, generate 1 more Shard.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Constructor",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (30), gain 9 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Energy Velocitizer",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 1 Attack Speed per 5 Shards you've generated this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Extractor",
+    "rarity": "Rare",
+    "rawEffect": "On combat victory, gain 6 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Fluctuator",
+    "rarity": "Unique",
+    "rawEffect": "On Shards generated, deal 500 damage to all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shard Lattice",
+    "rarity": "Common",
+    "rawEffect": "On combat victory, gain 3 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Maximizer",
+    "rarity": "Unique",
+    "rawEffect": "Gain interest on saved Shards. At the end each combat, gain 1 additional Shard per 5 Shards in your bank (Max: 20. Does not count towards generation).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shard Pouch Starting",
+    "rarity": "Unique",
+    "rawEffect": "Gain 15 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shard Power Extractor",
+    "rarity": "Legendary",
+    "rawEffect": "On Shards generated, deal damage to all enemies equal to 10% of their Max HP (Minimum: 2500 damage).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Precision Prism",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain Crit equal to the number of Shards in bank (Max: 1000).",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shard Resonator",
+    "rarity": "Unique",
+    "rawEffect": "On Shards generated, Heroes gain 1000 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shard Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Generate 15 Shards. Reward: Heroes gain 20 Crit and 5 Omnivamp.",
+    "quest": "Generate 15 Shards.",
+    "reward": "Heroes gain 20 Crit and 5 Omnivamp.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shelter Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Apply 30000 Shields. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Apply 30000 Shields.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Accumulator",
+    "rarity": "Unique",
+    "rawEffect": "Quest: Apply 1250 Shields. Reward: Gain 15 Shards.",
+    "quest": "Apply 1250 Shields.",
+    "reward": "Gain 15 Shards.",
+    "shopPrice": null
+  },
+  {
+    "name": "Shield Ascendancy",
+    "rarity": "Epic",
+    "rawEffect": "Quest: Apply 15000 Shields. Reward: Heroes gain +50% Defense and +50% Crit while Shielded.",
+    "quest": "Apply 15000 Shields.",
+    "reward": "Heroes gain +50% Defense and +50% Crit while Shielded.",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Bastion",
+    "rarity": "Rare",
+    "rawEffect": "After Stall (15), Heroes gain a lasting 33% Max HP Shield.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Bauble",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, heroes gain 250 lasting Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shield Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Apply 7500 Shields. Reward: Heroes gain 100 Attack and 100 Magic while Shielded.",
+    "quest": "Apply 7500 Shields.",
+    "reward": "Heroes gain 100 Attack and 100 Magic while Shielded.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Converter",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Hero gains Shields from any source but itself, damage the nearest enemy to them for 33% of the Shield applied.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Fluctuator",
+    "rarity": "Unique",
+    "rawEffect": "Heroes gain 15 Crit and 4 Mana Regen while Shielded.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Shield Fragmentation Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Whenever an enemy damages a Hero's Shields, deal 200% of the damage back to the source.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Generator",
+    "rarity": "Common",
+    "rawEffect": "At start of combat, Heroes gain 400 lasting Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Investment Filigree",
+    "rarity": "Epic",
+    "rawEffect": "At start of combat and after Stall (20), spend 1 Shard to apply lasting Shields to all Heroes, then permanently increase the amount of Shields this applies by 50.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Repriser",
+    "rarity": "Rare",
+    "rawEffect": "Whenever an enemy damages a Hero's Shields, deal 75% of the damage back to the source.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Shield Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Apply 2500 Shields. Reward: Heroes gain 30 Magic and 30 Attack.",
+    "quest": "Apply 2500 Shields.",
+    "reward": "Heroes gain 30 Magic and 30 Attack.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Slaughter Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Deal 15000 damage with auto attacks. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Deal 15000 damage with auto attacks.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Stability System Starting",
+    "rarity": "Unique",
+    "rawEffect": "Emergency Rewind starts with 30 more Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Stalwart Differentiator",
+    "rarity": "Epic",
+    "rawEffect": "Heroes gain 3 Defense for each time you've rerolled the shop this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Starter Bundle Starting",
+    "rarity": "Unique",
+    "rawEffect": "Gain a random common item, a random common relic, and 5 Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Steady Growth",
+    "rarity": "Enemy",
+    "rawEffect": "After Stall (15), enemies have 40% increased stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Steady Growth",
+    "rarity": "Enemy",
+    "rawEffect": "After Stall (15), enemies have 55% increased stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Stunned",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "At start of combat, Heroes are Stunned for 6 seconds.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Survivor Charm Starting",
+    "rarity": "Unique",
+    "rawEffect": "Gain 1 extra Shard per surviving Hero at end of combat. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Swift Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 5 Attack Speed. On combat victory, permanently increase the Attack Speed gained by 5.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Tank during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Tanks. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Absolution Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 60 Defense. Every 8 times a Tank is auto attacked, Stun that attacking enemy for 1.5 seconds.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "Each second if there is a Tank in combat, Heroes gain 1 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Enchanted Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Tanks gain 30 Defense and 25 Magic.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Frostplate Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Tank is auto attacked, they apply 2 Frost to the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Intercession Prism",
+    "rarity": "Epic",
+    "rawEffect": "Tanks gain 50 Defense per enemy targeting them. Every 10 Seconds, the Tank with the highest current HP Taunts all enemies.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Invigoration Filigree",
+    "rarity": "Epic",
+    "rawEffect": "After Stall (20), Tanks gain 1 HP/S per 8 Defense they have.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Tanks gain 30 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Memento",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, inflict 20 Poison on all enemies per Tank in combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Tank's Patience Banner",
+    "rarity": "Unique",
+    "rawEffect": "After Stall (15), Tanks permanently gain 5 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Poisonplate Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Tank is auto attacked, they apply 1 Poison to the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Readiness Banner",
+    "rarity": "Unique",
+    "rawEffect": "Tank's Stall abilities trigger 6 seconds faster.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Resilience Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Tank is auto attacked, they gain 2 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Tank's Vital Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Tanks gain 30 Defense and 200 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Temporal Alignment Crystal",
+    "rarity": "Legendary",
+    "rawEffect": "On Stall trigger, deal 8 damage to all enemies for each Rush you've triggered this game. On Rush trigger, give 8 lasting Shields to all Heroes for each Stall you've triggered this game.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Temporal Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Trigger Rush or Stall 40 times. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Trigger Rush or Stall 40 times.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "The Riftbreaker",
+    "rarity": "Legendary",
+    "rawEffect": "After Stall (90), break the rift.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Thermal Inverter",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Hero inflicts Burn, also inflict 50% of the Burn applied as Frost. Whenever a Hero inflicts Frost, also inflict 50% of the Frost applied as Burn.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Trigger Bounty Activator",
+    "rarity": "Epic",
+    "rawEffect": "Every other Stall trigger, gain 1 Shard. Every other Rush trigger, gain 1 Shard.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Trigger Safeguard Activator",
+    "rarity": "Epic",
+    "rawEffect": "On Stall or Rush trigger, give Heroes a lasting 10% Max HP Shield and 2 Mana Regen.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Trigger Synchrony Activator",
+    "rarity": "Epic",
+    "rawEffect": "Every 3 Stall triggers, Stun all enemies for 2 seconds. Every 3 Rush triggers, Stun all enemies for 2 seconds.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Unity Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win a combat with 4 or more heroes of the same class in combat or in the reserves. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win a combat with 4 or more heroes of the same class in combat or in the reserves.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Unity Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Win a combat with 3 or more Heroes of the same Class in play. Reward: Gain 30 Shards.",
+    "quest": "Win a combat with 3 or more Heroes of the same Class in play.",
+    "reward": "Gain 30 Shards.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vampiric Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 2 Omnivamp. On combat victory, permanently increase the Omnivamp gained by 2.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vampirism Starting",
+    "rarity": "Unique",
+    "rawEffect": "Heroes gain 10 Omnivamp.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Vanguard during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Vanguards. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Aegis Banner",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, Vanguards gain Shields equal to 25% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Amplification Filigree",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (8), Vanguards gain +100% Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Combative Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Vanguards gain 200 Max HP and 25 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "Every 5 seconds if there is a Vanguard in combat, Heroes gain 150 Shields.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Endurance Banner",
+    "rarity": "Unique",
+    "rawEffect": "Vanguard's Rush abilities last 3 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Flamefists Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Vanguard auto attacks, they inflict 3 Burn on their target.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Flameplate Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Vanguard is auto attacked, they inflict 3 Burn on the attacker.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Frenzy Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Vanguard goes below 50% Max HP for the first time each combat they gain +33% Attack Speed, +33% Attack, and +33% Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Vanguards gain 200 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Memento",
+    "rarity": "Rare",
+    "rawEffect": "At start of combat, inflict 45 Burn on all enemies per Vanguard in combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vanguard's Plated Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Vanguards gain 200 Max HP and 30 Defense.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Rally Banner",
+    "rarity": "Unique",
+    "rawEffect": "For Rush (10), Vanguards gain 1 Attack and 1 Defense per 25 Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Vanguard's Titanic Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 400 Max HP. Whenever a Vanguard auto attacks or is auto attacked, they gain 10 Max HP. Every 200 Max HP gained this way, give them 25 Attack and increase their size.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Venom Amplification Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Whenever an enemy takes 50 or more damage from Poison, they also take damage equal to 4% of their Max HP.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Venom Precision Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever an enemy takes Poison damage, Heroes gain 2 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Victory Mandate",
+    "rarity": "Legendary (Quest)",
+    "rawEffect": "Quest: Win 4 combats. Reward: Increase your team size by 1 (Max: 5).",
+    "quest": "Win 4 combats.",
+    "reward": "Increase your team size by 1 (Max: 5).",
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Victory Vessel",
+    "rarity": "Common",
+    "rawEffect": "Quest: Win 3 combats. Reward: Gain 25 Shards.",
+    "quest": "Win 3 combats.",
+    "reward": "Gain 25 Shards.",
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Violence Conduit",
+    "rarity": "Rare",
+    "rawEffect": "Quest: Auto attack 200 times. Reward: Each Hero's first auto attack against each enemy gains 750 Crit.",
+    "quest": "Auto attack 200 times.",
+    "reward": "Each Hero's first auto attack against each enemy gains 750 Crit.",
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Vital Codex",
+    "rarity": "Rare",
+    "rawEffect": "Heroes gain 50 Max HP. On combat victory, permanently increase the Max HP gained by 50.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior Crest Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which makes a Hero count as a Warrior during combat.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior Equipment Starting",
+    "rarity": "Unique",
+    "rawEffect": "Get an item which benefits Warriors. Start with 5 fewer Shards.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Aegis Banner",
+    "rarity": "Unique",
+    "rawEffect": "At start of combat, Warriors gain a lasting Shield equal to 500% of their Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Bloodshield Engine",
+    "rarity": "Legendary",
+    "rawEffect": "Heroes gain 50 Attack. Whenever a Warrior deals damage, they gain lasting Shields equal to 15% of the damage dealt.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 40,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Bravery Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Warrior Crits, they deal bonus damage equal to 100% of their Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Emblem",
+    "rarity": "Rare",
+    "rawEffect": "If there is a Warrior in combat, your Hero's auto attacks gain 50 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Endurance Banner",
+    "rarity": "Unique",
+    "rawEffect": "Warrior's Rush abilities last 3 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Exaltation Prism",
+    "rarity": "Epic",
+    "rawEffect": "Whenever a Warrior kills, they gain +50% Attack, heal 100% of their Max HP and gain 100 Mana.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Medallion",
+    "rarity": "Common",
+    "rawEffect": "Warriors gain 25 Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 10,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Memento",
+    "rarity": "Rare",
+    "rawEffect": "For each Warrior in combat, Rush abilities last 2 seconds longer.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 20,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Mending Banner",
+    "rarity": "Unique",
+    "rawEffect": "Whenever a Warrior Crits, they heal equal to 50% of their Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Precise Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Warriors gain 25 Attack and 15 Crit.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Rally Banner",
+    "rarity": "Unique",
+    "rawEffect": "Rush (10): Warriors gain +50% Attack.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Warrior's Sundering Filigree",
+    "rarity": "Epic",
+    "rawEffect": "For Rush (8), whenever a Warrior Crits an enemy reduce the enemy's Defense by 20.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": {
+      "amount": 30,
+      "currency": "shards"
+    }
+  },
+  {
+    "name": "Warrior's Swift Reflection",
+    "rarity": "Unique",
+    "rawEffect": "Warriors gain 25 Attack and 20 Attack Speed.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  },
+  {
+    "name": "Weakness",
+    "rarity": "Single-Battle Boost",
+    "rawEffect": "Heroes have 25% decreased basic stats.",
+    "quest": null,
+    "reward": null,
+    "shopPrice": null
+  }
+]

@@ -18,7 +18,7 @@ const sourceDirs = [
 const arrayMerges = [
   { scraped: join(__dirname, '..', 'data', 'scraped', 'rank-modifiers.json'), out: join(__dirname, '..', 'data', 'rank-modifiers.json'), key: (m) => `${m.class}::${m.name}`, sort: (a, b) => a.class.localeCompare(b.class) || a.name.localeCompare(b.name), label: 'rank-modifiers' },
   { scraped: join(__dirname, '..', 'data', 'scraped', 'items.json'), out: join(__dirname, '..', 'data', 'items.json'), key: (m) => m.name, sort: (a, b) => a.name.localeCompare(b.name), label: 'items' },
-  { scraped: join(__dirname, '..', 'data', 'scraped', 'relics.json'), out: join(__dirname, '..', 'data', 'relics.json'), key: (m) => m.name, sort: (a, b) => a.name.localeCompare(b.name), label: 'relics' },
+  { scraped: join(__dirname, '..', 'data', 'scraped', 'relics.json'), out: join(__dirname, '..', 'data', 'relics.json'), key: (m) => `${m.name}::${m.rawEffect}`, sort: (a, b) => a.name.localeCompare(b.name) || a.rawEffect.localeCompare(b.rawEffect), label: 'relics' },
 ]
 
 function mergeFrom(sourceDir) {
